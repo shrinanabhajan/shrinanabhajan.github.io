@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - ./scripts/**
+      - scripts/**
 
 jobs:
   update-file:
