@@ -1,5 +1,6 @@
 const fs = require('fs');
-const NanaTirichaNamrang = require('./NanaTirichaNamrang');
+const ntn = require('./ntn');
+const b1 = require('./ntn');
 const filePath = './scripts/indexdata.js';
 
 (function () {
@@ -21,7 +22,7 @@ const filePath = './scripts/indexdata.js';
         }
     }
 
-    var list = NanaTirichaNamrang;
+    var list = ntn.concat(b1);
     for(var i=0; i<list.length; i++){
         var bhajan = list[i];
         var words = bhajan.eng.split(' ');
