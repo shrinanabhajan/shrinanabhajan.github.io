@@ -5,6 +5,8 @@ const filePath = './scripts/indexdata.js';
 (function () {
     "use strict";
 
+    var indexData = {};
+
     var updateIndex = (word, index) => {
        
         // Loop through the word, extracting substrings from the start to each character
