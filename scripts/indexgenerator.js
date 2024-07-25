@@ -10,7 +10,7 @@ const filePath = './scripts/indexdata.js';
     var updateIndex = (word, index) => {
        
         // Loop through the word, extracting substrings from the start to each character
-        for (let i = 2 i <= word.length; i++) {
+        for (let i = 1; i <= word.length; i++) {
             var subWord = word.substring(0, i);
             if(indexData[subWord] && !indexData[subWord].includes(index)){
                 indexData[subWord].push(index);
