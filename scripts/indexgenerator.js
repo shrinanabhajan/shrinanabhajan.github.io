@@ -1,6 +1,6 @@
 const fs = require('fs');
 const ntn = require('./ntn');
-const b1 = require('./ntn');
+const b1 = require('./b1');
 const filePath = './scripts/indexdata.js';
 
 (function () {
@@ -23,8 +23,7 @@ const filePath = './scripts/indexdata.js';
     }
 
     var list = ntn.concat(b1);
-    console.log(`Bhajans count: ${list.length}`);
-    for(var i=0; i<list.length; i++){
+        for(var i=0; i<list.length; i++){
         var bhajan = list[i];
         var words = bhajan.eng.split(' ');
         for(var j=0; j<words.length; j++){
