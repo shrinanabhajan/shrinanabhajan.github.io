@@ -23,6 +23,7 @@ const filePath = './scripts/indexdata.js';
     }
 
     var list = ntn.concat(b1);
+    console.log(`Bhajans count: ${list.length}`);
     for(var i=0; i<list.length; i++){
         var bhajan = list[i];
         var words = bhajan.eng.split(' ');
