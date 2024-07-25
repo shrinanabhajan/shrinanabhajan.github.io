@@ -3,4 +3,6 @@
     { eng: 'shri datta prabodh stav', hin: 'श्री दत्त प्रभोधस्तव' , dir: 'NanaTirichaNamrang', pg: '6', num: '2' },
 ];
 
-module.exports = NanaTirichaNamrang;
+if (typeof module === 'object' && module.exports) {
+    module.exports = NanaTirichaNamrang;
+}
