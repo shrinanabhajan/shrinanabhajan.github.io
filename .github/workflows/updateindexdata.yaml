@@ -3,7 +3,7 @@ name: Update Index Data
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   update-file:
