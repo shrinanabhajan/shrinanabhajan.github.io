@@ -1,5 +1,5 @@
 const fs = require('fs');
-const NanaTirichaNamrang = require('./scripts/NanaTirichaNamrang');
+const NanaTirichaNamrang = require('./scripts/NanaTirichaNamrang.js');
 const filePath = './scripts/indexdata.js';
 
 (function () {
