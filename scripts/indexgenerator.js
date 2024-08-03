@@ -13,8 +13,11 @@ const filePath = './scripts/indexdata.js';
         // Loop through the word, extracting substrings from the start to each character
         for (let i = 1; i <= word.length; i++) {
             var subWord = word.substring(0, i);
-            if(indexData[subWord] && !indexData[subWord].includes(index)){
-                indexData[subWord].push(index);
+            if(indexData[subWord])
+            {
+                if( !indexData[subWord].includes(index)) {
+                    indexData[subWord].push(index);
+                }
             }
             else{
                 indexData[subWord] = [index];
@@ -23,6 +26,8 @@ const filePath = './scripts/indexdata.js';
     }
 
     var list = ntn.concat(b1);
+    
+    //for(let i=0; i<2; i++) {
     for(let i=0; i<list.length; i++) {
         let bhajan = list[i];
         let words = bhajan.eng.split(' ');
