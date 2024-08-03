@@ -8,6 +8,7 @@
         { eng: 'prabhati jagiye raghunath kunvar kuvar', hin: 'प्रभाती-जागिये रघुनाथ कुँवर', dir: 'ntn', id: '13.2', bk: 'नाना तिरीचा नामरंग', pg: '13' }, 
         { eng: 'prabhati uth pandharichya raya', hin: 'प्रभाती-उठ पंढरीच्या राया', dir: 'ntn', id: '14', bk: 'नाना तिरीचा नामरंग', pg: '14' }, 
         { eng: 'prabhati uthi ba shri guruvara', hin: 'प्रभाती-उठी उठी बा श्री गुरुवरा मार्तंडा', dir: 'ntn', id: '14.2', bk: 'नाना तिरीचा नामरंग', pg: '14' }, 
+        { eng: 'prabhati guruji me main to ek', hin: 'प्रभाती-गुरुजी मै तो एक निरंजन', dir: 'ntn', id: '15', bk: 'नाना तिरीचा नामरंग', pg: '15' }, 
      
      
     ];
