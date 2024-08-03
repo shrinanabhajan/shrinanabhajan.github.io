@@ -23,13 +23,13 @@ const filePath = './scripts/indexdata.js';
     }
 
     var list = ntn.concat(b1);
-        for(var i=0; i<list.length; i++){
-        var bhajan = list[i];
-        var words = bhajan.eng.split(' ');
-        for(var j=0; j<words.length; j++){
-            var word = words[j];
-            updateIndex(word, i);
-        }
+    for(let i=0; i<list.length; i++) {
+        let bhajan = list[i];
+        let words = bhajan.eng.split(' ');
+            for(let j=0; j<words.length; j++) {
+                let word = words[j];
+                updateIndex(word, i);
+            }
     }
 
     var indexDataStr = "indexData=" + JSON.stringify(indexData, null, 2);
