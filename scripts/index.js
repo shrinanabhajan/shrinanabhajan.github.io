@@ -72,45 +72,46 @@
 
     var filterListUsingIndex = (searchKey, list) => {
         var fi, fa = [];
-        searchKey = searchKey.toLowerCase();
-        fi = indexData[searchKey];
-        if(fi === undefined) {
-            searchKey = searchKey.replace(/aa/g, "a")
-                .replace(/ee/g, "i")
-                .replace(/oo/g, "u");
-
+        if(searchKey.length > 2) {
+            searchKey = searchKey.toLowerCase();
             fi = indexData[searchKey];
-
             if(fi === undefined) {
-                searchKey = searchKey.replace(/dhd/g, "ddh");
+                searchKey = searchKey.replace(/aa/g, "a")
+                    .replace(/ee/g, "i")
+                    .replace(/oo/g, "u");
+    
                 fi = indexData[searchKey];
-
+    
                 if(fi === undefined) {
-                    searchKey = searchKey.replace(/jny/g, "dny")
-                        .replace(/gny/g, "dny")
-                        .replace(/jhy/g, "dny");
+                    searchKey = searchKey.replace(/dhd/g, "ddh");
                     fi = indexData[searchKey];
-
+    
                     if(fi === undefined) {
-                        searchKey = searchKey.replace(/ghy/g, "dny")
-                            .replace(/gy/g, "dny");
+                        searchKey = searchKey.replace(/jny/g, "dny")
+                            .replace(/gny/g, "dny")
+                            .replace(/jhy/g, "dny");
                         fi = indexData[searchKey];
-
+    
                         if(fi === undefined) {
-                            searchKey = searchKey.replace(/amh/g, "ahm");
+                            searchKey = searchKey.replace(/ghy/g, "dny")
+                                .replace(/gy/g, "dny");
                             fi = indexData[searchKey];
+    
+                            if(fi === undefined) {
+                                searchKey = searchKey.replace(/amh/g, "ahm");
+                                fi = indexData[searchKey];
+                            }
                         }
                     }
                 }
             }
+    
+            if(fi !== undefined){
+                fi.forEach(indx => {
+                    fa.push(allBhajans[indx]);
+                });
+            }
         }
-
-        if(fi !== undefined){
-            fi.forEach(indx => {
-                fa.push(allBhajans[indx]);
-            });
-        }
-
         return fa;
     }
 
