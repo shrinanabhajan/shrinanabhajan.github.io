@@ -9,18 +9,19 @@ const filePath = './scripts/indexdata.js';
     var indexData = {};
 
     var updateIndex = (word, index) => {
-       
-        // Loop through the word, extracting substrings from the start to each character
-        for (let i = 1; i <= word.length; i++) {
-            var subWord = word.substring(0, i);
-            if(indexData[subWord])
-            {
-                if( !indexData[subWord].includes(index)) {
-                    indexData[subWord].push(index);
+        if(word.length > 2) {
+            // Loop through the word, extracting substrings from the start to each character
+            for (let i = 3; i <= word.length; i++) {
+                var subWord = word.substring(0, i);
+                if(indexData[subWord])
+                {
+                    if( !indexData[subWord].includes(index)) {
+                        indexData[subWord].push(index);
+                    }
                 }
-            }
-            else{
-                indexData[subWord] = [index];
+                else{
+                    indexData[subWord] = [index];
+                }
             }
         }
     }
