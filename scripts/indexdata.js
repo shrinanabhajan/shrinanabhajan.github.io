@@ -41,16 +41,19 @@ indexData={
     3,
     4
   ],
-  "bup": [
+  "bhu": [
     0
   ],
-  "bupa": [
+  "bhup": [
     0
   ],
-  "bupal": [
+  "bhupa": [
     0
   ],
-  "bupali": [
+  "bhupal": [
+    0
+  ],
+  "bhupali": [
     0
   ],
   "shr": [
