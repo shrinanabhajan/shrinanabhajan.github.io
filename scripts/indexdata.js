@@ -528,5 +528,41 @@ indexData={
   ],
   "ninta": [
     13
+  ],
+  "bol": [
+    14
+  ],
+  "bola": [
+    14
+  ],
+  "bolav": [
+    14
+  ],
+  "bolava": [
+    14
+  ],
+  "vit": [
+    14
+  ],
+  "vitt": [
+    14
+  ],
+  "vitth": [
+    14
+  ],
+  "vittha": [
+    14
+  ],
+  "vitthal": [
+    14
+  ],
+  "vith": [
+    14
+  ],
+  "vitha": [
+    14
+  ],
+  "vithal": [
+    14
   ]
 }
