@@ -15,7 +15,9 @@
         { eng: 'acharani sadgurucha', hin: 'आचरणी सद्गुरुच्या', dir: 'ntn', id: '18.2', bk: 'नाना तिरीचा नामरंग', pg: '18' }, 
         { eng: 'prapanchi din deen jan aamhi', hin: 'प्रपंची दीन जन आम्ही', dir: 'ntn', id: '19', bk: 'नाना तिरीचा नामरंग', pg: '19' }, 
         { eng: 'nana aale ale', hin: 'नाना आले नाना आले', dir: 'ntn', id: '20', bk: 'नाना तिरीचा नामरंग', pg: '20' }, 
-        { eng: 'deh karm bahy ho', hin: 'देह कर्म बाह्य हो', dir: 'ntn', id: '20.2', bk: 'नाना तिरीचा नामरंग', pg: '20' }, 
+        { eng: 'ek guru ahe aahe', hin: 'एक गुरु आहे', dir: 'ntn', id: '20.2', bk: 'नाना तिरीचा नामरंग', pg: '20' }, 
+        { eng: 'deh karm bahy ho', hin: 'देह कर्म बाह्य हो', dir: 'ntn', id: '21', bk: 'नाना तिरीचा नामरंग', pg: '21' },  
+        { eng: 'guru bhajanacha deva mala rang lago', hin: 'गुरु भजनाचा देवा मला रंग लागो', dir: 'ntn', id: '21.2', bk: 'नाना तिरीचा नामरंग', pg: '21' },  
         { eng: 'alankapuri punya bhumi pavitra', hin: 'अलंकापुरी पुण्य भुमी पवित्र', dir: 'ntn', id: '23', bk: 'नाना तिरीचा नामरंग', pg: '23' }, 
         { eng: 'rup pahata lochani', hin: 'रुप पाहता लोचनी', dir: 'ntn', id: '23.2', bk: 'नाना तिरीचा नामरंग', pg: '23' }, 
         { eng: 'sadguru yave yaave', hin: 'सद्गुरु यावे', dir: 'ntn', id: '24', bk: 'नाना तिरीचा नामरंग', pg: '24' }, 
@@ -31,6 +33,8 @@
         { eng: 'kshir sagarichya pundya', hin: 'क्षीर सागरीच्या पुण्ड्या', dir: 'ntn', id: '31', bk: 'नाना तिरीचा नामरंग', pg: '31' },          
         { eng: 'adhi hota vaghya', hin: 'आधी होता वाघ्या', dir: 'ntn', id: '31.2', bk: 'नाना तिरीचा नामरंग', pg: '31' },          
         { eng: 'bramhan to ek narahari sonar', hin: 'ब्राह्मण तो एक नरहरि सोनार', dir: 'ntn', id: '32', bk: 'नाना तिरीचा नामरंग', pg: '32' },          
+        { eng: 'kanhobachi sangati', hin: 'कान्होबाची संगती', dir: 'ntn', id: '33', bk: 'नाना तिरीचा नामरंग', pg: '33' },          
+        { eng: 'nachat jau tychya gava re kheliya', hin: 'नाचत जाऊ त्याच्या गावा रे खेळिया', dir: 'ntn', id: '33.2', bk: 'नाना तिरीचा नामरंग', pg: '33' },          
      
      
     ];
