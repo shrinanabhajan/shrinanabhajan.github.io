@@ -14,6 +14,7 @@
         { eng: 'aukshan karuya samayi suswagata', hin: 'करुया समयी सुस्वागता', dir: 'ntn', id: '18', bk: 'नाना तिरीचा नामरंग', pg: '18' }, 
         { eng: 'acharani sadgurucha', hin: 'आचरणी सद्गुरुच्या', dir: 'ntn', id: '18.2', bk: 'नाना तिरीचा नामरंग', pg: '18' }, 
         { eng: 'prapanchi din deen jan aamhi', hin: 'प्रपंची दीन जन आम्ही', dir: 'ntn', id: '19', bk: 'नाना तिरीचा नामरंग', pg: '19' }, 
+        { eng: 'kode ya mana', hin: 'कोडे या मना', dir: 'ntn', id: '19.2', bk: 'नाना तिरीचा नामरंग', pg: '19' },         
         { eng: 'nana aale ale', hin: 'नाना आले नाना आले', dir: 'ntn', id: '20', bk: 'नाना तिरीचा नामरंग', pg: '20' }, 
         { eng: 'ek guru ahe aahe', hin: 'एक गुरु आहे', dir: 'ntn', id: '20.2', bk: 'नाना तिरीचा नामरंग', pg: '20' }, 
         { eng: 'deh karm bahy ho', hin: 'देह कर्म बाह्य हो', dir: 'ntn', id: '21', bk: 'नाना तिरीचा नामरंग', pg: '21' },  
