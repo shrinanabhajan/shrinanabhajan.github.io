@@ -31,9 +31,10 @@ var b1 = [
     { eng: 'pad saraswatichi vaishakh', hin: 'पद सरस्वतीचे (चाल-वैशाख मास०) ', dir: 'b1', id: '30', bk: '', pg: '',  },
     { eng: 'dev brahma bramha vishnu mahesh', hin: 'देव, ब्रम्हा विष्णु महेश', dir: 'b1', id: '31', bk: '', pg: '',  },
     { eng: 'lagan hari se jo hoga dekha jayega', hin: 'जो होगा देखा जायेगा', dir: 'b1', id: '32', bk: '', pg: '',  },
+ { eng: 'mira kunachi drusht lagali', hin: 'नानांची द्रष्ट', dir: 'b1', id: '33', bk: '', pg: '',  },
 
 
-
+नानांची द्रष्ट
 
 ];
 
