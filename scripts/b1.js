@@ -33,6 +33,7 @@ var b1 = [
     { eng: 'lagan hari se jo hoga dekha jayega', hin: 'जो होगा देखा जायेगा', dir: 'b1', id: '32', bk: '', pg: '',  },
  { eng: 'mira kunachi drusht lagali', hin: 'नानांची द्रष्ट', dir: 'b1', id: '33', bk: '', pg: '',  },
 
+{ eng: 'shravanat shuddha nagpanchami', hin: 'श्रावणात शुद्ध नागपंचमी तिथीला', dir: 'b1', id: '34', bk: '', pg: '',  },
 
 
 
