@@ -31,9 +31,12 @@ var b1 = [
     { eng: 'pad saraswatichi vaishakh', hin: 'पद सरस्वतीचे (चाल-वैशाख मास०) ', dir: 'b1', id: '30', bk: '', pg: '',  },
     { eng: 'dev brahma bramha vishnu mahesh', hin: 'देव, ब्रम्हा विष्णु महेश', dir: 'b1', id: '31', bk: '', pg: '',  },
     { eng: 'lagan hari se jo hoga dekha jayega', hin: 'जो होगा देखा जायेगा', dir: 'b1', id: '32', bk: '', pg: '',  },
- { eng: 'mira kunachi drusht lagali', hin: 'नानांची द्रष्ट', dir: 'b1', id: '33', bk: '', pg: '',  },
-
-{ eng: 'shravanat shuddha nagpanchami', hin: 'श्रावणात शुद्ध नागपंचमी तिथीला', dir: 'b1', id: '34', bk: '', pg: '',  },
+    { eng: 'mira kunachi drusht lagali', hin: 'नानांची द्रष्ट', dir: 'b1', id: '33', bk: '', pg: '',  },
+    { eng: 'shravanat shuddha nagpanchami', hin: 'श्रावणात शुद्ध नागपंचमी तिथीला', dir: 'b1', id: '34', bk: '', pg: '',  },
+    { eng: 'nana gururaya sagun rupatuni', hin: 'नाना गुरुराया, सगुण रूपातूनी भेटा ', dir: 'b1', id: '35', bk: '', pg: '',  },
+    { eng: 'nana tumchi kashi seva', hin: 'नाना तुमची कशी सेवा करू', dir: 'b1', id: '36', bk: '', pg: '',  },
+    { eng: 'rup ek name tuze re anant', hin: 'रूप एक नामे', dir: 'b1', id: '37', bk: '', pg: '',  },
+    { eng: 'nana guru bhajave', hin: 'नाना गुरू भजावे', dir: 'b1', id: '38', bk: '', pg: '',  },
 
 
 
