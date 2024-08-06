@@ -27,7 +27,10 @@ const filePath = './scripts/indexdata.js';
         }
     }
 
-    var list = dt.concat(b1,ntn);
+    var list = dt;
+    list = list.concat(b1);
+    list = list.concat(ntn);
+    
     
     //for(let i=0; i<2; i++) {
     for(let i=0; i<list.length; i++) {
