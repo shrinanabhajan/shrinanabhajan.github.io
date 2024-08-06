@@ -38,6 +38,9 @@ var b1 = [
     { eng: 'rup ek name tuze re anant', hin: 'रूप एक नामे', dir: 'b1', id: '37', bk: '', pg: '',  },
     { eng: 'nana guru bhajave', hin: 'नाना गुरू भजावे', dir: 'b1', id: '38', bk: '', pg: '',  },
     { eng: 'maza dev kailasicha raja', hin: 'माझा देव कैलासीचा राजा', dir: 'b1', id: '39', bk: '', pg: '',  },
+    { eng: 'avad tula belachi bailachi', hin: 'आवड तुला बेलाची', dir: 'b1', id: '40', bk: '', pg: '',  },
+    { eng: 'nam tuze barvega baravega shankara', hin: 'नाम तुझे बरवेगा शंकरा', dir: 'b1', id: '41', bk: '', pg: '',  },
+    
 
 
 ];
