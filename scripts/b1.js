@@ -34,7 +34,7 @@ var b1 = [
  { eng: 'mira kunachi drusht lagali', hin: 'नानांची द्रष्ट', dir: 'b1', id: '33', bk: '', pg: '',  },
 
 
-नानांची द्रष्ट
+
 
 ];
 
