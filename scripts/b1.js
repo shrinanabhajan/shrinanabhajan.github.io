@@ -40,6 +40,8 @@ var b1 = [
     { eng: 'maza dev kailasicha raja', hin: 'माझा देव कैलासीचा राजा', dir: 'b1', id: '39', bk: '', pg: '',  },
     { eng: 'avad tula belachi bailachi', hin: 'आवड तुला बेलाची', dir: 'b1', id: '40', bk: '', pg: '',  },
     { eng: 'nam tuze barvega baravega shankara', hin: 'नाम तुझे बरवेगा शंकरा', dir: 'b1', id: '41', bk: '', pg: '',  },
+
+    { eng: 'chale he sharir', hin: 'चाले हे शरीर', dir: 'b1', id: '42', bk: '', pg: '',  },
     
 
 
