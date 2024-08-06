@@ -37,7 +37,7 @@
         { eng: 'kanhobachi sangati', hin: 'कान्होबाची संगती', dir: 'ntn', id: '33', bk: 'नाना तिरीचा नामरंग', pg: '33' },          
         { eng: 'nachat jau tychya gava re kheliya', hin: 'नाचत जाऊ त्याच्या गावा रे खेळिया', dir: 'ntn', id: '33.2', bk: 'नाना तिरीचा नामरंग', pg: '33' },          
         { eng: 'hari tuzya muralit kay re', hin: 'हरी तुझ्या मुरलीत काय रे', dir: 'ntn', id: '34', bk: 'नाना तिरीचा नामरंग', pg: '34' },
-        { eng: 'to nar nataka', hin: 'तो नर नर नटका', dir: 'ntn', id: '', bk: 'नाना तिरीचा नामरंग', pg: '34' },
+        { eng: 'to nar nataka', hin: 'तो नर नर नटका', dir: 'ntn', id: '34.2', bk: 'नाना तिरीचा नामरंग', pg: '34' },
         { eng: 'hari nam hardam mat bhulo', hin: 'हरी नाम हरदम मत भूलो', dir: 'ntn', id: '35', bk: 'नाना तिरीचा नामरंग', pg: '35' },
         { eng: 'jag jahan chale ufrat ufarat', hin: 'जग जहान चले उफराट', dir: 'ntn', id: '36', bk: 'नाना तिरीचा नामरंग', pg: '36' },
         { eng: 'bhala kare peer murshad maula mola', hin: 'भला करे पीर मुर्शद मौला', dir: 'ntn', id: '36.2', bk: 'नाना तिरीचा नामरंग', pg: '36' },
