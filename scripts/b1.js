@@ -37,7 +37,7 @@ var b1 = [
     { eng: 'nana tumchi kashi seva', hin: 'नाना तुमची कशी सेवा करू', dir: 'b1', id: '36', bk: '', pg: '',  },
     { eng: 'rup ek name tuze re anant', hin: 'रूप एक नामे', dir: 'b1', id: '37', bk: '', pg: '',  },
     { eng: 'nana guru bhajave', hin: 'नाना गुरू भजावे', dir: 'b1', id: '38', bk: '', pg: '',  },
-
+    { eng: 'maza dev kailasicha raja', hin: 'माझा देव कैलासीचा राजा', dir: 'b1', id: '39', bk: '', pg: '',  },
 
 
 ];
