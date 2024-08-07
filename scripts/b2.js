@@ -19,12 +19,12 @@ var b2 = [
 { eng:'Viththal amuche sukhache jeevan' , hin:'विठ्ठल आमुचे सुखाचे जीवन' , dir:'b2' , id:'15' , bk:'' , pg:'' , },
 
  
-// { eng:'Sukhalagi karisi talmal' , hin:'सुखालागी करिसी तळमळ' , dir:'b2' , id:'16' , bk:'' , pg:'' , }, 
-// { eng:'Deh javo athva raho' , hin:'देह जावो अथवा राहो' , dir:'b2' , id:'17' , bk:'' , pg:'' , }, 
-// { eng:'Tuj sagun mhano ki nigurn' , hin:'तुझ सगुण म्हणो कि निगुर्ण' , dir:'b2' , id:'18' , bk:'' , pg:'' , }, 
-// { eng:'Indrayani kathi devachi Alandi' , hin:'इंद्रायणी कांठी देवाची आळंदी' , dir:'b2' , id:'19' , bk:'' , pg:'' , }, 
-// { eng:'Jani Namayachi rangali kirtani' , hin:'जनी नामयाची रंगली कीर्तनी' , dir:'b2' , id:'20' , bk:'' , pg:'' , }, 
-// { eng:'Nam tuje Narayana phodi pashanala panha' , hin:'नाम तुझे नारायणा फोडी पाषाणाला पान्हा' , dir:'b2' , id:'21' , bk:'' , pg:'' , }, 
+{ eng:'Sukhalagi karisi talmal' , hin:'सुखालागी करिसी तळमळ' , dir:'b2' , id:'16' , bk:'' , pg:'' , }, 
+{ eng:'Deh javo athava raho' , hin:'देह जावो अथवा राहो' , dir:'b2' , id:'17' , bk:'' , pg:'' , }, 
+{ eng:'Tuj tuz sagun mhano ki nirhun' , hin:'तुझ सगुण म्हणो कि निगुर्ण' , dir:'b2' , id:'18' , bk:'' , pg:'' , }, 
+{ eng:'Indrayani kathi devachi Alandi' , hin:'इंद्रायणी कांठी देवाची आळंदी' , dir:'b2' , id:'19' , bk:'' , pg:'' , }, 
+{ eng:'Jani Namayachi rangali kirtani' , hin:'जनी नामयाची रंगली कीर्तनी' , dir:'b2' , id:'20' , bk:'' , pg:'' , }, 
+{ eng:'Nam tuje Narayana phodi fodi pashanala panha' , hin:'नाम तुझे नारायणा फोडी पाषाणाला पान्हा' , dir:'b2' , id:'21' , bk:'' , pg:'' , }, 
 // { eng:'Adhik dekhne tari Niranjan pahan' , hin:'अधिक देखणे तरी निरंजन पाहण' , dir:'b2' , id:'22' , bk:'' , pg:'' , }, 
 // { eng:'Pandhari nivasa sakhya Panduranga' , hin:'पंढरी निवासा सख्या पांडुरंगा' , dir:'b2' , id:'23' , bk:'' , pg:'' , }, 
 // { eng:'Maza bhav tuje charani' , hin:'माझा भाव तुझे चरणी' , dir:'b2' , id:'24' , bk:'' , pg:'' , }, 
