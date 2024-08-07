@@ -6,18 +6,18 @@ var b2 = [
 
 { eng:'Ramkrushna Govind Narayan Hari Hari' , hin:'रामकृष्ण गोविंद नारायण हरी हरी' , dir:'b2' , id:'4' , bk:'' , pg:'' , }, 
 { eng:'Pay jodoniya vitevari. Kar thevoniya katevari' , hin:'पाय जोडोनीया विटेवरी कर ठेवोनिया कटेवरी' , dir:'b2' , id:'5' , bk:'' , pg:'' , }, 
-/*
+
 { eng:'Tirth Viththal kshetra Viththal, Dev Viththal devpuja Viththal' , hin:'तीर्थ विठ्ठल क्षेत्र विठ्ठल, देव विठ्ठल देवपूजा विठ्ठल' , dir:'b2' , id:'6' , bk:'' , pg:'' , }, 
-{ eng:'Viththal Viththal gajari. Avadhi dumdumli Pandhari' , hin:'विठ्ठल विठ्ठल गजरी'अवधी दुमदुमली पंढरी' , dir:'b2' , id:'7' , bk:'' , pg:'' , }, 
+{ eng:'Viththal Viththal gajari. Avadhi dumdumli Pandhari' , hin:'विठ्ठल विठ्ठल गजरी अवधी दुमदुमली पंढरी' , dir:'b2' , id:'7' , bk:'' , pg:'' , }, 
 { eng:'Maze maher Pandhari ahe Bhivareche tiri' , hin:'माझे माहेर पंढरी आहे भिवरेचे तीरी' , dir:'b2' , id:'8' , bk:'' , pg:'' , }, 
-{ eng:'Viththal tal Viththal dindi. Viththal tondi uchara' , hin:'विठ्ठल टाळ विठ्ठल दिंडी'विठ्ठल तोंडी उच्चारा' , dir:'b2' , id:'9' , bk:'' , pg:'' , }, 
-{ eng:'Viththal Viththal Viththal Viththal navada phukacha' , hin:'विठ्ठल विठ्ठल विठ्ठल विठ्ठल नावाडा फुकाचा' , dir:'b2' , id:'10' , bk:'' , pg:'' , }, 
+{ eng:'Viththal tal Viththal dindi. Viththal tondi uchchara' , hin:'विठ्ठल टाळ विठ्ठल दिंडी विठ्ठल तोंडी उच्चारा' , dir:'b2' , id:'9' , bk:'' , pg:'' , }, 
+{ eng:'Viththal vitthal navada phukacha' , hin:'विठ्ठल विठ्ठल विठ्ठल विठ्ठल नावाडा फुकाचा' , dir:'b2' , id:'10' , bk:'' , pg:'' , }, 
 { eng:'Pahun dyare maj Vithobache mukh' , hin:'पाहूं द्यारे मज विठोबाचे मुख' , dir:'b2' , id:'11' , bk:'' , pg:'' , }, 
 { eng:'Udo mhana udo Pandurang Maulicha ho' , hin:'उदो म्हणा उदो पांडुरंग माऊलीचा हो' , dir:'b2' , id:'12' , bk:'' , pg:'' , }, 
 { eng:'Namdev kirtan kari pudhe ba nach Pandurang' , hin:'नामदेव किर्तन करी पुढ़े बा नाचे पांडुरंग' , dir:'b2' , id:'13' , bk:'' , pg:'' , }, 
 { eng:'Vache Viththal bolave, pudhe paul takav' , hin:'वाचे विठ्ठल बोलावे, पुढ़ें पाऊल टाकाव' , dir:'b2' , id:'14' , bk:'' , pg:'' , }, 
 { eng:'Viththal amuche sukhache jeevan' , hin:'विठ्ठल आमुचे सुखाचे जीवन' , dir:'b2' , id:'15' , bk:'' , pg:'' , },
-*/
+
  
 // { eng:'Sukhalagi karisi talmal' , hin:'सुखालागी करिसी तळमळ' , dir:'b2' , id:'16' , bk:'' , pg:'' , }, 
 // { eng:'Deh javo athva raho' , hin:'देह जावो अथवा राहो' , dir:'b2' , id:'17' , bk:'' , pg:'' , }, 
