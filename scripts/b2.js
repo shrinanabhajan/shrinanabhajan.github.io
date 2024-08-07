@@ -5,7 +5,7 @@ var b2 = [
 
 
 { eng:'Ramkrushna Govind Narayan Hari Hari' , hin:'रामकृष्ण गोविंद नारायण हरी हरी' , dir:'b2' , id:'4' , bk:'' , pg:'' , }, 
-{ eng:'Pay jodoniya vitevari. Kar thevoniya katevari' , hin:'पाय जोडोनीया विटेवरी'कर ठेवोनिया कटेवरी' , dir:'b2' , id:'5' , bk:'' , pg:'' , }, 
+{ eng:'Pay jodoniya vitevari. Kar thevoniya katevari' , hin:'पाय जोडोनीया विटेवरी कर ठेवोनिया कटेवरी' , dir:'b2' , id:'5' , bk:'' , pg:'' , }, 
 /*
 { eng:'Tirth Viththal kshetra Viththal, Dev Viththal devpuja Viththal' , hin:'तीर्थ विठ्ठल क्षेत्र विठ्ठल, देव विठ्ठल देवपूजा विठ्ठल' , dir:'b2' , id:'6' , bk:'' , pg:'' , }, 
 { eng:'Viththal Viththal gajari. Avadhi dumdumli Pandhari' , hin:'विठ्ठल विठ्ठल गजरी'अवधी दुमदुमली पंढरी' , dir:'b2' , id:'7' , bk:'' , pg:'' , }, 
