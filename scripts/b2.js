@@ -3,9 +3,10 @@ var b2 = [
 { eng:'Omkar swarupa Sadguru Samartha, anathachya natha tuj namo' , hin:'ॐकार स्वरुपा सदगुरु समर्था, अनाथाच्या नाथा तुज नमो' , dir:'b2' , id:'2' , bk:'' , pg:'' , }, 
 { eng:'Khel mandiylela valvanti ghai nachati Vaishnav bhai re' , hin:'खेळ मांडीयेला वाळंवटी घाई नाचती वैष्णव भाई रे' , dir:'b2' , id:'3' , bk:'' , pg:'' , }, 
 
-/*
+
 { eng:'Ramkrushna Govind Narayan Hari Hari' , hin:'रामकृष्ण गोविंद नारायण हरी हरी' , dir:'b2' , id:'4' , bk:'' , pg:'' , }, 
 { eng:'Pay jodoniya vitevari. Kar thevoniya katevari' , hin:'पाय जोडोनीया विटेवरी'कर ठेवोनिया कटेवरी' , dir:'b2' , id:'5' , bk:'' , pg:'' , }, 
+/*
 { eng:'Tirth Viththal kshetra Viththal, Dev Viththal devpuja Viththal' , hin:'तीर्थ विठ्ठल क्षेत्र विठ्ठल, देव विठ्ठल देवपूजा विठ्ठल' , dir:'b2' , id:'6' , bk:'' , pg:'' , }, 
 { eng:'Viththal Viththal gajari. Avadhi dumdumli Pandhari' , hin:'विठ्ठल विठ्ठल गजरी'अवधी दुमदुमली पंढरी' , dir:'b2' , id:'7' , bk:'' , pg:'' , }, 
 { eng:'Maze maher Pandhari ahe Bhivareche tiri' , hin:'माझे माहेर पंढरी आहे भिवरेचे तीरी' , dir:'b2' , id:'8' , bk:'' , pg:'' , }, 
