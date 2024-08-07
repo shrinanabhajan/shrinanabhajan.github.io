@@ -2,6 +2,8 @@ var b2 = [
 { eng:'Omkar pradhan rup Ganeshache, he tinhi devanche janmasthan.' , hin:'ओंकार प्रधान रुप गणेशाचे, हे तीन्ही देवांचे जन्मस्थान' , dir:'b2' , id:'1' , bk:'' , pg:'' , }, 
 { eng:'Omkar swarupa Sadguru Samartha, anathachya natha tuj namo' , hin:'ॐकार स्वरुपा सदगुरु समर्था, अनाथाच्या नाथा तुज नमो' , dir:'b2' , id:'2' , bk:'' , pg:'' , }, 
 { eng:'Khel mandiylela valvanti ghai nachati Vaishnav bhai re' , hin:'खेळ मांडीयेला वाळंवटी घाई नाचती वैष्णव भाई रे' , dir:'b2' , id:'3' , bk:'' , pg:'' , }, 
+
+/*
 { eng:'Ramkrushna Govind Narayan Hari Hari' , hin:'रामकृष्ण गोविंद नारायण हरी हरी' , dir:'b2' , id:'4' , bk:'' , pg:'' , }, 
 { eng:'Pay jodoniya vitevari. Kar thevoniya katevari' , hin:'पाय जोडोनीया विटेवरी'कर ठेवोनिया कटेवरी' , dir:'b2' , id:'5' , bk:'' , pg:'' , }, 
 { eng:'Tirth Viththal kshetra Viththal, Dev Viththal devpuja Viththal' , hin:'तीर्थ विठ्ठल क्षेत्र विठ्ठल, देव विठ्ठल देवपूजा विठ्ठल' , dir:'b2' , id:'6' , bk:'' , pg:'' , }, 
@@ -13,7 +15,9 @@ var b2 = [
 { eng:'Udo mhana udo Pandurang Maulicha ho' , hin:'उदो म्हणा उदो पांडुरंग माऊलीचा हो' , dir:'b2' , id:'12' , bk:'' , pg:'' , }, 
 { eng:'Namdev kirtan kari pudhe ba nach Pandurang' , hin:'नामदेव किर्तन करी पुढ़े बा नाचे पांडुरंग' , dir:'b2' , id:'13' , bk:'' , pg:'' , }, 
 { eng:'Vache Viththal bolave, pudhe paul takav' , hin:'वाचे विठ्ठल बोलावे, पुढ़ें पाऊल टाकाव' , dir:'b2' , id:'14' , bk:'' , pg:'' , }, 
-{ eng:'Viththal amuche sukhache jeevan' , hin:'विठ्ठल आमुचे सुखाचे जीवन' , dir:'b2' , id:'15' , bk:'' , pg:'' , }, 
+{ eng:'Viththal amuche sukhache jeevan' , hin:'विठ्ठल आमुचे सुखाचे जीवन' , dir:'b2' , id:'15' , bk:'' , pg:'' , },
+*/
+ 
 // { eng:'Sukhalagi karisi talmal' , hin:'सुखालागी करिसी तळमळ' , dir:'b2' , id:'16' , bk:'' , pg:'' , }, 
 // { eng:'Deh javo athva raho' , hin:'देह जावो अथवा राहो' , dir:'b2' , id:'17' , bk:'' , pg:'' , }, 
 // { eng:'Tuj sagun mhano ki nigurn' , hin:'तुझ सगुण म्हणो कि निगुर्ण' , dir:'b2' , id:'18' , bk:'' , pg:'' , }, 
