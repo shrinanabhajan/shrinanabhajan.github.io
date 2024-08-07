@@ -1,6 +1,7 @@
 const fs = require('fs');
 const ntn = require('./ntn');
 const b1 = require('./b1');
+const b2 = require('./b2');
 const dt = require('./dt');
 const filePath = './scripts/indexdata.js';
 
@@ -29,6 +30,7 @@ const filePath = './scripts/indexdata.js';
 
     var list = dt;
     list = list.concat(b1);
+    list = list.concat(b2);
     list = list.concat(ntn);
     
     
