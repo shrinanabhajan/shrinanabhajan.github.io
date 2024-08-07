@@ -352,6 +352,7 @@ indexData={
     27,
     50,
     53,
+    100,
     104,
     115,
     124,
@@ -367,6 +368,7 @@ indexData={
     26,
     50,
     53,
+    100,
     104,
     115,
     124,
@@ -380,6 +382,7 @@ indexData={
     26,
     50,
     53,
+    100,
     104,
     115,
     124,
@@ -393,6 +396,7 @@ indexData={
     26,
     50,
     53,
+    100,
     104,
     115,
     124,
@@ -406,6 +410,7 @@ indexData={
     26,
     50,
     53,
+    100,
     104,
     115,
     124,
@@ -534,10 +539,12 @@ indexData={
   ],
   "sam": [
     5,
+    100,
     114
   ],
   "sama": [
     5,
+    100,
     114
   ],
   "samay": [
@@ -1719,19 +1726,24 @@ indexData={
   ],
   "gan": [
     34,
+    99,
     174
   ],
   "gane": [
-    34
+    34,
+    99
   ],
   "ganes": [
-    34
+    34,
+    99
   ],
   "ganesh": [
-    34
+    34,
+    99
   ],
   "ganesha": [
-    34
+    34,
+    99
   ],
   "ganeshas": [
     34
@@ -2601,7 +2613,8 @@ indexData={
   ],
   "vai": [
     60,
-    85
+    85,
+    101
   ],
   "vair": [
     60
@@ -3312,10 +3325,12 @@ indexData={
   "khe": [
     81,
     84,
+    101,
     138
   ],
   "khel": [
     81,
+    101,
     138
   ],
   "khele": [
@@ -3499,10 +3514,12 @@ indexData={
     85
   ],
   "vais": [
-    85
+    85,
+    101
   ],
   "vaish": [
-    85
+    85,
+    101
   ],
   "vaisha": [
     85
@@ -3868,15 +3885,15 @@ indexData={
   "baithe": [
     98
   ],
-  "Omk": [
+  "omk": [
     99,
     100
   ],
-  "Omka": [
+  "omka": [
     99,
     100
   ],
-  "Omkar": [
+  "omkar": [
     99,
     100
   ],
@@ -3892,31 +3909,16 @@ indexData={
   "pradhan": [
     99
   ],
-  "Gan": [
+  "ganeshac": [
     99
   ],
-  "Gane": [
+  "ganeshach": [
     99
   ],
-  "Ganes": [
+  "ganeshache": [
     99
   ],
-  "Ganesh": [
-    99
-  ],
-  "Ganesha": [
-    99
-  ],
-  "Ganeshac": [
-    99
-  ],
-  "Ganeshach": [
-    99
-  ],
-  "Ganeshache": [
-    99
-  ],
-  "Ganeshache,": [
+  "ganeshache,": [
     99
   ],
   "tin": [
@@ -3967,40 +3969,19 @@ indexData={
   "swarupa": [
     100
   ],
-  "Sad": [
+  "samar": [
     100
   ],
-  "Sadg": [
+  "samart": [
     100
   ],
-  "Sadgu": [
+  "samarth": [
     100
   ],
-  "Sadgur": [
+  "samartha": [
     100
   ],
-  "Sadguru": [
-    100
-  ],
-  "Sam": [
-    100
-  ],
-  "Sama": [
-    100
-  ],
-  "Samar": [
-    100
-  ],
-  "Samart": [
-    100
-  ],
-  "Samarth": [
-    100
-  ],
-  "Samartha": [
-    100
-  ],
-  "Samartha,": [
+  "samartha,": [
     100
   ],
   "anathachy": [
@@ -4018,12 +3999,6 @@ indexData={
   "namo": [
     100,
     170
-  ],
-  "Khe": [
-    101
-  ],
-  "Khel": [
-    101
   ],
   "mandiy": [
     101
@@ -4072,22 +4047,13 @@ indexData={
   "nachati": [
     101
   ],
-  "Vai": [
+  "vaishn": [
     101
   ],
-  "Vais": [
+  "vaishna": [
     101
   ],
-  "Vaish": [
-    101
-  ],
-  "Vaishn": [
-    101
-  ],
-  "Vaishna": [
-    101
-  ],
-  "Vaishnav": [
+  "vaishnav": [
     101
   ],
   "bhai": [
