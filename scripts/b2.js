@@ -134,7 +134,7 @@ var b2 = [
 // { eng:'Indor javu che, charanomma rehetu che' , hin:'ईंदोर जावु छे, चरणोमां रहेतुं छ' , dir:'b2' , id:'127' , bk:'' , pg:'' , }, 
 // { eng:'Ab mai nachyo bahut Gopala' , hin:'अब मै नाच्यो बहुत गोपाला' , dir:'b2' , id:'128' , bk:'' , pg:'' , }, 
 // { eng:'Guru charan prit mohe lagi re' , hin:'गुरुचरण प्रित मोहे लागी रे' , dir:'b2' , id:'129' , bk:'' , pg:'' , }, 
-// { eng:'Kamalmukh Ram bhajan ko diya' , hin:'कमलमुख राम भजन को दिया' , dir:'b2' , id:'130' , bk:'' , pg:'' , }, 
+ { eng:'kamalmukh ram bhajan ko diya' , hin:'कमलमुख राम भजन को दिया' , dir:'b2' , id:'130' , bk:'' , pg:'' , }, 
 // { eng:'Tum meri rakho laj Hari tum janat sab' , hin:'तुम मेरी राखो लाज हरि तुम जानत सब' , dir:'b2' , id:'131' , bk:'' , pg:'' , }, 
 // { eng:'Mat kar mohu Hari bhajanko maan re' , hin:'मत कर मोहु हरि भजनको मान रे' , dir:'b2' , id:'132' , bk:'' , pg:'' , }, 
 // { eng:'Jo sukh pave Rambhajanme' , hin:'जो सुख पावे रामभजनमें' , dir:'b2' , id:'133' , bk:'' , pg:'' , }, 
