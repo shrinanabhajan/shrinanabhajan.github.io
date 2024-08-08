@@ -127,7 +127,7 @@ var b2 = [
 // { eng:'Nachat gurubhajani' , hin:'नाचत गुरुभजनी' , dir:'b2' , id:'120' , bk:'' , pg:'' , }, 
 // { eng:'Krutarth karanya janma apula' , hin:'कृतार्थ करण्या जन्म आपुला' , dir:'b2' , id:'121' , bk:'' , pg:'' , }, 
 // { eng:'Nashvar ha deh sara bhramto ka mohuni' , hin:'नश्वर हा देह सारा भ्रमतो का मोहुनी' , dir:'b2' , id:'122' , bk:'' , pg:'' , }, 
-// { eng:'Eka hatane kar dusrya hatane bhar' , hin:'एका हाताने कर दुसऱ्या हाताने भर' , dir:'b2' , id:'123' , bk:'' , pg:'' , }, 
+ { eng:'eka hatane kar dusarya hatane bhar' , hin:'एका हाताने कर दुसऱ्या हाताने भर' , dir:'b2' , id:'123' , bk:'' , pg:'' , }, 
 // { eng:'Sant samagam sadha gadyanna' , hin:'संत समागम साधा गड्यांना' , dir:'b2' , id:'124' , bk:'' , pg:'' , }, 
 // { eng:'Re man mast sada din rahena' , hin:'रे मन मस्त सदा दिन रहेना' , dir:'b2' , id:'125' , bk:'' , pg:'' , }, 
 // { eng:'Mai to datt Digambar dhyaun' , hin:'मै तो दत्त दिगंबर ध्याऊँ' , dir:'b2' , id:'126' , bk:'' , pg:'' , }, 
