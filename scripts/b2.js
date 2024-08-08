@@ -25,9 +25,10 @@ var b2 = [
 { eng:'Indrayani kathi devachi Alandi' , hin:'इंद्रायणी कांठी देवाची आळंदी' , dir:'b2' , id:'19' , bk:'' , pg:'' , }, 
 { eng:'Jani Namayachi rangali kirtani' , hin:'जनी नामयाची रंगली कीर्तनी' , dir:'b2' , id:'20' , bk:'' , pg:'' , }, 
 { eng:'Nam tuje Narayana phodi fodi pashanala panha' , hin:'नाम तुझे नारायणा फोडी पाषाणाला पान्हा' , dir:'b2' , id:'21' , bk:'' , pg:'' , }, 
-// { eng:'Adhik dekhne tari Niranjan pahan' , hin:'अधिक देखणे तरी निरंजन पाहण' , dir:'b2' , id:'22' , bk:'' , pg:'' , }, 
-// { eng:'Pandhari nivasa sakhya Panduranga' , hin:'पंढरी निवासा सख्या पांडुरंगा' , dir:'b2' , id:'23' , bk:'' , pg:'' , }, 
-// { eng:'Maza bhav tuje charani' , hin:'माझा भाव तुझे चरणी' , dir:'b2' , id:'24' , bk:'' , pg:'' , }, 
+
+{ eng:'adhik dekhne tari niranjan pahane' , hin:'अधिक देखणे तरी निरंजन पाहणे' , dir:'b2' , id:'22' , bk:'' , pg:'' , }, 
+{ eng:'pandhari nivasa sakhya panduranga' , hin:'पंढरी निवासा सख्या पांडुरंगा' , dir:'b2' , id:'23' , bk:'' , pg:'' , }, 
+{ eng:'maza bhav tuje charani' , hin:'माझा भाव तुझे चरणी' , dir:'b2' , id:'24' , bk:'' , pg:'' , }, 
 // { eng:'Namacha gajar garje Bhimathir' , hin:'नामाचा गजर गर्जे भीमातीर' , dir:'b2' , id:'25' , bk:'' , pg:'' , }, 
 // { eng:'Adhi rachili Pandhari' , hin:'आधी रचिली पंढरी' , dir:'b2' , id:'26' , bk:'' , pg:'' , }, 
 // { eng:'Samcharan vitevari pahat' , hin:'समचरण विटेवरी पाहतां' , dir:'b2' , id:'27' , bk:'' , pg:'' , }, 
