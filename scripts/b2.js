@@ -139,7 +139,7 @@ var b2 = [
 // { eng:'Mat kar mohu Hari bhajanko maan re' , hin:'मत कर मोहु हरि भजनको मान रे' , dir:'b2' , id:'132' , bk:'' , pg:'' , }, 
 // { eng:'Jo sukh pave Rambhajanme' , hin:'जो सुख पावे रामभजनमें' , dir:'b2' , id:'133' , bk:'' , pg:'' , }, 
 // { eng:'Khele holi Datt Digambar Shyam' , hin:'खेले होली दत्त दिगंबर श्याम' , dir:'b2' , id:'134' , bk:'' , pg:'' , }, 
-// { eng:'Ram ka gungaan kariye' , hin:'राम का गुणगान करीए' , dir:'b2' , id:'135' , bk:'' , pg:'' , }, 
+{ eng:'ram ka gungaan kariye' , hin:'राम का गुणगान करीए' , dir:'b2' , id:'135' , bk:'' , pg:'' , }, 
 // { eng:'Kaise jau main us paar' , hin:'कैसे जांऊ मैं उस पार' , dir:'b2' , id:'136' , bk:'' , pg:'' , }, 
 // { eng:'Dhire gadi haank re, bhaiya gadi wale' , hin:'धीरे गाडी हाँक रे, भैया गाडी वाले' , dir:'b2' , id:'137' , bk:'' , pg:'' , }, 
 // { eng:'Jab dnyan bhayo manmaahi' , hin:'जब ज्ञान भयो मनमाँही' , dir:'b2' , id:'138' , bk:'' , pg:'' , }, 
