@@ -81,6 +81,9 @@
         { eng: 'kare ushir laviyela', hin: 'कारे उशीर लावियेला', dir: 'ntn', id: '65.3', bk: 'नाना तिरीचा नामरंग', pg: '65' },
         { eng: 'thevile anante taisechi rahave', hin: 'ठेविले अनंते तैसेचि रहावे ', dir: 'ntn', id: '66.3', bk: 'नाना तिरीचा नामरंग', pg: '66' },
         { eng: 'devpuja mazi', hin: 'देवपूजा मांझी देवपूजा', dir: 'ntn', id: '69.2', bk: 'नाना तिरीचा नामरंग', pg: '69' },
+
+        { eng: 'devachiye dwari', hin: 'देवाचिये द्वारी' , dir: 'ntn', id: '69.3' , bk: 'नाना तिरीचा नामरंग', pg: '69' },
+
         { eng: 'kanhopatra dasi bole', hin: 'कान्होपात्रा दासी बोले', dir: 'ntn', id: '70.2', bk: 'नाना तिरीचा नामरंग', pg: '70' },
         { eng: 'he adima he antima', hin: 'हे आदिमा हे अंतिमा', dir: 'ntn', id: '71.2', bk: 'नाना तिरीचा नामरंग', pg: '71' },
         { eng: 'abir gulal udhalit rang', hin: 'अबीर गुलाल उधळीत रंग', dir: 'ntn', id: '72.2', bk: 'नाना तिरीचा नामरंग', pg: '72' },
