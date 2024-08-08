@@ -89,7 +89,7 @@ var b2 = [
 // { eng:'Omkaracha kalpataru' , hin:'ओंकाराचा कल्पतरू' , dir:'b2' , id:'82' , bk:'' , pg:'' , }, 
 // { eng:'Yave Gajvadana yave' , hin:'यावे गजवदना यावे' , dir:'b2' , id:'83' , bk:'' , pg:'' , }, 
 // { eng:'Chandanache parimal amha kay tyache' , hin:'चंदनाचे परीमळ आम्हा काय त्याचे' , dir:'b2' , id:'84' , bk:'' , pg:'' , }, 
-// { eng:'Tal bole chipli la nach majya sange' , hin:'टाळ बोले चिपळीला नाच माझ्या संगे' , dir:'b2' , id:'85' , bk:'' , pg:'' , }, 
+ { eng:'tal bole chiplila nach mazya sange' , hin:'टाळ बोले चिपळीला' , dir:'b2' , id:'85' , bk:'' , pg:'' , }, 
 // { eng:'Dev maza Vithhu Savala' , hin:'देव माझा विठू सावळा' , dir:'b2' , id:'86' , bk:'' , pg:'' , }, 
 // { eng:'He adima he antima' , hin:'हे आदिमा हे अंतिमा' , dir:'b2' , id:'87' , bk:'' , pg:'' , }, 
 // { eng:'Dhir dhari dhir dhari jagrut Giridhari' , hin:'धीर धरी धीर धरी जागृत गीरधारी' , dir:'b2' , id:'88' , bk:'' , pg:'' , }, 
