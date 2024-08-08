@@ -46,7 +46,15 @@ var b1 = [
 { eng: 'sanga mi me kay karu', hin: 'सांगा मी काय करू', dir: 'b1', id: '44', bk: '', pg: '',  }, 
 { eng: 'le lo lelo mithai', hin: 'ले लो लेलो मिठाई', dir: 'b1', id: '45', bk: '', pg: '',  },
  
-{ eng: 'anjanichya suta tula ramacha vardan', hin: 'अंजनीच्या सुता तुला रामाचं वरदान', dir: 'b1', id: '46', bk: '', pg: '',  }, 
+{ eng: 'anjanichya suta tula ramacha vardan', hin: 'अंजनीच्या सुता तुला रामाचं वरदान', dir: 'b1', id: '46', bk: '', pg: '',  },
+
+
+{ eng: 'shri martand ashtak', hin: 'श्री मार्तण्डाष्टक', dir: 'b1', id: '47', bk: '', pg: '',  }, 
+
+
+
+
+ 
 ];
 
 if (typeof module === 'object' && module.exports) {
