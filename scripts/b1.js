@@ -57,6 +57,11 @@ var b1 = [
 
 { eng: 'nitya namrat', hin: 'नित्य नामरत', dir: 'b1', id: '50', bk: '', pg: '',  }, 
 
+{ eng: 'dudivar dudi gaulani', hin: 'दुडीवरी दुडी गौळणी', dir: 'b1', id: '51', bk: '', pg: '',  },  
+
+  
+
+
  
 ];
 
