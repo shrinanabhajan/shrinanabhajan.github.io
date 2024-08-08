@@ -55,6 +55,8 @@ var b1 = [
 
 { eng: 'hechi maze tap dan', hin: 'हेचि माझे तप, हेचिं माझे दान', dir: 'b1', id: '49', bk: '', pg: '',  }, 
 
+{ eng: 'nitya namrat', hin: 'नित्य नामरत', dir: 'b1', id: '50', bk: '', pg: '',  }, 
+
  
 ];
 
