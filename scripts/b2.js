@@ -173,7 +173,7 @@ var b2 = [
 // { eng:'Rupe sundar savala ge maye' , hin:'रुपे सुंदर सांवळा गे माये' , dir:'b2' , id:'166' , bk:'' , pg:'' , }, 
 // { eng:'Gaulani sangti garhani' , hin:'गौळणी सांगती गाऱ्हाणी' , dir:'b2' , id:'167' , bk:'' , pg:'' , }, 
 // { eng:'Shrirang mari pichkari' , hin:'श्रीरंग मारी पिचकारी' , dir:'b2' , id:'168' , bk:'' , pg:'' , }, 
-// { eng:'Yamunechya tiri kal pahila Hari' , hin:'यमुनेच्या तीरि काल पाहीला हरि' , dir:'b2' , id:'169' , bk:'' , pg:'' , }, 
+ { eng:'yamunechya tiri kal pahila hari' , hin:'यमुनेच्या तीरि काल पाहीला हरि' , dir:'b2' , id:'169' , bk:'' , pg:'' , }, 
 // { eng:'Padarala dharu nako sod Kanha' , hin:'पदराला धरू नको सोड कान्हा' , dir:'b2' , id:'170' , bk:'' , pg:'' , }, 
 // { eng:'Kuni tari sanga, kahi tari sanga' , hin:'कुणी तरी सांगा, काही तरी सांगा' , dir:'b2' , id:'171' , bk:'' , pg:'' , }, 
 // { eng:'Lahan, lahan, lahan' , hin:'लहान, लहान, लहान' , dir:'b2' , id:'172' , bk:'' , pg:'' , }, 
