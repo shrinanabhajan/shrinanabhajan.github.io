@@ -43,6 +43,7 @@ var b1 = [
 
     { eng: 'chale he sharir', hin: 'चाले हे शरीर', dir: 'b1', id: '42', bk: '', pg: '',  },
     { eng: 'shri ram janaki baithe', hin: 'श्री राम जानकी बैठे हैं मेरे सीने मे', dir: 'b1', id: '43', bk: '', pg: '',  }, 
+{ eng: 'sanga mi me kay karu', hin: 'सांगा मी काय करू', dir: 'b1', id: '44', bk: '', pg: '',  }, 
 
 
 ];
