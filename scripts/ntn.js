@@ -96,14 +96,67 @@
 
 { eng: 'magane he ek tuzprati ahe', hin: 'मागणे हे एक तुजप्रती आहे', dir: 'ntn', id: '124', bk: 'नाना तिरीचा नामरंग', pg: '124' },
 
-             
+ { eng: 'koni ninda athava vanda', hin: 'कोणी निंदा अथवा वंदा', dir: 'ntn', id: '61.2', bk: 'नाना तिरीचा नामरंग', pg: '61' },            
+
+{ eng: 'ale devajichya mana', hin: 'आले देवाजीच्या मना ', dir: 'ntn', id: '61.3', bk: 'नाना तिरीचा नामरंग', pg: '61' },            
+
+{ eng: 'nako mana guntu mayajali', hin: 'नको नको मना गुंतु मायाजाळी', dir: 'ntn', id: '62', bk: 'नाना तिरीचा नामरंग', pg: '62' },            
+{ eng: 'ye ga vithabai', hin: 'ये ग ये ग विठाबाई ', dir: 'ntn', id: '62.2', bk: 'नाना तिरीचा नामरंग', pg: '62' },            
+{ eng: 'javavari tavavari', hin: 'जववरी ते तववरी', dir: 'ntn', id: '62.3', bk: 'नाना तिरीचा नामरंग', pg: '62' },            
+{ eng: 'dhany aji din sant darshanacha', hin: 'धन्य आजी दिन संत दर्शनाचा', dir: 'ntn', id: '63', bk: 'नाना तिरीचा नामरंग', pg: '63' },            
+
+{ eng: 'deva tuzi kashi karani', hin: 'देवा तुझी कशी करणी', dir: 'ntn', id: '63.2', bk: 'नाना तिरीचा नामरंग', pg: '63' },            
+
+{ eng: 'kay sangu deva dnyanobachi khyati', hin: 'काय सांगू देवा ज्ञानोबाची ख्याती', dir: 'ntn', id: '63.3', bk: 'नाना तिरीचा नामरंग', pg: '63' },            
+{ eng: 'samadhi sadhan sanjivan', hin: 'समाधी साधन, संजीवन नाम', dir: 'ntn', id: '63.4', bk: 'नाना तिरीचा नामरंग', pg: '63' },            
+
+{ eng: 'pandharinatha panduranga', hin: 'पंढरी नाथा पांडुरंगा विठ्ठला', dir: 'ntn', id: '64', bk: 'नाना तिरीचा नामरंग', pg: '64' },            
+
+{ eng: 'amrutachi fale veli', hin: 'अमृताची फळे, अमृताची वेली', dir: 'ntn', id: '64.2', bk: 'नाना तिरीचा नामरंग', pg: '64' },            
+
+{ eng: 'jaise vahe ganga taise jyanche man', hin: 'जैसे वाहे गंगा तैसे ज्यांचे मन', dir: 'ntn', id: '64.3', bk: 'नाना तिरीचा नामरंग', pg: '64' },            
+
+{ eng: 'santane sarita keli', hin: 'संताने सरिता केलो तैश्यापरी', dir: 'ntn', id: '64.4', bk: 'नाना तिरीचा नामरंग', pg: '64' },            
+
+{ eng: 'kay vanu ata na pure vani', hin: 'काय वानू आता न पुरे ही वाणी', dir: 'ntn', id: '65', bk: 'नाना तिरीचा नामरंग', pg: '65' },            
+
+{ eng: 'dasacha me das shrihari', hin: 'दासाचा मी दास श्रीहरी', dir: 'ntn', id: '65.2', bk: 'नाना तिरीचा नामरंग', pg: '65' },            
+
+{ eng: 'apuliya bale nahi bolavit', hin: 'आपुलिया बळे नाही बोलावित', dir: 'ntn', id: '65.4', bk: 'नाना तिरीचा नामरंग', pg: '65' },            
+
+{ eng: 'deulyatalya deva ya ho utara', hin: 'देऊळातल्या देवा या हो उतरा', dir: 'ntn', id: '66', bk: 'नाना तिरीचा नामरंग', pg: '66' },            
+
+{ eng: 'deva maze man lage tuze charani', hin: 'देवा माझे मन लागे तुझे चरणी', dir: 'ntn', id: '66.2', bk: 'नाना तिरीचा नामरंग', pg: '66' },            
+
+{ eng: 'pandharicha vas chandrabhage snan', hin: 'पंढरीचा वास चंद्रभागे स्नान', dir: 'ntn', id: '66.4', bk: 'नाना तिरीचा नामरंग', pg: '66' },            
+
+{ eng: 'papachi vasana nako dau dola', hin: 'पापाची वासना नको दाऊ डोळा', dir: 'ntn', id: '67', bk: 'नाना तिरीचा नामरंग', pg: '67' },            
+
+{ eng: 'kanya sasuryasi jaye', hin: 'कन्या सासुऱ्याची जाये', dir: 'ntn', id: '67.2', bk: 'नाना तिरीचा नामरंग', pg: '67' },            
+
+{ eng: 'yethe ka re ubha shrirama', hin: 'येथे का रे उभा श्रीरामा', dir: 'ntn', id: '67.3', bk: 'नाना तिरीचा नामरंग', pg: '67' },            
+
+ { eng: 'vithu maza lekurvala', hin: 'विठू माझा लेकुरवाळा', dir: 'ntn', id: '67.4', bk: 'नाना तिरीचा नामरंग', pg: '67' },            
+
+{ eng: 'dharoniya soi paratale', hin: 'धरोनिया सोई पारतले मन', dir: 'ntn', id: '68', bk: 'नाना तिरीचा नामरंग', pg: '68' },            
+
+ { eng: 'hari bhajanavin kal', hin: 'हरी भजनाविण काळ', dir: 'ntn', id: '68.2', bk: 'नाना तिरीचा नामरंग', pg: '68' },            
+
+{ eng: 'avaghachi sansar sukhacha', hin: 'अवघाची संसार सुखाचा', dir: 'ntn', id: '68.3', bk: 'नाना तिरीचा नामरंग', pg: '68' },            
+
+{ eng: 'amuchi maliyachi jat', hin: 'आमुची माळीयाची जात', dir: 'ntn', id: '69', bk: 'नाना तिरीचा नामरंग', pg: '69' },            
+
+ { eng: 'nako devraya ant', hin: 'नको देवराया', dir: 'ntn', id: '70', bk: 'नाना तिरीचा नामरंग', pg: '70' },            
+
+ { eng: 'dharila pandharicha chor', hin: 'धरीला पंढरीचा चोर', dir: 'ntn', id: '70.3', bk: 'नाना तिरीचा नामरंग', pg: '70' },            
+
+{ eng: 'jan vijan zale', hin: 'जन विजन झाले', dir: 'ntn', id: '71', bk: 'नाना तिरीचा नामरंग', pg: '71' },            
 
 
+ { eng: 'ekchu tali chandrabhage', hin: 'एकची टाळी घाली चंद्रभागे', dir: 'ntn', id: '71.4', bk: 'नाना तिरीचा नामरंग', pg: '71' },            
 
 
-
-
-
+// { eng: '', hin: '', dir: 'ntn', id: '', bk: 'नाना तिरीचा नामरंग', pg: '' },            
 
 
 
