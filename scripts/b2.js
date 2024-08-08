@@ -64,7 +64,7 @@ var b2 = [
 // { eng:'Sagun nirgun donhi vilakshan' , hin:'सगुण निर्गुण दोन्ही विलक्षण' , dir:'b2' , id:'57' , bk:'' , pg:'' , }, 
 // { eng:'Hechi thor bhakti avadte deva' , hin:'हेचि थोर भक्ति आवडते देवा' , dir:'b2' , id:'58' , bk:'' , pg:'' , }, 
 // { eng:'Samayasi sadar have' , hin:'समयासी सादर व्हावे' , dir:'b2' , id:'59' , bk:'' , pg:'' , }, 
-// { eng:'Nirgunache bhet alo sagunasange' , hin:'निर्गुणाचे भेटी आलो सगुणासंगे' , dir:'b2' , id:'60' , bk:'' , pg:'' , }, 
+ { eng:'nirgunache bheti alo sagunasange' , hin:'निर्गुणाचे भेटी आलो सगुणासंगे' , dir:'b2' , id:'60' , bk:'' , pg:'' , }, 
 // { eng:'Akalp aayushya have tya kula' , hin:'आकल्प आयुष्य व्हावे तया कुळा' , dir:'b2' , id:'61' , bk:'' , pg:'' , }, 
 // { eng:'Dhanya dhanya aji din' , hin:'धन्य धन्य अजी दिन' , dir:'b2' , id:'62' , bk:'' , pg:'' , }, 
 // { eng:'Johar maybap johar' , hin:'जोहार मायबाप जोहार' , dir:'b2' , id:'63' , bk:'' , pg:'' , }, 
