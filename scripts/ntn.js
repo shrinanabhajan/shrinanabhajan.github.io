@@ -88,7 +88,9 @@
         { eng: 'anandacha kand guru ha', hin: 'आनंदा कंद गुरु हा', dir: 'ntn', id: '73.3', bk: 'नाना तिरीचा नामरंग', pg: '73' },
         { eng: 'krushnatirichya vasanarya', hin: 'कृष्णातिरीच्या वसणाऱ्या', dir: 'ntn', id: '74', bk: 'नाना तिरीचा नामरंग', pg: '74' },
         { eng: 'sangave kavanya thaya jave', hin: 'सांगावे, कवण्या ठाया जावे?', dir: 'ntn', id: '74.2', bk: 'नाना तिरीचा नामरंग', pg: '74' },
-     
+             { eng: 'magane he ek tuzprati ahe', hin: 'मागणे हे एक तुजप्रती आहे', dir: 'ntn', id: '124', bk: 'नाना तिरीचा नामरंग', pg: '124' },
+
+
     ];
 
 if (typeof module === 'object' && module.exports) {
