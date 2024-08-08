@@ -53,6 +53,7 @@ var b1 = [
 
 { eng: 'pavalo prasad ata', hin: 'प्रसाद - पावलो प्रसाद आता', dir: 'b1', id: '48', bk: '', pg: '',  }, 
 
+{ eng: 'hechi maze tap dan', hin: 'हेचि माझे तप, हेचिं माझे दान', dir: 'b1', id: '49', bk: '', pg: '',  }, 
 
  
 ];
