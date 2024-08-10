@@ -156,6 +156,26 @@
  { eng: 'ekchu tali chandrabhage', hin: 'एकची टाळी घाली चंद्रभागे', dir: 'ntn', id: '71.4', bk: 'नाना तिरीचा नामरंग', pg: '71' },            
 
 
+ { eng: 'chintu dattatreya anusuya tanaya', hin: 'चिंतू दत्तात्रेया, अनुसुयातनया । ', dir: 'ntn', id: '74.3', bk: 'नाना तिरीचा नामरंग', pg: '74' },            
+         
+{ eng: 'shrimad vasudev dhyani', hin: 'श्रीमद्वासुदेव ध्यानी', dir: 'ntn', id: '75', bk: 'नाना तिरीचा नामरंग', pg: '75' },           
+
+ { eng: 'namo guru vasudeva', hin: 'नमो गुरु वासुदेवां', dir: 'ntn', id: '75.2', bk: 'नाना तिरीचा नामरंग', pg: '75' },  
+
+{ eng: 'ananya vinanti kari charandvay dhari', hin: 'अनन्य विनंती करी, चरणव्दय धरी', dir: 'ntn', id: '76', bk: 'नाना तिरीचा नामरंग', pg: '76' },                      
+
+{ eng: 'antari nirmal vachecha rasal', hin: 'अंतरी निर्मळ वाचेचा रसाळ', dir: 'ntn', id: '76.2', bk: 'नाना तिरीचा नामरंग', pg: '76' },            
+
+
+
+
+
+
+
+
+
+
+
 // { eng: '', hin: '', dir: 'ntn', id: '', bk: 'नाना तिरीचा नामरंग', pg: '' },            
 
 
