@@ -61,7 +61,7 @@ var b1 = [
 
 { eng: 'shri martand pushpanjali', hin: 'श्री मार्तंड पुष्पांजली', dir: 'b1', id: '52', bk: '', pg: '',  },    
 
-
+{ eng: 'arati karo nana ki', hin: 'आरती करो नाना की', dir: 'b1', id: '53', bk: '', pg: '',  },  
  
 ];
 
