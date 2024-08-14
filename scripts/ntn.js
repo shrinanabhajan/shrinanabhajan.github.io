@@ -185,7 +185,7 @@
 		{ eng: 'bharud gav vasad padu naka',  hin: 'भारूड - गाव वसाड पाडू नका',  dir: 'ntn',  id: '103',   bk: 'नाना तिरीचा नामरंग',  pg: '103'},
 		{ eng: 'bharud nijalis kay ge',  hin: 'भारूड - निजलीस काय गे ',  dir: 'ntn',  id: '104.2',  bk: 'नाना तिरीचा नामरंग',  pg: '104'},
 		{ eng: 'bharud amhi gondhali gondhali',  hin: 'भारूड - आम्ही गोंधळी गोंधळी',  dir: 'ntn',  id: '104',   bk: 'नाना तिरीचा नामरंग',  pg: '104'},
-		{ eng: 'bharud bhoot jabar mothe g bai',  hin: 'भारूड - भूत जबर मोठे ग बाई',  dir: 'ntn',  id: '105.2',  bk: 'नाना तिरीचा नामरंग',  pg: '105'},
+		{ eng: 'bharud bhut bhoot jabar mothe g bai',  hin: 'भारूड - भूत जबर मोठे ग बाई',  dir: 'ntn',  id: '105.2',  bk: 'नाना तिरीचा नामरंग',  pg: '105'},
 		{ eng: 'bharud satvar paav g mala',  hin: 'भारूड - सत्वर पाव ग मला',  dir: 'ntn',  id: '105',   bk: 'नाना तिरीचा नामरंग',  pg: '105'},
 		{ eng: 'bharud ashi kashi gant gadi gadyaano',  hin: 'भारूड - अशी कशी गंमत झाली गड्यांनो',  dir: 'ntn',  id: '106.2',  bk: 'नाना तिरीचा नामरंग',  pg: '106'},
 		{ eng: 'bharud bai mi kashi',  hin: 'भारूड - बाई मी कशी',  dir: 'ntn',  id: '106',   bk: 'नाना तिरीचा नामरंग',  pg: '106'},
