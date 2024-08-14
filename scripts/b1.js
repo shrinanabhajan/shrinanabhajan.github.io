@@ -11,7 +11,7 @@ var b1 = [
     { eng: 'aaj radha ke nayano me shyam dole', hin: 'आज राधा के नयनों में श्याम डोले ', dir: 'b1', id: '10', bk: '', pg: '',  },
     { eng: 'visava viththal vitthal', hin: 'विसावा विठ्ठल', dir: 'b1', id: '11', bk: '', pg: '',  },
     { eng: 'garud vahana narayana', hin: 'नारायणा', dir: 'b1', id: '12', bk: '', pg: '',  },
-    { eng: 'tati ughada ghyaneshwara', hin: 'ताटी उघडा ज्ञानेश्वरा ', dir: 'b1', id: '13', bk: '', pg: '',  },
+    { eng: 'tati ughada ghyaneshwara', hin: 'ताटी उघडा ज्ञानेश्वरा', dir: 'b1', id: '13', bk: '', pg: '',  },
     { eng: 'kanha ki bansi', hin: 'कान्हा की बंसी', dir: 'b1', id: '14', bk: '', pg: '',  },
     { eng: 'savale sundar rup manohar', hin: 'सावळे सुंदर रूप मनोहर', dir: 'b1', id: '15', bk: '', pg: '',  },
     { eng: 'jaise jese suraj ki garmi', hin: 'जैसे सूरज की गर्मी से ', dir: 'b1', id: '16', bk: '', pg: '',  },
@@ -40,28 +40,28 @@ var b1 = [
     { eng: 'maza dev kailasicha raja', hin: 'माझा देव कैलासीचा राजा', dir: 'b1', id: '39', bk: '', pg: '',  },
     { eng: 'avad tula belachi bailachi', hin: 'आवड तुला बेलाची', dir: 'b1', id: '40', bk: '', pg: '',  },
     { eng: 'nam tuze barvega baravega shankara', hin: 'नाम तुझे बरवेगा शंकरा', dir: 'b1', id: '41', bk: '', pg: '',  },
-
     { eng: 'chale he sharir', hin: 'चाले हे शरीर', dir: 'b1', id: '42', bk: '', pg: '',  },
     { eng: 'shri ram janaki baithe', hin: 'श्री राम जानकी बैठे हैं मेरे सीने मे', dir: 'b1', id: '43', bk: '', pg: '',  }, 
-{ eng: 'sanga mi me kay karu', hin: 'सांगा मी काय करू', dir: 'b1', id: '44', bk: '', pg: '',  }, 
-{ eng: 'le lo lelo mithai', hin: 'ले लो लेलो मिठाई', dir: 'b1', id: '45', bk: '', pg: '',  },
- 
-{ eng: 'anjanichya suta tula ramacha vardan', hin: 'अंजनीच्या सुता तुला रामाचं वरदान', dir: 'b1', id: '46', bk: '', pg: '',  },
-
-
-{ eng: 'shri martand ashtak', hin: 'श्री मार्तण्डाष्टक', dir: 'b1', id: '47', bk: '', pg: '',  }, 
-
-{ eng: 'pavalo prasad ata', hin: 'प्रसाद - पावलो प्रसाद आता', dir: 'b1', id: '48', bk: '', pg: '',  }, 
-
-{ eng: 'hechi maze tap dan', hin: 'हेचि माझे तप, हेचिं माझे दान', dir: 'b1', id: '49', bk: '', pg: '',  }, 
-
-{ eng: 'nitya namrat', hin: 'नित्य नामरत', dir: 'b1', id: '50', bk: '', pg: '',  }, 
-
-{ eng: 'dudivar dudi gaulani', hin: 'दुडीवरी दुडी गौळणी', dir: 'b1', id: '51', bk: '', pg: '',  },  
-
-{ eng: 'shri martand pushpanjali', hin: 'श्री मार्तंड पुष्पांजली', dir: 'b1', id: '52', bk: '', pg: '',  },    
-
-{ eng: 'arati karo nana ki', hin: 'आरती करो नाना की', dir: 'b1', id: '53', bk: '', pg: '',  },  
+	{ eng: 'sanga mi me kay karu', hin: 'सांगा मी काय करू', dir: 'b1', id: '44', bk: '', pg: '',  }, 
+	{ eng: 'le lo lelo mithai', hin: 'ले लो लेलो मिठाई', dir: 'b1', id: '45', bk: '', pg: '',  },
+	{ eng: 'anjanichya suta tula ramacha vardan', hin: 'अंजनीच्या सुता तुला रामाचं वरदान', dir: 'b1', id: '46', bk: '', pg: '',  },
+	{ eng: 'shri martand ashtak', hin: 'श्री मार्तण्डाष्टक', dir: 'b1', id: '47', bk: '', pg: '',  }, 
+	{ eng: 'pavalo prasad ata', hin: 'प्रसाद - पावलो प्रसाद आता', dir: 'b1', id: '48', bk: '', pg: '',  }, 
+	{ eng: 'hechi maze tap dan', hin: 'हेचि माझे तप, हेचिं माझे दान', dir: 'b1', id: '49', bk: '', pg: '',  }, 
+	{ eng: 'nitya namrat', hin: 'नित्य नामरत', dir: 'b1', id: '50', bk: '', pg: '',  }, 
+	{ eng: 'dudivar dudi gaulani', hin: 'दुडीवरी दुडी गौळणी', dir: 'b1', id: '51', bk: '', pg: '',  },  
+	{ eng: 'shri martand pushpanjali', hin: 'श्री मार्तंड पुष्पांजली', dir: 'b1', id: '52', bk: '', pg: '',  },    
+	{ eng: 'arati karo nana ki', hin: 'आरती करो नाना की', dir: 'b1', id: '53', bk: '', pg: '',  },  
+	{ eng: 'nana suprabhatam', hin: 'श्री नाना सुप्रभातम', dir: 'b1', id: '54', bk: '', pg: '',  },	
+	{ eng: 'arati om jay sadgurunatha', hin: 'आरती - ॐ जय सद्गुरुनाथा', dir: 'b1', id: '55', bk: '', pg: '',  },	
+	{ eng: 'nana karunashtak', hin: 'प्रात स्मरण (श्री नाना करुणाष्टक)', dir: 'b1', id: '56', bk: '', pg: '',  },	
+	{ eng: 'sadgurusarikha soyara sajjan', hin: 'सद्गुरुसारिखा सोयरा सज्जन', dir: 'b1', id: '57', bk: '', pg: '',  },	
+	{ eng: 'maj maz betuni ja ho', hin: 'मज भेटुनी जा हो', dir: 'b1', id: '58', bk: '', pg: '',  },	
+	{ eng: 'kanada raja pandharicha', hin: 'कानडा राजा पंढरीचा', dir: 'b1', id: '59', bk: '', pg: '',  },	
+	{ eng: 'vasudev bavani', hin: 'श्री वासुदेव बावनी ', dir: 'b1', id: '60', bk: '', pg: '',  },	
+	
+	
+	//{ eng: '', hin: '', dir: 'b1', id: '', bk: '', pg: '',  },	
  
 ];
 
