@@ -58,7 +58,7 @@ var b1 = [
 	{ eng: 'sadgurusarikha soyara sajjan', hin: 'सद्गुरुसारिखा सोयरा सज्जन', dir: 'b1', id: '57', bk: '', pg: '',  },	
 	{ eng: 'maj maz betuni ja ho', hin: 'मज भेटुनी जा हो', dir: 'b1', id: '58', bk: '', pg: '',  },	
 	{ eng: 'kanada raja pandharicha', hin: 'कानडा राजा पंढरीचा', dir: 'b1', id: '59', bk: '', pg: '',  },	
-	{ eng: 'vasudev bavani', hin: 'श्री वासुदेव बावनी ', dir: 'b1', id: '60', bk: '', pg: '',  },	
+	{ eng: 'vasudev bavani bawani', hin: 'श्री वासुदेव बावनी ', dir: 'b1', id: '60', bk: '', pg: '',  },	
 	
 	
 	//{ eng: '', hin: '', dir: 'b1', id: '', bk: '', pg: '',  },	
