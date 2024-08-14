@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 rem Output file
-set outputfile=output.txt
+set outputfile=list.inf
 echo. > %outputfile%
 
 rem Iterate through all .txt files in alphabetical order
@@ -13,8 +13,13 @@ for /f "delims=" %%f in ('dir /b /on *.txt') do (
         if not defined firstline set "firstline=%%l"
     )
 
+	rem Extract the filename without extension
+    set "filename=%%~nf"
+	
     rem Write the filename and the first line to the output file on the same line
-    echo %%f: !firstline! >> %outputfile%
+    rem (old) echo %%f: !firstline! >> %outputfile%
+	echo '!filename! 	'hin: '!firstline!', dir: 'b1', id: '!filename!' >> %outputfile%
+
 )
 
 echo Processing complete. Output saved to %outputfile%.

@@ -89,8 +89,6 @@
         { eng: 'anandacha kand guru ha', hin: 'आनंदा कंद गुरु हा', dir: 'ntn', id: '73.3', bk: 'नाना तिरीचा नामरंग', pg: '73' },
         { eng: 'krushnatirichya vasanarya', hin: 'कृष्णातिरीच्या वसणाऱ्या', dir: 'ntn', id: '74', bk: 'नाना तिरीचा नामरंग', pg: '74' },
         { eng: 'sangave kavanya thaya jave', hin: 'सांगावे, कवण्या ठाया जावे?', dir: 'ntn', id: '74.2', bk: 'नाना तिरीचा नामरंग', pg: '74' },
-		{ eng: 'krupalu kripalu sajjan tumhi santjan', hin: 'कृपाळू सज्जन तुम्ही संतजन', dir: 'ntn', id: '121', bk: 'नाना तिरीचा नामरंग', pg: '121' },
-		{ eng: 'magane he ek tuzprati ahe', hin: 'मागणे हे एक तुजप्रती आहे', dir: 'ntn', id: '124', bk: 'नाना तिरीचा नामरंग', pg: '124' },
 		{ eng: 'koni ninda athava vanda', hin: 'कोणी निंदा अथवा वंदा', dir: 'ntn', id: '61.2', bk: 'नाना तिरीचा नामरंग', pg: '61' },            
 		{ eng: 'ale devajichya mana', hin: 'आले देवाजीच्या मना ', dir: 'ntn', id: '61.3', bk: 'नाना तिरीचा नामरंग', pg: '61' },            
 		{ eng: 'nako mana guntu mayajali', hin: 'नको नको मना गुंतु मायाजाळी', dir: 'ntn', id: '62', bk: 'नाना तिरीचा नामरंग', pg: '62' },            
@@ -209,6 +207,21 @@
 		{ eng: 'amhi nananche gondhali',  hin: 'आम्ही नानांचे गोंधळी',  dir: 'ntn',  id: '116',   bk: 'नाना तिरीचा नामरंग',  pg: '116'},
 		{ eng: 'apne bhakton ko kya se kya bana dete hain',  hin: 'अपने भक्तों को क्या से क्या बना देते हैं',  dir: 'ntn',  id: '117',   bk: 'नाना तिरीचा नामरंग',  pg: '117'},
 		{ eng: 'nana tere darpe ek',  hin: 'नाना तेरे दरपे एक',  dir: 'ntn',  id: '118',   bk: 'नाना तिरीचा नामरंग',  pg: '118'},
+		{ eng: 'gaon indur indoor indore', hin: 'गांव इंदूर', dir: 'ntn', id: '119' , bk: 'नाना तिरीचा नामरंग', pg: '119' }, 
+		{ eng: 'arati karpur kapur', hin: 'कर्पूर आरती', dir: 'ntn', id: '120' , bk: 'नाना तिरीचा नामरंग', pg: '120' }, 
+		{ eng: 'hechi dan', hin: 'हेचि दान देगा देवा', dir: 'ntn', id: '121.2' , bk: 'नाना तिरीचा नामरंग', pg: '' }, 
+		{ eng: 'krupalu kripalu sajjan tumhi santjan', hin: 'कृपाळू सज्जन तुम्ही संतजन', dir: 'ntn', id: '121', bk: 'नाना तिरीचा नामरंग', pg: '121' },
+		{ eng: 'akalp ayushya vhave', hin: 'आकल्प आयुष्य व्हावे', dir: 'ntn', id: '123.2' , bk: 'नाना तिरीचा नामरंग', pg: '123' }, 
+		{ eng: 'hechi vhavi mazi aas', hin: 'हेचि व्हावी माझी आस ', dir: 'ntn', id: '123' , bk: 'नाना तिरीचा नामरंग', pg: '123' }, 
+		{ eng: 'shevatachi vinavani', hin: 'शेविटची विनवणी ', dir: 'ntn', id: '124.2' , bk: 'नाना तिरीचा नामरंग', pg: '124' }, 
+		{ eng: 'magane he ek tuzprati ahe', hin: 'मागणे हे एक तुजप्रती आहे', dir: 'ntn', id: '124', bk: 'नाना तिरीचा नामरंग', pg: '124' },
+		{ eng: 'sada sarvada yon', hin: 'सदा सर्वदा योग ', dir: 'ntn', id: '125' , bk: 'नाना तिरीचा नामरंग', pg: '125' }, 
+		{ eng: 'vandu gurunchya charanarvinda', hin: 'वंदू गुरुच्या चरणार विंदा', dir: 'ntn', id: '126' , bk: 'नाना तिरीचा नामरंग', pg: '126' }, 
+
+
+
+
+
 
 
 
