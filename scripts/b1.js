@@ -59,9 +59,30 @@ var b1 = [
 	{ eng: 'maj maz betuni ja ho', hin: 'मज भेटुनी जा हो', dir: 'b1', id: '58', bk: '', pg: '',  },	
 	{ eng: 'kanada raja pandharicha', hin: 'कानडा राजा पंढरीचा', dir: 'b1', id: '59', bk: '', pg: '',  },	
 	{ eng: 'vasudev bavani bawani', hin: 'श्री वासुदेव बावनी ', dir: 'b1', id: '60', bk: '', pg: '',  },	
+	{ eng: 'pandhariche bhut bhoot mothe', hin: 'पंढरीचे भूत मोठे', dir: 'b1', id: '61' , bk: '', pg: '', },
+	{ eng: 'pandhari', hin: 'पंढरी पंढरी', dir: 'b1', id: '62' , bk: '', pg: '', },
+	{ eng: 'vithoba chala mandirat', hin: 'विठोबा चला मंदिरांत ', dir: 'b1', id: '63' , bk: '', pg: '', },
+	{ eng: 'ab soup diya is jivan ka', hin: 'अब सौप दिया इस जीवन का', dir: 'b1', id: '64' , bk: '', pg: '', },
+	{ eng: 'aas lagi hai darshan ki', hin: 'आस लगी है दर्शन की', dir: 'b1', id: '65' , bk: '', pg: '', },
+	{ eng: 'milata hai sachcha sukh', hin: 'मिलता है सच्चा सुख केवल', dir: 'b1', id: '66' , bk: '', pg: '', },
+	{ eng: 'jagat ke rang kya dekhu', hin: 'जगत के रंग क्या देखूं', dir: 'b1', id: '67' , bk: '', pg: '', },
+	{ eng: 'avaghe garaje pandharpur', hin: 'अवघे गरजे पंढरपूर', dir: 'b1', id: '68' , bk: '', pg: '', },
+	{ eng: 'bhole ki barat', hin: 'भोले की बरात ', dir: 'b1', id: '69' , bk: '', pg: '', },
+	{ eng: 'bholenath bhangiya aur ghoto', hin: 'भोलेनाथ भंगिया और घोटो', dir: 'b1', id: '70' , bk: '', pg: '', },
+	{ eng: 'ratrandivas deva tumchi murti dhyanat swapnat', hin: 'रात्रंदिवसा देवा तुमची मूर्ती ध्यानात', dir: 'b1', id: '71' , bk: '', pg: '', },
+	{ eng: 'arati guru dattaraj murti', hin: 'आरती - श्री गुरु दत्तराज मूर्ती ', dir: 'b1', id: '72' , bk: '', pg: '', },
+	{ eng: 'draupadisi bandhu shobhe narayan', hin: 'द्रौपदीसी बंधु शोभे नारायण', dir: 'b1', id: '73' , bk: '', pg: '', },
+	{ eng: 'badi der bhai', hin: 'बड़ी देर भई', dir: 'b1', id: '74' , bk: '', pg: '', },
+	{ eng: 'ram ayenge', hin: 'राम आएँगे,', dir: 'b1', id: '75' , bk: '', pg: '', },
+	{ eng: 'mera apki kripa krupa se', hin: 'मेरा आपकी कृपा से', dir: 'b1', id: '76' , bk: '', pg: '', },
+	{ eng: 'ghoratkashtat', hin: 'घोरकष्टोहरणस्तोत्रम', dir: 'b1', id: '77' , bk: '', pg: '', },
+	{ eng: 'sadgurunath nana kahiye', hin: 'सद्गुरूनाथ सद्गुरूनाथ नाना नाना कहिए', dir: 'b1', id: '78' , bk: '', pg: '', },
 	
 	
-	//{ eng: '', hin: '', dir: 'b1', id: '', bk: '', pg: '',  },	
+	//{ eng: '', hin: '', dir: 'b1', id: '', bk: '', pg: '',  },
+
+
+	
  
 ];
 
