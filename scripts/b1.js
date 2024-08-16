@@ -77,6 +77,10 @@ var b1 = [
 	{ eng: 'mera apki kripa krupa se', hin: 'मेरा आपकी कृपा से', dir: 'b1', id: '76' , bk: '', pg: '', },
 	{ eng: 'ghoratkashtat', hin: 'घोरकष्टोहरणस्तोत्रम', dir: 'b1', id: '77' , bk: '', pg: '', },
 	{ eng: 'sadgurunath nana kahiye', hin: 'सद्गुरूनाथ सद्गुरूनाथ नाना नाना कहिए', dir: 'b1', id: '78' , bk: '', pg: '', },
+	{ eng: 'rama rama ratate', hin: 'रामा रामा रटते रटते', dir: 'b1', id: '79', bk: '', pg: '',  }, 
+	{ eng: 'payo ji maine', hin: 'पायो जी मैंने ', dir: 'b1', id: '80', bk: '', pg: '',  }, 
+	{ eng: 'mithe ras se bharayodi radha rani', hin: 'मीठे रस से भरयोड़ी राधा रानी लागे', dir: 'b1', id: '81', bk: '', pg: '',  }, 
+	{ eng: 'aai kunache aiku nako', hin: 'आई कुणाचे ऐकू नको', dir: 'b1', id: '82', bk: '', pg: '',  }, 
 	
 	
 	//{ eng: '', hin: '', dir: 'b1', id: '', bk: '', pg: '',  },
