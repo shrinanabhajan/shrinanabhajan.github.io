@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
 			
 			// Construct the image filename based on the random index
 			const imagePath = `nv/${randomIndex}.jpg`;
-
+			
 			// Update the src attribute of the img element to display the random image
 			document.getElementById("av").src = imagePath;
 		});
