@@ -19,10 +19,14 @@
             padding: 10px 0;
             font-size: large;
         }
+		body {
+            text-align: center;
+        }
     </style>
+	
     <body>
-        <h1 style="text-align: center;">श्री नाना भजन</h1>
-        <progress id='progressBar' style="width: 100%;height: 5px;font-size: 20px;padding-left: 10px;" class="hidden"></progress>
+        <h3 style="text-align: center;">श्री नाना भजन</h3>
+		<img id="av" style="width:100%; height: auto; max-width: 600px;"></img>
         <div>
             <input id="searchBox" type="search" placeholder="Search..." style="width: 100%;height: 32px;font-size: 20px;padding-left: 10px;">
             <button id="searchBtn" style="position: absolute;width: 16%;height: 38px;right: 0px; display: none;">
@@ -32,6 +36,7 @@
             <div id="BhajanList" style="overflow: scroll;height: calc(100% - 170px);position: fixed;width: calc(100% - 20px);margin: 20px 10px 0 10px;"></div>
         </div>
         
+		<script type="text/javascript" src="scripts/rndimgldr.js"></script>
         <script type="text/javascript" src="scripts/indexdata.js"></script>
         <script type="text/javascript" src="scripts/ntn.js"></script>
         <script type="text/javascript" src="scripts/b1.js"></script>
