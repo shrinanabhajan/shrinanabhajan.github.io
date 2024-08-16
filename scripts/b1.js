@@ -10,7 +10,7 @@ var b1 = [
     { eng: 'datta maza bhav bhaav', hin: 'दत्त माझा भाव', dir: 'b1', id: '9', bk: '', pg: '',  },
     { eng: 'aaj radha ke nayano me shyam dole', hin: 'आज राधा के नयनों में श्याम डोले ', dir: 'b1', id: '10', bk: '', pg: '',  },
     { eng: 'visava viththal vitthal', hin: 'विसावा विठ्ठल', dir: 'b1', id: '11', bk: '', pg: '',  },
-    { eng: 'garud vahana narayana', hin: 'नारायणा', dir: 'b1', id: '12', bk: '', pg: '',  },
+    { eng: 'garud vahana narayana', hin: 'गरुड वाहना नारायणा', dir: 'b1', id: '12', bk: '', pg: '',  },
     { eng: 'tati ughada ghyaneshwara', hin: 'ताटी उघडा ज्ञानेश्वरा', dir: 'b1', id: '13', bk: '', pg: '',  },
     { eng: 'kanha ki bansi', hin: 'कान्हा की बंसी', dir: 'b1', id: '14', bk: '', pg: '',  },
     { eng: 'savale sundar rup manohar', hin: 'सावळे सुंदर रूप मनोहर', dir: 'b1', id: '15', bk: '', pg: '',  },
