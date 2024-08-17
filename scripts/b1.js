@@ -82,7 +82,10 @@ var b1 = [
 	{ eng: 'mithe ras se bharayodi radha rani', hin: 'मीठे रस से भरयोड़ी राधा रानी लागे', dir: 'b1', id: '81', bk: '', pg: '',  }, 
 	{ eng: 'aai kunache aiku nako', hin: 'आई कुणाचे ऐकू नको', dir: 'b1', id: '82', bk: '', pg: '',  }, 
 	 { eng: 'ashtottarshat nana namavali 108', hin: 'अष्टोत्तरशत नाना नामावली ', dir: 'b1', id: '83', bk: '', pg: '',  },
-	
+
+	 { eng: 'shri martand stavan', hin: 'श्री मार्तण्ड स्तवन', dir: 'b1', id: '84', bk: '', pg: '',  },
+
+
 	//{ eng: '', hin: '', dir: 'b1', id: '', bk: '', pg: '',  },
 
 
