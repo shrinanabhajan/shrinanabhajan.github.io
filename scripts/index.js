@@ -5,7 +5,7 @@
 
 (function () {
     "use strict";
-    var searchBox, listElement, searchBtn, progressBar;
+    var searchBox, listElement, searchBtn;
     //var allBhajans = p1.concat(p2, p3, p4);
     var allBhajans = dt;
     allBhajans = allBhajans.concat(b1);
@@ -164,7 +164,8 @@
 
     var updateList = () => {
         //const markup = `${filteredBhajans.map(bhajan => `<div class="item"><a href="./bhajan.html?b=${bhajan.dir}-${bhajan.id}"><span style="float: left;">${bhajan.hin}</span><span style="float: right;">${bhajan.bk} - ${bhajan.pg}</span></a></div>`).join('<div style="clear:both; width:0; height:0"></div>')}`;
-        const markup = `${filteredBhajans.map(bhajan => `<div class="item"><a href="./bhajan.html?b=${bhajan.dir}-${bhajan.id}"><span style="float: left;">${bhajan.hin}</span></a></div>`).join('<div style="clear:both; width:0; height:0"></div>')}`;
+        //const markup = `${filteredBhajans.map(bhajan => `<div class="item"><a href="./bhajan.html?b=${bhajan.dir}-${bhajan.id}"><span style="float: left;">${bhajan.hin}</span></a></div>`).join('<div style="clear:both; width:0; height:0"></div>')}`;
+		const markup = `${filteredBhajans.map(bhajan => `<div class="item"><a href="./bhajan.html?b=${bhajan.dir}-${bhajan.id}"><span style="float: left;">${bhajan.hin}</span></a></div>`).join('')}`;
         listElement.innerHTML = markup;
     }
 
@@ -172,7 +173,6 @@
     var onDeviceReady = () => {
         searchBox = document.getElementById('searchBox');
         //searchBtn = document.getElementById('searchBtn');
-        progressBar = document.getElementById('progressBar');
         listElement = document.getElementById('BhajanList');
         searchBox.addEventListener('input', delayedSearch, false);
         //document.addEventListener("searchbutton", onSearchBtnClicked, false);

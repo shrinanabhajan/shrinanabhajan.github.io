@@ -22,19 +22,68 @@
 		body {
             text-align: center;
         }
+		html, body {
+			height: 100%;
+			margin: 0;
+			display: flex;
+			flex-direction: column;
+		}
+
+		.container {
+			display: flex;
+			flex-direction: column;
+			height: 100%;
+		}
+
+		.sb-container {
+			flex-shrink: 0; /* Prevent the image container from shrinking */
+			display: flex;
+			justify-content: center; /* Horizontally center the image */
+			align-items: center; /* Vertically center the image */
+			padding: 5px 10px; /* Padding around the image */
+			background-color: #ffffff; /* Example background for the image container */
+		}
+
+		.content {
+			flex-grow: 1;
+			overflow-y: auto; /* Enable vertical scrolling */
+			padding: 5px; /* Example padding */
+			box-sizing: border-box; /* Include padding in height calculation */
+		}
+
+		.content div {
+			margin-bottom: 15px; /* Space between content div elements */
+			padding-left: 5px; /* Example padding for inner divs */
+			background-color: #ffffff; /* Example background for inner divs */
+		}
+
+		.image-container {
+			flex-shrink: 0; /* Prevent the image container from shrinking */
+			display: flex;
+			justify-content: center; /* Horizontally center the image */
+			align-items: center; /* Vertically center the image */
+			padding: 5px 0; /* Padding around the image */
+			background-color: #ffffff; /* Example background for the image container */
+		}
+
     </style>
 	
     <body>
-        <h3 style="text-align: center;">श्री नाना भजन</h3>
-		<img id="av" style="width:100%; height: auto; max-width: 600px;"></img>
-        <div>
-            <input id="searchBox" type="search" placeholder="Search..." style="width: 100%;height: 32px;font-size: 20px;padding-left: 10px;">
-            <button id="searchBtn" style="position: absolute;width: 16%;height: 38px;right: 0px; display: none;">
-                <img src="images/Search.png" style="width: 32px;height: 32px;">
-            </button>
-            <br />
-            <div id="BhajanList" style="overflow: scroll;height: calc(100% - 170px);position: fixed;width: calc(100% - 20px);margin: 20px 10px 0 10px;"></div>
-        </div>
+		<div class="container">
+			<div class="sb-container">
+				<input id="searchBox" type="search" placeholder="श्री नाना भजन..." style="width: 100%; height: 32px;font-size: 20px; margin: 5px;">
+				<button id="searchBtn" style="position: absolute;width: 16%;height: 38px;right: 0px; display: none;">
+						<img src="images/Search.png" style="width: 32px;height: 32px;">
+				</button>
+			</div>
+			<div class="content">				
+				<!--<div id="BhajanList" style="overflow: scroll;height: calc(100% - 170px);position: fixed;width: calc(100% - 20px);margin: 20px 10px 0 10px;"></div>-->
+				<div id="BhajanList"></div>
+			</div>
+			<div class="image-container">
+				<img id="av" class="image" style="width:100%; height: auto; max-width: 600px; text-align: center"></img>
+			</div>
+		</div>
         
 		<script type="text/javascript" src="scripts/rndimgldr.js"></script>
         <script type="text/javascript" src="scripts/indexdata.js"></script>
