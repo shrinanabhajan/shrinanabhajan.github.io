@@ -88,7 +88,7 @@ var b1 = [
 	{ eng: 'man mandiri ya ho nana agashe kaka', hin: 'मन मंदीरी या हो नाना ', dir: 'b1', id: '87', bk: '', pg: '',  }, 
 	{ eng: 'shri martand raksha stotra agashe kaka', hin: 'श्री मार्तंड रक्षा स्तोत्र', dir: 'b1', id: '88', bk: '', pg: '',  }, 
 	{ eng: 'sadguru natha hath jodito', hin: 'सद्गुरू नाथा हात जोडितों', dir: 'b1', id: '89', bk: '', pg: '',  }, 
-	{ eng: 'shri nrusinh saraswati prarthana', hin: 'श्री नृसिहंसरस्वती प्रार्थना', dir: 'b1', id: '90', bk: '', pg: '',  }, 
+	{ eng: 'shri nrusinh saraswati prarthana narsimh nursimh', hin: 'श्री नृसिहंसरस्वती प्रार्थना', dir: 'b1', id: '90', bk: '', pg: '',  }, 
 	{ eng: 'shri tembe swami parthana shri vasudevanand saraswati', hin: 'श्रीटेंबेस्वामींची प्रार्थना', dir: 'b1', id: '91', bk: '', pg: '',  }, 
 	{ eng: 'shri guru paduka ashtak', hin: 'श्रीगुरुपादुकाष्टक', dir: 'b1', id: '92', bk: '', pg: '',  }, 
 	{ eng: 'aparadh kshama', hin: 'अपराध क्षमा (मराठी)', dir: 'b1', id: '93', bk: '', pg: '',  }, 
@@ -96,6 +96,13 @@ var b1 = [
 	{ eng: 'jagadvandhy avadhut tumhich na', hin: 'जगद्वंद्य अवधूत दिगंबर', dir: 'b1', id: '95', bk: '', pg: '',  }, 
 	{ eng: 'dhyain tuze rup', hin: 'ध्याइन तुझें रूप गाइन तुझें नाम ', dir: 'b1', id: '96', bk: '', pg: '',  }, 
 	{ eng: 'ma reva tharo pani nirmal', hin: 'माँ रेवा, थारो पानी निर्मल', dir: 'b1', id: '97', bk: '', pg: '',  }, 
+	{ eng: 'dayaghan nath guru nana agashe kaka', hin: 'दयाघन नाथ गुरु नाना', dir: 'b1', id: '98', bk: '', pg: '',  }, 
+	{ eng: 'nananchi drusht agashe kaka', hin: 'नानांची दृष्ट (आगाशे काका)', dir: 'b1', id: '99', bk: '', pg: '',  }, 
+	{ eng: 'namah shivay', hin: 'नमः शिवाय । नमः शिवाय', dir: 'b1', id: '100', bk: '', pg: '',  }, 
+	{ eng: 'shree ram raksha', hin: 'श्री रामरक्षा स्तोत्र', dir: 'b1', id: '101', bk: '', pg: '',  }, 
+	{ eng: 'madhurashtakam adharam madhuram', hin: 'मधुराष्टकम् ', dir: 'b1', id: '102', bk: '', pg: '',  }, 
+	{ eng: 'shri nrusinh saraswati stavan narsimh nursimh', hin: 'श्रीनृसिंहसरस्वती स्तवन', dir: 'b1', id: '103', bk: '', pg: '',  }, 
+
 
 	//{ eng: '', hin: '', dir: 'b1', id: '', bk: '', pg: '',  },
 
