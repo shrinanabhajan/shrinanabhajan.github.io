@@ -27,7 +27,7 @@ var b1 = [
     { eng: 'khele masane hori digambar', hin: 'खेले मसाने होरी', dir: 'b1', id: '26', bk: '', pg: '',  },
     { eng: 'mhane chhadi chadi kul laj', hin: 'म्हाने छाड़ी छाड़ी कुल की लाज ', dir: 'b1', id: '27', bk: '', pg: '',  },
     { eng: 'sukhasathi karisi talmal', hin: 'सुखालागीं करिसी तळमळ', dir: 'b1', id: '28', bk: '', pg: '',  },
-    { eng: 'manava kheti karo hari naam nam ki', hin: 'मनवा खेती करो हरि नाम की', dir: 'b1', id: '29', bk: '', pg: '',  },
+    { eng: 'manava kheti karo hari naam nam ki bolo ram', hin: 'मनवा खेती करो हरि नाम की', dir: 'b1', id: '29', bk: '', pg: '',  },
     { eng: 'pad saraswatichi vaishakh', hin: 'पद सरस्वतीचे (चाल-वैशाख मास०) ', dir: 'b1', id: '30', bk: '', pg: '',  },
     { eng: 'dev brahma bramha vishnu mahesh', hin: 'देव, ब्रम्हा विष्णु महेश', dir: 'b1', id: '31', bk: '', pg: '',  },
     { eng: 'lagan hari se jo hoga dekha jayega', hin: 'जो होगा देखा जायेगा', dir: 'b1', id: '32', bk: '', pg: '',  },
@@ -102,6 +102,14 @@ var b1 = [
 	{ eng: 'shree ram raksha', hin: 'श्री रामरक्षा स्तोत्र', dir: 'b1', id: '101', bk: '', pg: '',  }, 
 	{ eng: 'madhurashtakam adharam madhuram', hin: 'मधुराष्टकम् ', dir: 'b1', id: '102', bk: '', pg: '',  }, 
 	{ eng: 'shri nrusinh saraswati stavan narsimh nursimh', hin: 'श्रीनृसिंहसरस्वती स्तवन', dir: 'b1', id: '103', bk: '', pg: '',  }, 
+	{ eng: 'nana bawani bavani martand', hin: 'श्री मार्तंड बावनी', dir: 'b1', id: '104', bk: '', pg: '',  }, 
+	{ eng: 'karuna tripadi', hin: 'करुणात्रिपदी ', dir: 'b1', id: '105', bk: '', pg: '',  }, 
+	{ eng: 'ganagapur jyane vas kela', hin: 'गाणगापुरी ज्याने वास केला', dir: 'b1', id: '106', bk: '', pg: '',  }, 
+	{ eng: 'deva lambodar girija', hin: 'देवा लंबोदर गिरीजा', dir: 'b1', id: '107', bk: '', pg: '',  }, 
+	{ eng: 'krupadan kripa dan dyave', hin: 'कृपादान द्या गुरू राया', dir: 'b1', id: '108', bk: '', pg: '',  }, 
+	{ eng: 'tuz magato me ata', hin: 'तुज मागतो मी आता', dir: 'b1', id: '109', bk: '', pg: '',  }, 
+	{ eng: 'kaya hi pandhari', hin: 'काया ही पंढरी', dir: 'b1', id: '110', bk: '', pg: '',  }, 
+	{ eng: 'he dukh bhanjan maruti nandan', hin: 'हे दुःख भन्जन, मारुती नंदन,', dir: 'b1', id: '111', bk: '', pg: '',  }, 
 
 
 	//{ eng: '', hin: '', dir: 'b1', id: '', bk: '', pg: '',  },
