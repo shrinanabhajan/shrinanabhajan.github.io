@@ -110,7 +110,7 @@ var b1 = [
 	{ eng: 'tuz magato me ata', hin: 'तुज मागतो मी आता', dir: 'b1', id: '109', bk: '', pg: '',  }, 
 	{ eng: 'kaya hi pandhari', hin: 'काया ही पंढरी', dir: 'b1', id: '110', bk: '', pg: '',  }, 
 	{ eng: 'he dukh bhanjan maruti nandan', hin: 'हे दुःख भन्जन, मारुती नंदन,', dir: 'b1', id: '111', bk: '', pg: '',  }, 
-
+	{ eng: 'shri ramchandra krupalu kripalu', hin: 'श्री रामचन्द्र कृपालु भजुमन', dir: 'b1', id: '112', bk: '', pg: '',  }, 
 
 	//{ eng: '', hin: '', dir: 'b1', id: '', bk: '', pg: '',  },
 
