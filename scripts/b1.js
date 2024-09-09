@@ -111,7 +111,15 @@ var b1 = [
 	{ eng: 'kaya hi pandhari', hin: 'काया ही पंढरी', dir: 'b1', id: '110', bk: '', pg: '',  }, 
 	{ eng: 'he dukh bhanjan maruti nandan', hin: 'हे दुःख भन्जन, मारुती नंदन,', dir: 'b1', id: '111', bk: '', pg: '',  }, 
 	{ eng: 'shri ramchandra krupalu kripalu', hin: 'श्री रामचन्द्र कृपालु भजुमन', dir: 'b1', id: '112', bk: '', pg: '',  }, 
-
+	{ eng: 'hari mhana tumhi', hin: 'हरी म्हणा तुम्ही ', dir: 'b1', id: '113', bk: '', pg: '',  }, 
+	{ eng: 'mhara bal govinda', hin: 'म्हारा बाल गोविन्दा जी', dir: 'b1', id: '114', bk: '', pg: '',  }, 
+	{ eng: 'radhe radhe japo', hin: 'राधे राधे जपो चले आएँगे बिहारी', dir: 'b1', id: '115', bk: '', pg: '',  }, 
+	{ eng: 'gurustuti', hin: 'गुरूस्तुती', dir: 'b1', id: '116', bk: '', pg: '',  }, 
+	{ eng: 'narsimh saraswati dattapadukakamali', hin: 'नरसिंह सरस्वती दत्तपादुकाकमली', dir: 'b1', id: '117', bk: '', pg: '',  }, 
+	{ eng: 'indukoti tejpunj', hin: 'इंदुकोटी स्तोत्र', dir: 'b1', id: '118', bk: '', pg: '',  }, 
+	
+	
+	
 	//{ eng: '', hin: '', dir: 'b1', id: '', bk: '', pg: '',  },
 
 
