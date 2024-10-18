@@ -117,7 +117,7 @@ var b2 = [
  { eng:'Nam tuje barvega Shankara, Har Har barvega deva' , hin:'नाम तुझे बरवेगा शंकरा, हर हर बरवेगा देवा' , dir:'b2' , id:'110' , bk:'' , pg:'' , }, 
  { eng:'Bhali ardh chandra, manthi shubhra ganga' , hin:'भाळी अर्ध चंद्र, माँथी शुभ्र गंगा' , dir:'b2' , id:'111' , bk:'' , pg:'' , }, 
  { eng:'Avad tula belachi Shankara' , hin:'आवड तुला बेलाची शंकरा' , dir:'b2' , id:'112' , bk:'' , pg:'' , }, 
- { eng:'Vijay pataka Shri Ramchi jhalakte ambari' , hin:'विजय पताका श्रीरामची झळकते अंबरी , dir:'b2' , id:'113' , bk:'' , pg:'' , }, 
+ { eng:'Vijay pataka Shri Ramchi jhalakte ambari' , hin:'विजय पताका श्रीरामची झळकते अंबरी' , dir:'b2' , id:'113' , bk:'' , pg:'' , }, 
  { eng:'Avirat othi ghave nam' , hin:'अविरत ओठी घ्यावे नाम' , dir:'b2' , id:'114' , bk:'' , pg:'' , }, 
  { eng:'Nam ghet mukhi Raghavach' , hin:'नाम घेता मुखी राघवाच' , dir:'b2' , id:'115' , bk:'' , pg:'' , }, 
  { eng:'Shri Ramche charan dharave darshanmatre pavan have' , hin:'श्रीरामचे चरण धरावे दर्शनमात्रे पावन व्हावे' , dir:'b2' , id:'116' , bk:'' , pg:'' , }, 
