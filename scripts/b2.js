@@ -196,7 +196,7 @@ var b2 = [
  { eng:'Utha utha ho nana ata' , hin:'उठा उठा हो नाना आता' , dir:'b2' , id:'189' , bk:'' , pg:'' , }, 
  { eng:'Vichare Mira hi sarvanna kashi' , hin:'विचारे मीरा ही सर्वांना कशी' , dir:'b2' , id:'190' , bk:'' , pg:'' , }, 
  { eng:'Thal Prite paronala padharo' , hin:'थाळ - प्रिते परोणला पधारो' , dir:'b2' , id:'191' , bk:'' , pg:'' , }, 
- { eng:'Pradakshina Dhanya dhanya ho pradakshin' , hin:'प्रदक्षिणा - धन्य धन्य हो प्रदक्षिणा , dir:'b2' , id: '192' , bk:'' , pg:'' , }, 
+ { eng:'Pradakshina Dhanya dhanya ho pradakshin' , hin:'प्रदक्षिणा - धन्य धन्य हो प्रदक्षिणा', dir:'b2' , id: '192' , bk:'' , pg:'' , }, 
  { eng:'Palana - Shri Martandacha' , hin:'पाळणा - श्री मार्तंडाचा' , dir:'b2' , id: '193', bk:'' , pg:'' , }, 
  { eng:'Palana Shri Dattacha' , hin:'पाळणा - श्री दत्ताचा' , dir:'b2' , id: '194', bk:'' , pg:'' , }, 
  { eng:'Aarti' , hin:'आरती' , dir:'b2' , id:'195' , bk:'' , pg:'' , }
