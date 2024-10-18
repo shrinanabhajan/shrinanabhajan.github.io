@@ -44,7 +44,7 @@ var b2 = [
  { eng:'Samadhi sadhan sanjeevan nam' , hin:'समाधी साधन संजीवन नाम' , dir:'b2' , id:'37' , bk:'' , pg:'' , }, 
  { eng:'Janmojanmi amhi bahu punya kele' , hin:'जन्मोजन्मी आम्ही बहु पुण्य केले' , dir:'b2' , id:'38' , bk:'' , pg:'' , }, 
  { eng:'Satya sankalpacha data Narayan' , hin:'सत्य संकल्पाचा दाता नारायण' , dir:'b2' , id:'39' , bk:'' , pg:'' , }, 
- { eng:'Tuze rup chitti raho. Mukhi tuze nam' , hin:'तुझे रुप चित्ती राहो'मुखी तुझे नाम' , dir:'b2' , id:'40' , bk:'' , pg:'' , }, 
+ { eng:'Tuze rup chitti raho Mukhi tuze nam' , hin:'तुझे रुप चित्ती राहो मुखी तुझे नाम' , dir:'b2' , id:'40' , bk:'' , pg:'' , }, 
  { eng:'Nako dev raya ant ata pahun' , hin:'नको देव राया अंत आता पाहूं' , dir:'b2' , id:'41' , bk:'' , pg:'' , }, 
  { eng:'Maze manorath purn kari deva' , hin:'माझे मनोरथ पूर्ण करी देवा' , dir:'b2' , id:'42' , bk:'' , pg:'' , }, 
  { eng:'Pota purte dei Viththala' , hin:'पोटा पुरते देई विठ्ठला' , dir:'b2' , id:'43' , bk:'' , pg:'' , }, 
