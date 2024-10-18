@@ -5,7 +5,7 @@
 
 (function () {
     "use strict";
-    var searchBox, listElement, searchBtn;
+    var searchBox, listElement, searchBtn, pending=0, errors=0;
     //var allBhajans = p1.concat(p2, p3, p4);
     var allBhajans = dt;
     allBhajans = allBhajans.concat(b1);
@@ -38,10 +38,16 @@
     }
 
     var onSearch = async(evt) => {
-        cancel = false;
-        busy = true;
         evt = evtdata;
         var searchKey = evt.target.value;
+        if(searchKey === "vv"){
+            validate();
+            return;
+        }
+        cancel = false;
+        busy = true;
+        
+        
         if (!searchKey || searchKey === '') {
             filteredBhajans = allBhajans;
             //filteredBhajans = [];
@@ -179,6 +185,7 @@
               icon.className = "icn";
               icon.innerHTML = '&#x1F6A9;';  // Unicode for a flag icon or use any icon
               listItem.appendChild(icon);
+              pending++;
             }
           })
           .catch(error => {
@@ -187,11 +194,13 @@
               icon.className = "icn";
               icon.innerHTML =  '&#9888;';  // Unicode for a flag icon or use any icon
               listItem.appendChild(icon);
+              errors++;
           });
     }
 
-    var onBodyDoubleClick =  () => {
-        alert('Jay Nana');
+    var validate =  () => {
+        pending = 0;
+        errors = 0;
         const items = document.querySelectorAll('#BhajanList > div');
 
         items.forEach(item => {
@@ -199,35 +208,15 @@
             const fileName = "./bhajans/" + fileId.split("-")[0] + "/" + fileId.split("-")[1] + ".txt"
             fetchFileContent(fileName, item);
         });
+        setTimeout(()=>{alert(`pending: ${pending}, errors: ${errors}`);}, 5000);
     }
 
 
     var onDeviceReady = () => {
-        
-
         searchBox = document.getElementById('searchBox');
-        const im = document.getElementById('av');
-        im.addEventListener('dblclick', onBodyDoubleClick);
-        var lastTap =0;
-        im.addEventListener('touchstart', function(event) {
-            
-            const currentTime = new Date().getTime();
-            const tapLength = currentTime - lastTap;
-        
-            if (tapLength < 500 && tapLength > 0) {
-              // This is considered a double-tap
-              onBodyDoubleClick();
-            }
-        
-            lastTap = currentTime;
-          });
-        //searchBtn = document.getElementById('searchBtn');
         listElement = document.getElementById('BhajanList');
         searchBox.addEventListener('input', delayedSearch, false);
-        //document.addEventListener("searchbutton", onSearchBtnClicked, false);
-        //searchBtn.addEventListener('click', onSearchBtnClicked, false);
         updateList();
-        
     };
 
     window.addEventListener('load', onDeviceReady, false);
