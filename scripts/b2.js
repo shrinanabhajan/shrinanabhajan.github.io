@@ -38,7 +38,7 @@ var b2 = [
  { eng:'Pandhat Pandhat jauth achayachach nagnath' , hin:'पंढअठ पंढअठ जऊठथ अचयचचठ नगअठ' , dir:'b2' , id:'31' , bk:'' , pg:'' , }, 
  { eng:'Tali vajvavi, gudhi ubharavi' , hin:'टाळी वाजवावी, गुढ़ी उभारावी' , dir:'b2' , id:'32' , bk:'' , pg:'' , }, 
  { eng:'Harichya dasa nahi bhay chinta' , hin:'हरिचिया दासा नाही भय चिंता' , dir:'b2' , id:'33' , bk:'' , pg:'' , }, 
- { eng:'Patit tu pavana. Mhanvisi Narayana' , hin:'पतित तूं पावना'म्हणविसी नारायणा' , dir:'b2' , id:'34' , bk:'' , pg:'' , }, 
+ { eng:'Patit tu pavana Mhanvisi Narayana' , hin:'पतित तूं पावना म्हणविसी नारायणा' , dir:'b2' , id:'34' , bk:'' , pg:'' , }, 
  { eng:'Dnyaniyancha raja Guru Maharao' , hin:'ज्ञानियांचा राजा गुरु महाराव' , dir:'b2' , id:'35' , bk:'' , pg:'' , }, 
  { eng:'tuzi seva karin manobhave' , hin:'तुझी सेवा करीन मनोभावे' , dir:'b2' , id:'36' , bk:'' , pg:'' , }, 
  { eng:'Samadhi sadhan sanjeevan nam' , hin:'समाधी साधन संजीवन नाम' , dir:'b2' , id:'37' , bk:'' , pg:'' , }, 
