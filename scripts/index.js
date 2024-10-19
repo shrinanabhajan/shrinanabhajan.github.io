@@ -40,18 +40,16 @@
     var onSearch = async(evt) => {
         evt = evtdata;
         var searchKey = evt.target.value;
-        if(searchKey === "vv"){
-            validate();
-            return;
-        }
         cancel = false;
         busy = true;
         
-        
-        if (!searchKey || searchKey === '') {
+        if (!searchKey || searchKey === '' || searchKey.length < 2) {
             filteredBhajans = allBhajans;
             //filteredBhajans = [];
             updateList();
+        }
+        else if(searchKey === "vv"){
+            validate();
         }
         else {
             filteredBhajans = [];
