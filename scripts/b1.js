@@ -117,6 +117,7 @@ var b1 = [
 	{ eng: 'gurustuti', hin: 'गुरूस्तुती', dir: 'b1', id: '116', bk: '', pg: '',  }, 
 	{ eng: 'narsimh saraswati dattapadukakamali', hin: 'नरसिंह सरस्वती दत्तपादुकाकमली', dir: 'b1', id: '117', bk: '', pg: '',  }, 
 	{ eng: 'indukoti tejpunj', hin: 'इंदुकोटी स्तोत्र', dir: 'b1', id: '118', bk: '', pg: '',  }, 
+	{ eng: 'muze darshan de gaye wo', hin: 'मुझे दर्शन दे गए वो', dir: 'b1', id: '119', bk: '', pg: '',  }, 
 	
 	
 	
