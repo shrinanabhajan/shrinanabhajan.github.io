@@ -40,7 +40,7 @@ var b1 = [
     { eng: 'maza dev kailasicha raja', hin: 'माझा देव कैलासीचा राजा', dir: 'b1', id: '39', bk: '', pg: '',  },
     { eng: 'avad tula belachi bailachi', hin: 'आवड तुला बेलाची', dir: 'b1', id: '40', bk: '', pg: '',  },
     { eng: 'nam tuze barvega baravega shankara', hin: 'नाम तुझे बरवेगा शंकरा', dir: 'b1', id: '41', bk: '', pg: '',  },
-    { eng: 'chale he sharir', hin: 'चाले हे शरीर', dir: 'b1', id: '42', bk: '', pg: '',  },
+    { eng: 'dekhavi aikavi chale he sharir', hin: 'देखवी ऐकवी - चाले हे शरीर', dir: 'b1', id: '42', bk: '', pg: '',  },
     { eng: 'shri ram janaki baithe', hin: 'श्री राम जानकी बैठे हैं मेरे सीने मे', dir: 'b1', id: '43', bk: '', pg: '',  }, 
 	{ eng: 'sanga mi me kay karu', hin: 'सांगा मी काय करू', dir: 'b1', id: '44', bk: '', pg: '',  }, 
 	{ eng: 'le lo lelo mithai', hin: 'ले लो लेलो मिठाई', dir: 'b1', id: '45', bk: '', pg: '',  },
