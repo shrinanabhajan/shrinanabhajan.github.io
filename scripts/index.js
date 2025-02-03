@@ -169,7 +169,7 @@
     var updateList = () => {
         //const markup = `${filteredBhajans.map(bhajan => `<div class="item"><a href="./bhajan.html?b=${bhajan.dir}-${bhajan.id}"><span style="float: left;">${bhajan.hin}</span><span style="float: right;">${bhajan.bk} - ${bhajan.pg}</span></a></div>`).join('<div style="clear:both; width:0; height:0"></div>')}`;
         //const markup = `${filteredBhajans.map(bhajan => `<div class="item"><a href="./bhajan.html?b=${bhajan.dir}-${bhajan.id}"><span style="float: left;">${bhajan.hin}</span></a></div>`).join('<div style="clear:both; width:0; height:0"></div>')}`;
-		const markup = `${filteredBhajans.map(bhajan => `<div class="item" file-id="${bhajan.dir}-${bhajan.id}"><a href="./bhajan.html?b=${bhajan.dir}-${bhajan.id}"><span style="float: left;">${bhajan.hin}</span></a></div>`).join('')}`;
+	const markup = `${filteredBhajans.map(bhajan => `<div class="item" file-id="${bhajan.dir}-${bhajan.id}"><a class="inner-item" href="./bhajan.html?b=${bhajan.dir}-${bhajan.id}"><span style="float: left; width: 100%; text-align: left">${bhajan.hin}</span></a></div>`).join('')}`;
         listElement.innerHTML = markup;
     }
 
