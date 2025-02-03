@@ -16,59 +16,68 @@
     </head>
     <style>
         .item {
-            padding: 10px 0;
-            font-size: large;
+            	padding: 8px 0;
+            	font-size: 1.2em;
+		display: table;
+		width: 100%;
         }
-		body {
+		
+	.inner-item {
+		display: block;
+		width: 100%;
+	}
+	    
+	body {
             text-align: center;
         }
-		html, body {
-			height: 100%;
-			margin: 0;
-			display: flex;
-			flex-direction: column;
-		}
+	    
+	html, body {
+		height: 100%;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+	}
 
-		.container {
-			display: flex;
-			flex-direction: column;
-			height: 100%;
-		}
+	.container {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+	}
 
-		.sb-container {
-			flex-shrink: 0; /* Prevent the image container from shrinking */
-			display: flex;
-			justify-content: center; /* Horizontally center the image */
-			align-items: center; /* Vertically center the image */
-			padding: 5px 10px; /* Padding around the image */
-			background-color: #ffffff; /* Example background for the image container */
-		}
+	.sb-container {
+		flex-shrink: 0; /* Prevent the image container from shrinking */
+		display: flex;
+		justify-content: center; /* Horizontally center the image */
+		align-items: center; /* Vertically center the image */
+		padding: 5px 10px; /* Padding around the image */
+		background-color: #ffffff; /* Example background for the image container */
+	}
 
-		.content {
-			flex-grow: 1;
-			overflow-y: auto; /* Enable vertical scrolling */
-			padding: 5px; /* Example padding */
-			box-sizing: border-box; /* Include padding in height calculation */
-		}
+	.content {
+		flex-grow: 1;
+		overflow-y: auto; /* Enable vertical scrolling */
+		padding: 5px; /* Example padding */
+		box-sizing: border-box; /* Include padding in height calculation */
+	}
 
-		.content div {
-			margin-bottom: 20px; /* Space between content div elements */
-			padding-left: 5px; /* Example padding for inner divs */
-			background-color: #ffffff; /* Example background for inner divs */
-		}
+	.content div {
+		margin-bottom: 20px; /* Space between content div elements */
+		padding-left: 5px; /* Example padding for inner divs */
+		background-color: #ffffff; /* Example background for inner divs */
+	}
 
-		.image-container {
-			flex-shrink: 0; /* Prevent the image container from shrinking */
-			display: flex;
-			justify-content: center; /* Horizontally center the image */
-			align-items: center; /* Vertically center the image */
-			padding: 5px 0; /* Padding around the image */
-			background-color: #ffffff; /* Example background for the image container */
-		}
+	.image-container {
+		flex-shrink: 0; /* Prevent the image container from shrinking */
+		display: flex;
+		justify-content: center; /* Horizontally center the image */
+		align-items: center; /* Vertically center the image */
+		padding: 5px 0; /* Padding around the image */
+		background-color: #ffffff; /* Example background for the image container */
+	}
 
-		.icn {
-			float: right;
-		}
+	.icn {
+		float: right;
+	}
 
     </style>
 	
