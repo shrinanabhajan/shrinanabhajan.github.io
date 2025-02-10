@@ -13,10 +13,41 @@
             width: fit-content; /* Adjusts container width to fit content */
             font-size: x-large;
         }
+       
+        .watermarked-div {
+            position: absolute;
+            left: 10px;
+            width: 95%;
+            height: 100%;
+            display: inline-block; /* Allows width & height to be determined by text */
+            padding: 0px; /* Adjust as needed */
+            
+            /* Background Image Settings */
+            background-image: url(/images/wm.png);
+            background-size: contain; /* Ensures aspect ratio is maintained */
+            background-position: center;
+            background-repeat: no-repeat;
+            
+            /* Add a translucent white overlay */
+            background-color: rgba(255, 255, 255, 0.65); /* Adjust transparency (0.1 - 1) */
+            background-blend-mode: overlay; /* Makes the image blend with background */
+            
+            /* Text Styles */
+            font-size: 20px;
+            font-weight: 600;
+            
+            color: black; /* Adjust for contrast */
+
+            overflow: scroll;
+        }
     </style>
 </head>
 <body>
-    <div id="embeddedContent"></div>
+    
+    <div class="watermarked-div">
+        <div id="embeddedContent" >
+        </div>
+    </div>
 
     <script>
         // Get the filename from the query parameters
