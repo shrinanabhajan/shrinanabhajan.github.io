@@ -7,6 +7,12 @@
     <link rel="manifest" href="/images/favicons/site.webmanifest">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta property="og:title" content="श्री नाना भजन" />
+    <meta property="og:description" content="श्री नाना भजन" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://shrinanabhajan.github.io/images/favicons/favicon-32x32.png">
+    <meta property="og:image:width" content="32">
+    <meta property="og:image:height" content="32">
     <style>
         /* CSS for the container */
         #embeddedContent {
@@ -70,12 +76,37 @@
                     return response.text();
                 })
                 .then(html => {
+                    updateTitle(html);
                     document.getElementById('embeddedContent').innerHTML = formatText(html);
                 })
                 .catch(error => {
                     console.error('Error fetching HTML:', error);
                     document.getElementById('embeddedContent').innerHTML = "Comming soon...";
                 });
+        }
+
+        function updateTitle(text) {
+            const title = getFirstNonEmptyLine(text) + " - श्री नाना भजन";
+            document.title = title;
+            // Set dynamic meta tags
+            updateMetaTag("og:ur", window.location.href);
+            updateMetaTag("og:title", title);
+            updateMetaTag("twitter:title", title);
+
+        }
+
+        function getFirstNonEmptyLine(fileText) {
+            return fileText
+                .split(/\r?\n/)  // Split into lines (handles both Windows \r\n and Unix \n)
+                .map(line => line.trim())  // Trim whitespace from each line
+                .find(line => line !== '');  // Return the first non-empty line
+        }
+
+        function updateMetaTag(name, content) {
+            let tag = document.querySelector(`meta[property='${name}']`) || document.createElement('meta');
+            tag.setAttribute('property', name);
+            tag.setAttribute('content', content);
+            document.head.appendChild(tag);
         }
 
         function formatText(text) {
