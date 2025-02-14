@@ -123,8 +123,8 @@ var b1 = [
 	{ eng: 'renuka stotra vasudevanand', hin: 'रेणुका स्तोत्र - श्री वासुदेवानंद सरस्वतीकृत ', dir: 'b1', id: '122', bk: '', pg: '',  },
 	{ eng: 'shant dant datta bhaktachittaranjana', hin: 'दत्त भक्तचित्तरंजना', dir: 'b1', id: '123', bk: '', pg: '',  },
 	{ eng: 'nitya nana bhajuya', hin: 'नित्य नाना भजूया', dir: 'b1', id: '124', bk: '', pg: '',  },
+	{ eng: 'arati vasudevanand jayjay', hin: 'आरती - श्रीवासुदेवानंदसरस्वती स्वामी ', dir: 'b1', id: '125', bk: '', pg: '',  },
 
-	//{ eng: '', hin: '', dir: 'b1', id: '125', bk: '', pg: '',  },
 	//{ eng: '', hin: '', dir: 'b1', id: '126', bk: '', pg: '',  },
 	//{ eng: '', hin: '', dir: 'b1', id: '127', bk: '', pg: '',  },
 	//{ eng: '', hin: '', dir: 'b1', id: '128', bk: '', pg: '',  },
