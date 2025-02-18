@@ -52,6 +52,9 @@
         else if(searchKey === "vv"){
             validate();
         }
+        else if(searchKey === "count"){
+            alert(`Total bhajans: ${allBhajans.length}`);
+        }
         else {
             filteredBhajans = [];
 
