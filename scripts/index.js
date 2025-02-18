@@ -11,6 +11,7 @@
     allBhajans = allBhajans.concat(b1);
     allBhajans = allBhajans.concat(b2);
     allBhajans = allBhajans.concat(ntn);
+    console.info(`Total bhajans: ${allBhajans.length}`);
     var filteredBhajans = allBhajans;
     //var filteredBhajans = [];
     var timeout;
