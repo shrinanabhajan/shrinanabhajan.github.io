@@ -130,6 +130,7 @@ var b1 = [
 	
 	{ eng: 'duniya chale na shri ram ke bina', hin: 'दुनिया चले ना श्री राम के बिना', dir: 'b1', id: '128', bk: '', pg: '',  },
 	{ eng: 'vitthal tal mrudungi nad dum', hin: 'टाळ मृदुंगी नाद दुमदुमला', dir: 'b1', id: '129', bk: '', pg: '',  },
+{ eng: 'ali kuthunashi tal mrudungachi dhun', hin: 'आली कुठूनशी कानी टाल-मृदंगाचि', dir: 'b1', id: '130', bk: '', pg: '',  },
 
  
 ];
