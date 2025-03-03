@@ -128,8 +128,8 @@ var b1 = [
 	{ eng: 'sur niragas ho', hin: 'सूर निरागस हो', dir: 'b1', id: '127', bk: '', pg: '',  },
 	
 	
-	{ eng: 'duniya chale na shri ram ke bina', hin: 'दुनिया चले ना', dir: 'b1', id: '128', bk: '', pg: '',  },
-	//{ eng: '', hin: '', dir: 'b1', id: '129', bk: '', pg: '',  },
+	{ eng: 'duniya chale na shri ram ke bina', hin: 'दुनिया चले ना श्री राम के बिना', dir: 'b1', id: '128', bk: '', pg: '',  },
+	{ eng: 'vitthal tal mrudungi nad dum', hin: 'टाळ मृदुंगी नाद दुमदुमला', dir: 'b1', id: '129', bk: '', pg: '',  },
 
  
 ];
