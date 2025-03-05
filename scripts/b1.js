@@ -126,11 +126,29 @@ var b1 = [
 	{ eng: 'arati vasudevanand jayjay', hin: 'आरती - श्रीवासुदेवानंदसरस्वती स्वामी ', dir: 'b1', id: '125', bk: '', pg: '',  },
 	{ eng: 'maze manogat nananni aikile', hin: 'माझे मनोगत नानांनी ऐकिले', dir: 'b1', id: '126', bk: '', pg: '',  },
 	{ eng: 'sur niragas ho', hin: 'सूर निरागस हो', dir: 'b1', id: '127', bk: '', pg: '',  },
-	
-	
 	{ eng: 'duniya chale na shri ram ke bina', hin: 'दुनिया चले ना श्री राम के बिना', dir: 'b1', id: '128', bk: '', pg: '',  },
 	{ eng: 'vitthal tal mrudungi nad dum', hin: 'टाळ मृदुंगी नाद दुमदुमला', dir: 'b1', id: '129', bk: '', pg: '',  },
-{ eng: 'ali kuthunashi tal mrudungachi dhun', hin: 'आली कुठूनशी कानी टाल-मृदंगाचि', dir: 'b1', id: '130', bk: '', pg: '',  },
+	{ eng: 'ali kuthunashi tal mrudungachi dhun', hin: 'आली कुठूनशी कानी टाल-मृदंगाचि', dir: 'b1', id: '130', bk: '', pg: '',  },
+	{ eng: 'shiv tandav stotra shankar', hin: 'शिव तांडव स्तोत्र (संस्कृत)', dir: 'b1', id: '131', bk: '', pg: '',  },
+	{ eng: 'shiv tandav stotra shankar', hin: 'शिव तांडव स्तोत्र (हिंदी)', dir: 'b1', id: '132', bk: '', pg: '',  },
+
+	//{ eng: '', hin: '', dir: 'b1', id: '133', bk: '', pg: '',  },
+	//{ eng: '', hin: '', dir: 'b1', id: '134', bk: '', pg: '',  },
+	//{ eng: '', hin: '', dir: 'b1', id: '135', bk: '', pg: '',  },
+	//{ eng: '', hin: '', dir: 'b1', id: '136', bk: '', pg: '',  },
+	//{ eng: '', hin: '', dir: 'b1', id: '137', bk: '', pg: '',  },
+	//{ eng: '', hin: '', dir: 'b1', id: '138', bk: '', pg: '',  },
+	//{ eng: '', hin: '', dir: 'b1', id: '139', bk: '', pg: '',  },
+	//{ eng: '', hin: '', dir: 'b1', id: '140', bk: '', pg: '',  },
+	//{ eng: '', hin: '', dir: 'b1', id: '141', bk: '', pg: '',  },
+	//{ eng: '', hin: '', dir: 'b1', id: '142', bk: '', pg: '',  },
+	//{ eng: '', hin: '', dir: 'b1', id: '143', bk: '', pg: '',  },
+	//{ eng: '', hin: '', dir: 'b1', id: '144', bk: '', pg: '',  },
+	//{ eng: '', hin: '', dir: 'b1', id: '145', bk: '', pg: '',  },
+	//{ eng: '', hin: '', dir: 'b1', id: '146', bk: '', pg: '',  },
+	//{ eng: '', hin: '', dir: 'b1', id: '147', bk: '', pg: '',  },
+	//{ eng: '', hin: '', dir: 'b1', id: '148', bk: '', pg: '',  },
+	//{ eng: '', hin: '', dir: 'b1', id: '149', bk: '', pg: '',  },
 
  
 ];
