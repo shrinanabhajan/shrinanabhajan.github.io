@@ -41,7 +41,7 @@
         { eng: 'hari nam hardam mat bhulo', hin: 'हरी नाम हरदम मत भूलो', dir: 'ntn', id: '35', bk: 'नाना तिरीचा नामरंग', pg: '35' },
         { eng: 'jag jahan chale ufrat ufarat', hin: 'जग जहान चले उफराट', dir: 'ntn', id: '36', bk: 'नाना तिरीचा नामरंग', pg: '36' },
         { eng: 'bhala kare peer murshad maula mola', hin: 'भला करे पीर मुर्शद मौला', dir: 'ntn', id: '36.2', bk: 'नाना तिरीचा नामरंग', pg: '36' },
-        { eng: 'baje damaru shiv shankar', hin: 'बाजे डमरु शिवशंकर का', dir: 'ntn', id: '37', bk: 'नाना तिरीचा नामरंग', pg: '37' },
+        { eng: 'baje damaru shiv shankar agad bamb damak dim', hin: 'बाजे डमरु शिवशंकर का', dir: 'ntn', id: '37', bk: 'नाना तिरीचा नामरंग', pg: '37' },
         { eng: 'ek din jana re bhai', hin: 'एक दिन जाना रे भाई', dir: 'ntn', id: '38', bk: 'नाना तिरीचा नामरंग', pg: '38' },
         { eng: 'datta nam nahi gavega', hin: 'दत्त नाम नहीं गावेगा', dir: 'ntn', id: '38.2', bk: 'नाना तिरीचा नामरंग', pg: '38' },
         { eng: 'bhai nirakar nirgun ke desh', hin: 'भाई निराकार निर्गुण के देश में रहेना', dir: 'ntn', id: '39', bk: 'नाना तिरीचा नामरंग', pg: '39' },
