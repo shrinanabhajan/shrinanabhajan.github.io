@@ -197,7 +197,7 @@
 		{ eng: 'kiti karava dhava',  hin: 'किती करावा धावा',  dir: 'ntn',  id: '111.2',  bk: 'नाना तिरीचा नामरंग',  pg: '111'},
 		{ eng: 'shruguru charani janchi preeti',  hin: 'श्रीगुरु चरणी ज्यांची प्रीती ',  dir: 'ntn',  id: '111',   bk: 'नाना तिरीचा नामरंग',  pg: '111'},
 		{ eng: 'induras jave',  hin: 'इंदुरास जावे',  dir: 'ntn',  id: '112.2',  bk: 'नाना तिरीचा नामरंग',  pg: '112'},
-		{ eng: 'naval aikile mi aaj',  hin: 'नवल ऐकिले मी आज',  dir: 'ntn',  id: '112',   bk: 'नाना तिरीचा नामरंग',  pg: '112'},
+		{ eng: 'naval aikile mi aaj narmadene dudha',  hin: 'नर्मदेने दिधले, दूध या घटात',  dir: 'ntn',  id: '112',   bk: 'नाना तिरीचा नामरंग',  pg: '112'},
 		{ eng: 'paha ho raja induracha',  hin: 'पहा हो राजा इंदूरचा ',  dir: 'ntn',  id: '113.2',  bk: 'नाना तिरीचा नामरंग',  pg: '113'},
 		{ eng: 'kiti bhaktanche door kari kasht ho',  hin: 'किती भक्तांचे दूर करी कष्ट हो.',  dir: 'ntn',  id: '113',   bk: 'नाना तिरीचा नामरंग',  pg: '113'},
 		{ eng: 'jithe thakli vedapurane',  hin: 'जिथे थकली वेदपुराणे',  dir: 'ntn',  id: '114.2',  bk: 'नाना तिरीचा नामरंग',  pg: ''},
