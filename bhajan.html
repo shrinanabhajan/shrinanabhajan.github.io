@@ -53,6 +53,30 @@
 
             overflow: scroll;
         }
+        .whatsapp-share {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 45px;
+            height: 45px;
+            background-color: #25D366;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .whatsapp-share:hover {
+            transform: scale(1.1);
+        }
+
+        .whatsapp-share img {
+            width: 35px;
+            height: 35px;
+        }
     </style>
 </head>
 <body>
@@ -62,10 +86,16 @@
         </div>
     </div>
 
+    <!-- WhatsApp Floating Button -->
+    <div class="whatsapp-share" onclick="shareOnWhatsApp()">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </div>
+
     <script>
         // Get the filename from the query parameters
         const urlParams = new URLSearchParams(window.location.search);
         const filename = "./bhajans/" + urlParams.get('b').split("-")[0] + "/" + urlParams.get('b').split("-")[1] + ".txt";
+        var title = "";
 
         // Function to fetch and embed HTML content
         function embedHTML(filename) {
@@ -87,7 +117,7 @@
         }
 
         function updateTitle(text) {
-            const title = getFirstNonEmptyLine(text) + " - श्री नाना भजन";
+            title = getFirstNonEmptyLine(text) + " - श्री नाना भजन";
             document.title = title;
             // Set dynamic meta tags
             updateMetaTag("og:url", window.location.href);
@@ -149,6 +179,15 @@
             requestWakeLock();
           }
         });
+
+        function shareOnWhatsApp() {
+            var pageUrlRaw = window.location.href;
+            //var pageUrl = encodeURIComponent(window.location.href);
+            var message = encodeURIComponent(title + "\n") + pageUrlRaw;
+            var whatsappUrl = "https://api.whatsapp.com/send?text=" + message;
+
+            window.open(whatsappUrl, "_blank");
+        }
 
     </script>
 </body>
