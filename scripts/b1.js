@@ -133,9 +133,9 @@ var b1 = [
 	{ eng: 'shiv tandav stotra shankar', hin: 'शिव तांडव स्तोत्र (हिंदी)', dir: 'b1', id: '132', bk: '', pg: '',  },
 
 	{ eng: 'datta charani loduya aji tipari', hin: 'दत्तचरणी लोळूया', dir: 'b1', id: '133', bk: '', pg: '',  },
-	//{ eng: '', hin: '', dir: 'b1', id: '134', bk: '', pg: '',  },
-	//{ eng: '', hin: '', dir: 'b1', id: '135', bk: '', pg: '',  },
-	//{ eng: '', hin: '', dir: 'b1', id: '136', bk: '', pg: '',  },
+	{ eng: 'nrusinh panchak ramdas', hin: 'श्रीसमर्थरामदास कृत नृसिंहपंचक', dir: 'b1', id: '134', bk: '', pg: '',  },
+	{ eng: 'nana teri jay ho', hin: 'नाना तेरी जय हो', dir: 'b1', id: '135', bk: '', pg: '',  },
+	{ eng: 'nana vande jagadgurum', hin: 'नाना वंदे जगद्गुरुम्', dir: 'b1', id: '136', bk: '', pg: '',  },
 	//{ eng: '', hin: '', dir: 'b1', id: '137', bk: '', pg: '',  },
 	//{ eng: '', hin: '', dir: 'b1', id: '138', bk: '', pg: '',  },
 	//{ eng: '', hin: '', dir: 'b1', id: '139', bk: '', pg: '',  },
