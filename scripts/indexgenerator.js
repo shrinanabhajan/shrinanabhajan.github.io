@@ -3,6 +3,7 @@ const ntn = require('./ntn');
 const b1 = require('./b1');
 const b2 = require('./b2');
 const dt = require('./dt');
+const mv = require('./mv');
 const filePath = './scripts/indexdata.js';
 
 (function () {
@@ -32,6 +33,7 @@ const filePath = './scripts/indexdata.js';
     list = list.concat(b1);
     list = list.concat(b2);
     list = list.concat(ntn);
+    list = list.concat(mv);
     
     
     //for(let i=0; i<2; i++) {

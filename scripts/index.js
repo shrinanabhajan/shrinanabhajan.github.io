@@ -11,6 +11,7 @@
     allBhajans = allBhajans.concat(b1);
     allBhajans = allBhajans.concat(b2);
     allBhajans = allBhajans.concat(ntn);
+    allBhajans = allBhajans.concat(mv);
     console.info(`Total bhajans: ${allBhajans.length}`);
     var filteredBhajans = allBhajans;
     //var filteredBhajans = [];
@@ -112,6 +113,26 @@
                                 searchKey = searchKey.replace(/amh/g, "ahm");
                                 fi = indexData[searchKey];
                             }
+                                if(fi === undefined) {
+                                    searchKey = searchKey.replace(/kri/g, "kru");
+                                    fi = indexData[searchKey];
+                                }
+                                    if(fi === undefined) {
+                                        searchKey = searchKey.replace(/kru/g, "kri");
+                                        fi = indexData[searchKey];
+                                    }
+                                    if(fi === undefined) {
+                                        searchKey = searchKey.replace(/jh/g, "z");
+                                        fi = indexData[searchKey];
+                                    }
+                                        if(fi === undefined) {
+                                            searchKey = searchKey.replace(/z/g, "j");
+                                            fi = indexData[searchKey];
+                                        }
+                                            if(fi === undefined) {
+                                                searchKey = searchKey.replace(/z/g, "jh");
+                                                fi = indexData[searchKey];
+                                            }
                         }
                     }
                 }
