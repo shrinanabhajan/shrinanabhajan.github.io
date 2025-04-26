@@ -140,7 +140,7 @@ var b1 = [
 	{ eng: 'harila avadate awadate tulashicha pan', hin: 'हरिला आवडते तुळशीचे पान', dir: 'b1', id: '138', bk: '', pg: '',  },
  	{ eng: 'vinavani nana sambhala majasi mazasi', hin: 'विनवणी - नाना सांभाळा मजसी', dir: 'b1', id: '139', bk: '', pg: '',  },
 	{ eng: 'Shri martand gurupath', hin: 'श्री मार्तण्ड गुरुपाठ', dir: 'b1', id: '140', bk: '', pg: '',  },
-	//{ eng: '', hin: '', dir: 'b1', id: '141', bk: '', pg: '',  },
+	{ eng: 'lago maz majh chhand guru sevecha', hin: 'लागो मजा छंद गुरुचरण सेवेचा', dir: 'b1', id: '141', bk: '', pg: '',  },
 	//{ eng: '', hin: '', dir: 'b1', id: '142', bk: '', pg: '',  },
 	//{ eng: '', hin: '', dir: 'b1', id: '143', bk: '', pg: '',  },
 	//{ eng: '', hin: '', dir: 'b1', id: '144', bk: '', pg: '',  },
