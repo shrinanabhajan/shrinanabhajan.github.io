@@ -142,7 +142,7 @@ var b1 = [
 	{ eng: 'Shri martand gurupath', hin: 'श्री मार्तण्ड गुरुपाठ', dir: 'b1', id: '140', bk: '', pg: '',  },
 	{ eng: 'lago maz majh chhand guru sevecha', hin: 'लागो मज छंद गुरुचरण सेवेचा', dir: 'b1', id: '141', bk: '', pg: '',  },
 	{ eng: 'tuzya chhayet asata nana', hin: 'तुझ्या छायेत असता नाना', dir: 'b1', id: '142', bk: '', pg: '',  },
-	//{ eng: '', hin: '', dir: 'b1', id: '143', bk: '', pg: '',  },
+	{ eng: 'runiche dhaniya ajamal ajmal kavara kanvara', hin: 'रूणीचे रा धणियाँ अजमाल जी रा कँवरा', dir: 'b1', id: '143', bk: '', pg: '',  },
 	//{ eng: '', hin: '', dir: 'b1', id: '144', bk: '', pg: '',  },
 	//{ eng: '', hin: '', dir: 'b1', id: '145', bk: '', pg: '',  },
 	//{ eng: '', hin: '', dir: 'b1', id: '146', bk: '', pg: '',  },
