@@ -143,7 +143,7 @@ var b1 = [
 	{ eng: 'lago maz majh chhand guru sevecha', hin: 'लागो मज छंद गुरुचरण सेवेचा', dir: 'b1', id: '141', bk: '', pg: '',  },
 	{ eng: 'tuzya chhayet asata nana', hin: 'तुझ्या छायेत असता नाना', dir: 'b1', id: '142', bk: '', pg: '',  },
 	{ eng: 'runiche dhaniya ajamal ajmal kavara kanvara', hin: 'रूणीचे रा धणियाँ अजमाल जी रा कँवरा', dir: 'b1', id: '143', bk: '', pg: '',  },
-	//{ eng: '', hin: '', dir: 'b1', id: '144', bk: '', pg: '',  },
+	{ eng: 'muze bus kam nana se', hin: 'मुझे बस काम नाना से ', dir: 'b1', id: '144', bk: '', pg: '',  },
 	//{ eng: '', hin: '', dir: 'b1', id: '145', bk: '', pg: '',  },
 	//{ eng: '', hin: '', dir: 'b1', id: '146', bk: '', pg: '',  },
 	//{ eng: '', hin: '', dir: 'b1', id: '147', bk: '', pg: '',  },
