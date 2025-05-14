@@ -35,7 +35,7 @@ var b2 = [
 { eng:'Pandhari aise tinhital' , hin:'पंढरी ऐसे तिन्ही टाळी' , dir:'b2' , id:'28' , bk:'' , pg:'' , }, 
  { eng:'Viththal avadi premabhavo' , hin:'विठ्ठल आवडी प्रेमभावो' , dir:'b2' , id:'29' , bk:'' , pg:'' , }, 
  { eng:'Janachiya mana Kashisi jave' , hin:'जनाचिया मना काशीसी जावे' , dir:'b2' , id:'30' , bk:'' , pg:'' , }, 
- { eng:'Pandhat Pandhat jauth achayachach nagnath' , hin:'पंढअठ पंढअठ जऊठथ अचयचचठ नगअठ' , dir:'b2' , id:'31' , bk:'' , pg:'' , }, 
+ { eng:'pandhari vithurayachi nagari' , hin:'पंढरी विठूरायाची नगरी' , dir:'b2' , id:'31' , bk:'' , pg:'' , }, 
  { eng:'Tali vajvavi, gudhi ubharavi' , hin:'टाळी वाजवावी, गुढ़ी उभारावी' , dir:'b2' , id:'32' , bk:'' , pg:'' , }, 
  { eng:'Harichya dasa nahi bhay chinta' , hin:'हरिचिया दासा नाही भय चिंता' , dir:'b2' , id:'33' , bk:'' , pg:'' , }, 
  { eng:'Patit tu pavana Mhanvisi Narayana' , hin:'पतित तूं पावना म्हणविसी नारायणा' , dir:'b2' , id:'34' , bk:'' , pg:'' , }, 
