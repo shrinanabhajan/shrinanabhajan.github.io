@@ -145,7 +145,7 @@ var b1 = [
 	{ eng: 'runiche dhaniya ajamal ajmal kavara kanvara', hin: 'रूणीचे रा धणियाँ अजमाल जी रा कँवरा', dir: 'b1', id: '143', bk: '', pg: '',  },
 	{ eng: 'muze bus kam nana se', hin: 'मुझे बस काम नाना से ', dir: 'b1', id: '144', bk: '', pg: '',  },
 	{ eng: 'datta vandana rangavadhut', hin: 'श्री दत्त वंदना (श्री रंग रंगावधूत महाराज कृत)', dir: 'b1', id: '145', bk: '', pg: '',  },
-	//{ eng: '', hin: '', dir: 'b1', id: '146', bk: '', pg: '',  },
+	{ eng: 'anaghalakshmi lakshmi ashtak', hin: 'श्री अनघालक्ष्मी अष्टक', dir: 'b1', id: '146', bk: '', pg: '',  },
 	//{ eng: '', hin: '', dir: 'b1', id: '147', bk: '', pg: '',  },
 	//{ eng: '', hin: '', dir: 'b1', id: '148', bk: '', pg: '',  },
 	//{ eng: '', hin: '', dir: 'b1', id: '149', bk: '', pg: '',  },
