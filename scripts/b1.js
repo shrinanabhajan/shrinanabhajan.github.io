@@ -147,10 +147,20 @@ var b1 = [
 	{ eng: 'datta vandana rangavadhut', hin: 'श्री दत्त वंदना (श्री रंग रंगावधूत महाराज कृत)', dir: 'b1', id: '145', bk: '', pg: '',  },
 	{ eng: 'anaghalakshmi lakshmi ashtak', hin: 'श्री अनघालक्ष्मी अष्टक', dir: 'b1', id: '146', bk: '', pg: '',  },
  	{ eng: 'manas puja', hin: 'मानसपूजा', dir: 'b1', id: '147', bk: '', pg: '',  },
-  { eng: 'ab sop saup diya is jivan ka bhar', hin: 'अब सौंप दिया इस जीवन का', dir: 'b1', id: '148', bk: '', pg: '',  },
-	
-//{ eng: '', hin: '', dir: 'b1', id: '149', bk: '', pg: '',  },
+	{ eng: 'ab sop saup diya is jivan ka bhar', hin: 'अब सौंप दिया इस जीवन का', dir: 'b1', id: '148', bk: '', pg: '',  },
+	{ eng: 'nananam gheuya nananami runguya', hin: 'नानानाम घेऊया, नानानामी रंगुया', dir: 'b1', id: '149', bk: '', pg: '',  },
 
+//{ eng: '', hin: '', dir: 'b1', id: '150', bk: '', pg: '',  },
+//{ eng: '', hin: '', dir: 'b1', id: '151', bk: '', pg: '',  },
+//{ eng: '', hin: '', dir: 'b1', id: '152', bk: '', pg: '',  },
+//{ eng: '', hin: '', dir: 'b1', id: '153', bk: '', pg: '',  },
+//{ eng: '', hin: '', dir: 'b1', id: '154', bk: '', pg: '',  },
+//{ eng: '', hin: '', dir: 'b1', id: '155', bk: '', pg: '',  },
+//{ eng: '', hin: '', dir: 'b1', id: '156', bk: '', pg: '',  },
+//{ eng: '', hin: '', dir: 'b1', id: '157', bk: '', pg: '',  },
+//{ eng: '', hin: '', dir: 'b1', id: '158', bk: '', pg: '',  },
+//{ eng: '', hin: '', dir: 'b1', id: '159', bk: '', pg: '',  },
+//{ eng: '', hin: '', dir: 'b1', id: '160', bk: '', pg: '',  },
  
 ];
 
