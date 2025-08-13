@@ -149,9 +149,9 @@ var b1 = [
  	{ eng: 'manas puja', hin: 'मानसपूजा', dir: 'b1', id: '147', bk: '', pg: '',  },
 	{ eng: 'ab sop saup diya is jivan ka bhar', hin: 'अब सौंप दिया इस जीवन का', dir: 'b1', id: '148', bk: '', pg: '',  },
 	{ eng: 'nananam gheuya nananami runguya', hin: 'नानानाम घेऊया, नानानामी रंगुया', dir: 'b1', id: '149', bk: '', pg: '',  },
+	{ eng: 'karito preme tuj diparati aarati arti aarti', hin: 'करितो प्रेमे तुज दिपारती', dir: 'b1', id: '150', bk: '', pg: '',  },
 
-//{ eng: '', hin: '', dir: 'b1', id: '150', bk: '', pg: '',  },
-//{ eng: '', hin: '', dir: 'b1', id: '151', bk: '', pg: '',  },
+	//{ eng: '', hin: '', dir: 'b1', id: '151', bk: '', pg: '',  },
 //{ eng: '', hin: '', dir: 'b1', id: '152', bk: '', pg: '',  },
 //{ eng: '', hin: '', dir: 'b1', id: '153', bk: '', pg: '',  },
 //{ eng: '', hin: '', dir: 'b1', id: '154', bk: '', pg: '',  },
