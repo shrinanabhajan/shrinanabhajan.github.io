@@ -2,6 +2,8 @@ name: Update Index B1
 
 on:
   push:
+    branches:
+      - main
     paths:
       - "bhajans/b1/*.txt"   # trigger only when new text files are added
 
@@ -22,8 +24,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install indic-transliteration
-          pip install json5
+          pip install indic-transliteration json5
 
       - name: Run update script
         run: python update_b1.py
