@@ -155,7 +155,8 @@ var b1 = [
 	{ eng: 'shri nananchi arati arti jay mangal', hin: 'श्री नानांची आरती - जय जय आरती मंगल', dir: 'b1', id: '152', bk: '', pg: '',  },
 	{ eng: 'shri nananchi arati arti gurnatha', hin: 'श्री नानांची आरती - आरती गुरुनाथा', dir: 'b1', id: '153', bk: '', pg: '',  },
 	
-//{ eng: '', hin: '', dir: 'b1', id: '154', bk: '', pg: '',  },
+	{ eng: 'hachi subodh guruncha', hin: 'हाचि सुबोध गुरूंचा', dir: 'b1', id: '154', bk: '', pg: '',  },
+
 //{ eng: '', hin: '', dir: 'b1', id: '155', bk: '', pg: '',  },
 //{ eng: '', hin: '', dir: 'b1', id: '156', bk: '', pg: '',  },
 //{ eng: '', hin: '', dir: 'b1', id: '157', bk: '', pg: '',  },
