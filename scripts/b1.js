@@ -1239,6 +1239,14 @@ var b1 = [
         id: "155",
         bk: "",
         pg: ""
+    },
+    {
+        eng: "shri dattachi arati - arati gurudatta",
+        hin: "श्री दत्ताची आरती - आरती गुरुदत्ता",
+        dir: "b1",
+        id: "156",
+        bk: "",
+        pg: ""
     }
 ];
 
