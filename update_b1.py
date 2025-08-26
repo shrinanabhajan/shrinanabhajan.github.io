@@ -52,7 +52,18 @@ def get_first_line(filepath):
         return f.readline().strip()
 
 def transliterate_text(hindi_text):
-    return transliterate(hindi_text, sanscript.DEVANAGARI, sanscript.ITRANS).lower()
+    raw = transliterate(hindi_text, sanscript.DEVANAGARI, sanscript.ITRANS).lower()
+
+    # Nasal corrections
+    # velars (k, g) → ng
+    raw = re.sub(r"m([kg])", r"ng\1", raw)
+
+    # palatals (ch, j) → n
+    raw = re.sub(r"m([cj])", r"n\1", raw)
+
+    # dentals/retroflex (t, d) → n
+    raw = re.sub(r"m([td])", r"n\1", raw)
+    return raw
 
 def main():
     entries, original_content = load_index()
