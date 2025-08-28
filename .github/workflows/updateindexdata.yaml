@@ -25,7 +25,7 @@ jobs:
         run: npm install
         working-directory: ./scripts
 
-      - name: Update file with new number
+      - name: Update indexdata
         run: node ./scripts/indexgenerator.js
 
       - name: Commit changes
