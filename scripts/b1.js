@@ -1249,7 +1249,7 @@ var b1 = [
         pg: ""
     },
     {
-        eng: "krripa asu de ya dasavara",
+        eng: "krupa asu de ya dasavar",
         hin: "कृपा असू दे या दासावर",
         dir: "b1",
         id: "157",
