@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - "bhajans/b1/*.txt"   # trigger only when new text files are added
+      - "remove/bhajans/b1/*.txt"   # trigger only when new text files are added
 
 jobs:
   update-index:
