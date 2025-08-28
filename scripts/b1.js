@@ -1247,8 +1247,15 @@ var b1 = [
         id: "156",
         bk: "",
         pg: ""
+    },
+    {
+        eng: "krripa asu de ya dasavara",
+        hin: "कृपा असू दे या दासावर",
+        dir: "b1",
+        id: "157",
+        bk: "",
+        pg: ""
     }
-    
 ];
 
 if (typeof module === 'object' && module.exports) {
