@@ -6,7 +6,7 @@ on:
     branches:
       - main
     paths:
-      - remove/scripts/**
+      - scripts/*.js
 
 jobs:
   update-file:
@@ -33,7 +33,7 @@ jobs:
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
           git add ./scripts/indexdata.js
-          git commit -m "Update file with new index data"
+          git commit -m "Update file with new index data" || echo "No changes to commit"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
