@@ -1255,6 +1255,14 @@ var b1 = [
         id: "157",
         bk: "",
         pg: ""
+    },
+    {
+        eng: "shrinrrisimhavadiche pada",
+        hin: "श्रीनृसिंहवाडीचे पद",
+        dir: "b1",
+        id: "158",
+        bk: "",
+        pg: ""
     }
 ];
 
