@@ -1257,8 +1257,8 @@ var b1 = [
         pg: ""
     },
     {
-        eng: "shrinrrisimhavadiche pada",
-        hin: "श्रीनृसिंहवाडीचे पद",
+        eng: "shri nrusimhavadiche pada narsimh nursimh",
+        hin: "श्री नृसिंहवाडीचे पद",
         dir: "b1",
         id: "158",
         bk: "",
