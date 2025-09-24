@@ -175,7 +175,7 @@
     Text size: <span id="font-value">28</span> 
       <div class="slider-container">
         <button class="down">▼</button>
-        <input id="font-slider" class="slider" type="range" min="14" max="46" value="28">
+        <input id="font-slider" class="slider" type="range" min="14" max="72" value="28">
         <button class="up">▲</button>
       </div>
   </label>
@@ -443,6 +443,31 @@
 
   // Initial load
   loadFile(currentFile);
+
+  // Function to request the wake lock
+  async function requestWakeLock() {
+    try {
+      wakeLock = await navigator.wakeLock.request('screen');
+      console.log("Screen Wake Lock is active.");
+  
+      // Handle release of the wake lock
+      wakeLock.addEventListener('release', () => {
+        console.log("Screen Wake Lock was released.");
+      });
+    } catch (err) {
+      console.error(`Wake Lock error: ${err.name}, ${err.message}`);
+    }
+  }
+  
+  // Call requestWakeLock when the page is loaded
+  document.addEventListener('DOMContentLoaded', requestWakeLock);
+  
+  // Optional: Re-request wake lock if it is released
+  document.addEventListener('visibilitychange', () => {
+    if (wakeLock !== null && document.visibilityState === 'visible') {
+      requestWakeLock();
+    }
+  });
 </script>
 </body>
 </html>

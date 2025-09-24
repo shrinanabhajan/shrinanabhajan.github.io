@@ -186,7 +186,7 @@
             <polyline points="6 9 12 15 18 9"></polyline>
           </svg>
         </button>
-        <input id="font-slider" class="slider" type="range" min="14" max="46" value="28">
+        <input id="font-slider" class="slider" type="range" min="14" max="72" value="28">
           <button class="up" aria-label="Increase">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
               <polyline points="18 15 12 9 6 15"></polyline>
@@ -458,6 +458,33 @@
 
   // Initial load
   loadFile(currentFile);
+
+  let wakeLock = null;
+
+  // Function to request the wake lock
+  async function requestWakeLock() {
+    try {
+      wakeLock = await navigator.wakeLock.request('screen');
+      console.log("Screen Wake Lock is active.");
+  
+      // Handle release of the wake lock
+      wakeLock.addEventListener('release', () => {
+        console.log("Screen Wake Lock was released.");
+      });
+    } catch (err) {
+      console.error(`Wake Lock error: ${err.name}, ${err.message}`);
+    }
+  }
+  
+  // Call requestWakeLock when the page is loaded
+  document.addEventListener('DOMContentLoaded', requestWakeLock);
+  
+  // Optional: Re-request wake lock if it is released
+  document.addEventListener('visibilitychange', () => {
+    if (wakeLock !== null && document.visibilityState === 'visible') {
+      requestWakeLock();
+    }
+  });
 </script>
 </body>
 </html>
