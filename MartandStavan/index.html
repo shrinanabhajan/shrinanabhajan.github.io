@@ -107,7 +107,7 @@
   <div>
     <button onclick="playScroll()">Play</button>
     <button onclick="pauseScroll()">Pause</button>
-    <button onclick="stopScroll()">Reset</button>
+    <button onclick="reset()">Reset</button>
   </div>
 
   <label>
@@ -239,6 +239,10 @@
       scrollAnim = null;
       lastTimestamp = null;
       const readingArea = document.getElementById("reading-area");
+    }
+
+    function reset() {
+      stopScroll();
       readingArea.scrollTop = 0;
     }
 
