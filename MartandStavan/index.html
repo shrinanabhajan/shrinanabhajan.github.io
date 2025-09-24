@@ -48,11 +48,11 @@
     font-size: 16px;
     border: none;
     border-radius: 6px;
-    background: #444;
-    color: #fff;
+    background: #f99c4f;
+    color: #363333;
     cursor: pointer;
     }
-    button:hover { background: #666; }
+    /*button:hover { background: #666; }*/
 
     label {
         width: 80%;
@@ -72,7 +72,7 @@
     overflow-y: auto;
     padding: 16px;
     line-height: 1.6;
-    font-size: 30px;
+    font-size: 28px;
     background: #fff;
     }
 
@@ -83,7 +83,7 @@
 
     @media (max-width: 600px) {
     button { font-size: 16px; padding: 6px 10px; }
-    #reading-area { font-size: 30px; }
+    #reading-area { font-size: 28px; }
     }
 
 </style>
@@ -105,34 +105,35 @@
 <!-- Bottom control bar -->
 <div id="bottom-bar" class="control-bar bottom-bar">
   <div>
-    <button onclick="playScroll()">▶ Play</button>
-    <button onclick="pauseScroll()">⏸ Pause</button>
-    <button onclick="stopScroll()">⏹ Stop</button>
+    <button onclick="playScroll()">Play</button>
+    <button onclick="pauseScroll()">Pause</button>
+    <button onclick="stopScroll()">Reset</button>
   </div>
 
   <label>
     Reading Speed 
-    <input id="speed-slider" class="slider" type="range" min="1" max="15" value="5">
+    <input id="speed-slider" class="slider" type="range" min="1" max="20" value="5">
     <span id="speed-value">5</span>
   </label>
 
   <label>
     Text size 
-    <input id="font-slider" class="slider" type="range" min="14" max="46" value="30">
-    <span id="font-value">30</span>
+    <input id="font-slider" class="slider" type="range" min="14" max="46" value="28">
+    <span id="font-value">28</span>
   </label>
 </div>
 
 <script>
-    // === File navigation ===
-    const files = ["MartandStavan.html", "file2.html", "file3.html"]; // replace with your file list
+    // === File navigation old ===
+    /*
+    const files = [{path: "Adhyay-01.html", name: "अध्याय १"}, {path: "Adhyay-02.html", name: "अध्याय २"}, {path: "Adhyay-03.html", name: "अध्याय १"}]; // replace with your file list
     let currentFile = 0;
 
     function loadFile(idx) {
     if (idx < 0 || idx >= files.length) return;
     currentFile = idx;
-    document.getElementById("file-name").textContent = files[currentFile];
-    fetch(files[currentFile])
+    document.getElementById("file-name").textContent = files[currentFile].name;
+    fetch(files[currentFile].path)
         .then(res => res.text())
         .then(html => {
         document.getElementById("reading-area").innerHTML = html;
@@ -140,6 +141,53 @@
         .catch(err => {
         document.getElementById("reading-area").innerHTML =
             `<p style="color:red">Error loading file: ${files[currentFile]}</p>`;
+        });
+    }
+
+    function prevFile() { loadFile(currentFile - 1); }
+    function nextFile() { loadFile(currentFile + 1); }
+    */
+
+    // === File navigation New ===
+    let files = [];
+    let currentFile = 0;
+
+    // Load JSON on page start
+    fetch("files.json")
+      .then(res => res.json())
+      .then(data => {
+        files = data;
+        if (files.length > 0) {
+          loadFile(0);
+        } else {
+          document.getElementById("reading-area").innerHTML =
+            "<p style='color:red'>No files found in files.json</p>";
+        }
+      })
+      .catch(err => {
+        document.getElementById("reading-area").innerHTML =
+          "<p style='color:red'>Error loading files.json</p>";
+      });
+
+    function loadFile(idx) {
+      if (idx < 0 || idx >= files.length) return;
+      currentFile = idx;
+
+      const { path, name } = files[currentFile];
+      document.getElementById("file-name").textContent = name;
+
+      fetch(path)
+        .then(res => res.text())
+        .then(html => {
+          const readingArea = document.getElementById("reading-area");
+          readingArea.scrollTop = 0;
+          readingArea.innerHTML = html;
+
+        })
+        .catch(err => {
+          const readingArea = document.getElementById("reading-area");
+          readingArea.scrollTop = 0;
+          readingArea.innerHTML = `<p style="color:red">Error loading file: ${path}</p>`;
         });
     }
 
@@ -187,10 +235,12 @@
     }
 
     function stopScroll() {
-    isScrolling = false;
-    if (scrollAnim) cancelAnimationFrame(scrollAnim);
-    scrollAnim = null;
-    lastTimestamp = null;
+      isScrolling = false;
+      if (scrollAnim) cancelAnimationFrame(scrollAnim);
+      scrollAnim = null;
+      lastTimestamp = null;
+      const readingArea = document.getElementById("reading-area");
+      readingArea.scrollTop = 0;
     }
 
 
@@ -215,7 +265,6 @@
   let hideTimeout = null;
 
   function showControls() {
-    console.log("showing controls");
     document.getElementById("top-bar").classList.remove("hidden");
     document.getElementById("bottom-bar").classList.remove("hidden");
     controlsVisible = true;
@@ -223,7 +272,6 @@
   }
 
   function hideControls() {
-    console.log("hiding controls");
     document.getElementById("top-bar").classList.add("hidden");
     document.getElementById("bottom-bar").classList.add("hidden");
     controlsVisible = false;
@@ -234,7 +282,6 @@
   }
 
   function toggleControls() {
-    console.log("Toggling controls");
     if (controlsVisible) {
       hideControls();
     } else {
@@ -244,7 +291,7 @@
 
   function resetHideTimer() {
     if (hideTimeout) clearTimeout(hideTimeout);
-    hideTimeout = setTimeout(hideControls, 4000);
+    hideTimeout = setTimeout(hideControls, 5000);
   }
 
   // Start auto hide
