@@ -81,6 +81,12 @@
     height: auto;
     }
 
+    
+    #time-remaining {
+      color: #f99c4f;
+      font-size: 13px;
+    }
+
     @media (max-width: 600px) {
     button { font-size: 16px; padding: 6px 10px; }
     #reading-area { font-size: 28px; }
@@ -121,6 +127,8 @@
     <input id="font-slider" class="slider" type="range" min="14" max="46" value="28">
     <span id="font-value">28</span>
   </label>
+
+  <div id="time-remaining"></div>
 </div>
 
 <script>
@@ -262,6 +270,39 @@
         document.getElementById("reading-area").style.fontSize = val + "px";
         fontValue.textContent = val;
     });
+
+
+    // ---- Time Remaining Logic ----
+
+    const readingArea = document.getElementById("reading-area");
+    const timeRemainingDiv = document.getElementById("time-remaining");
+
+    readingArea.addEventListener("scroll", () => {
+      updateTimeRemaining();
+    });
+
+    function updateTimeRemaining() {
+      const speed = parseInt(document.getElementById("speed-slider").value, 10) * 20;
+      if (speed <= 0) {
+        timeRemainingDiv.textContent = "";
+        return;
+      }
+
+      const remaining = readingArea.scrollHeight - readingArea.clientHeight - readingArea.scrollTop;
+      const seconds = remaining / speed;
+
+      if (seconds < 1) {
+        timeRemainingDiv.textContent = "";
+      } else {
+        timeRemainingDiv.textContent = `Time remaining: ${formatTime(seconds)}`;
+      }
+    }
+
+    function formatTime(sec) {
+      const m = Math.floor(sec / 60);
+      const s = Math.floor(sec % 60);
+      return m > 0 ? `${m}m ${s}s` : `${s}s`;
+    }
 
   // === Hide/Show controls ===
   let controlsVisible = true;
