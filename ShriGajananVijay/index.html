@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>।। श्री सप्तशती गुरुचरित्र ।।</title>
+<title>।। श्री गजानन विजय ।।</title>
 <style>
     body {
     margin: 0;
@@ -32,7 +32,6 @@
     }
     .top-bar { 
         top: 0; 
-        display: none; /* hiding top bar */
     }
     .bottom-bar { 
     bottom: 0; 
@@ -258,13 +257,13 @@
         .then(res => res.text())
         .then(html => {
           const readingArea = document.getElementById("reading-area");
-          readingArea.scrollTop = 0;
+          reset();
           readingArea.innerHTML = html;
 
         })
         .catch(err => {
           const readingArea = document.getElementById("reading-area");
-          readingArea.scrollTop = 0;
+          reset();
           readingArea.innerHTML = `<p style="color:red">Error loading file: ${path}</p>`;
         });
     }
