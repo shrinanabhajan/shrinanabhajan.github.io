@@ -238,11 +238,11 @@
       if (scrollAnim) cancelAnimationFrame(scrollAnim);
       scrollAnim = null;
       lastTimestamp = null;
-      const readingArea = document.getElementById("reading-area");
     }
 
     function reset() {
       stopScroll();
+      const readingArea = document.getElementById("reading-area");
       readingArea.scrollTop = 0;
     }
 
