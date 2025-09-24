@@ -200,38 +200,37 @@
     let isScrolling = false;
 
     function playScroll() {
-    stopScroll(); // reset if already running
-    isScrolling = true;
-    lastTimestamp = null;
-    requestAnimationFrame(stepScroll);
+        isScrolling = true;
+        lastTimestamp = null;
+        requestAnimationFrame(stepScroll);
     }
 
     function stepScroll(timestamp) {
-    if (!isScrolling) return;
-
-    if (lastTimestamp === null) lastTimestamp = timestamp;
-    const elapsed = timestamp - lastTimestamp;
-    lastTimestamp = timestamp;
-
-    // Speed factor: pixels per second (slider value * 20)
-    const speed = parseInt(document.getElementById("speed-slider").value, 10) * 20;
-    const distance = (elapsed / 1000) * speed;
-
-    const readingArea = document.getElementById("reading-area");
-    readingArea.scrollTop += distance;
-
-    // Stop at bottom
-    if (readingArea.scrollTop + readingArea.clientHeight >= readingArea.scrollHeight) {
-        stopScroll();
-        return;
+        if (!isScrolling) return;
+    
+        if (lastTimestamp === null) lastTimestamp = timestamp;
+        const elapsed = timestamp - lastTimestamp;
+        lastTimestamp = timestamp;
+    
+        // Speed factor: pixels per second (slider value * 20)
+        const speed = parseInt(document.getElementById("speed-slider").value, 10) * 20;
+        const distance = (elapsed / 1000) * speed;
+    
+        const readingArea = document.getElementById("reading-area");
+        readingArea.scrollTop += distance;
+    
+        // Stop at bottom
+        if (readingArea.scrollTop + readingArea.clientHeight >= readingArea.scrollHeight) {
+            stopScroll();
+            return;
     }
 
     scrollAnim = requestAnimationFrame(stepScroll);
     }
 
     function pauseScroll() {
-    isScrolling = false;
-    if (scrollAnim) cancelAnimationFrame(scrollAnim);
+        isScrolling = false;
+        if (scrollAnim) cancelAnimationFrame(scrollAnim);
     }
 
     function stopScroll() {
@@ -248,16 +247,16 @@
     const speedSlider = document.getElementById("speed-slider");
     const speedValue = document.getElementById("speed-value");
     speedSlider.addEventListener("input", (e) => {
-    speedValue.textContent = e.target.value;
+        speedValue.textContent = e.target.value;
     });
 
     // Font size live update
     const fontSlider = document.getElementById("font-slider");
     const fontValue = document.getElementById("font-value");
     fontSlider.addEventListener("input", (e) => {
-    const val = e.target.value;
-    document.getElementById("reading-area").style.fontSize = val + "px";
-    fontValue.textContent = val;
+        const val = e.target.value;
+        document.getElementById("reading-area").style.fontSize = val + "px";
+        fontValue.textContent = val;
     });
 
   // === Hide/Show controls ===
