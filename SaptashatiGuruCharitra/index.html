@@ -18,17 +18,17 @@
 
     /* Control bars */
     .control-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: rgba(34, 34, 34, 0.85); /* semi-transparent */
-    color: #fff;
-    padding: 8px;
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: 100;
-    transition: opacity 0.4s;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(34, 34, 34, 0.85); /* semi-transparent */
+      color: #fff;
+      padding: 8px;
+      position: fixed;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      transition: opacity 0.4s;
     }
     .top-bar { 
         top: 0; 
@@ -43,14 +43,14 @@
     .hidden { opacity: 0; pointer-events: none; }
 
     button {
-    padding: 8px 12px;
-    margin: 4px;
-    font-size: 16px;
-    border: none;
-    border-radius: 6px;
-    background: #f99c4f;
-    color: #363333;
-    cursor: pointer;
+      padding: 8px 12px;
+      margin: 4px;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      background: #f99c4f;
+      color: #363333;
+      cursor: pointer;
     }
     /*button:hover { background: #666; }*/
 
@@ -99,21 +99,22 @@
 
     /* Reading area fills everything */
     #reading-area {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    overflow-y: auto;
-    padding: 16px;
-    line-height: 1.6;
-    font-size: 28px;
-    background: #fff;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      overflow-y: auto;
+      padding: 16px;
+      line-height: 1.6;
+      font-size: 28px;
+      font-weight: 900;
+      background: #fff;
     }
 
     #reading-area img {
-    width: 100%;
-    height: auto;
+      width: 100%;
+      height: auto;
     }
 
     
@@ -127,8 +128,8 @@
       position: fixed;
       bottom: 20px;
       right: 20px;
-      width: 50px;
-      height: 50px;
+      width: 60px;
+      height: 60px;
       border-radius: 50%;
       background: #f99c4f;
       color: white;
@@ -149,6 +150,63 @@
       padding: 0;
     }
 
+    .theme-btn {
+      padding-right: 3px;
+      border: none;
+      border-radius: 6px;
+      background: #f99c4f;
+      color: #363333;
+      cursor: pointer;
+    
+      position: fixed;
+      bottom: 150px;
+      Right: 30px;
+      width: 40px;
+      height: 30px;
+      border: none;
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
+
+    .theme-btn svg {
+      width: 100%;
+      height: 200%;
+    }
+
+
+    /* Default */
+    /* Grey text on light yellow */
+    #reading-area.theme-1 {
+      background: #ffffe0; /* light yellow */
+      color: #3f3f3f;
+    }
+
+    /* Grey text on black */
+    #reading-area.theme-2 {
+      background: #111111; 
+      color: #C9C9C9;
+    }
+
+    /* White text on black */
+    #reading-area.theme-3 {
+      background: #000000;
+      color: #ffffff;
+    }
+
+    /* Light green on black */
+    #reading-area.theme-4 {
+      background: #000000;
+      color: #90ee90; /* light green */
+    }
+
+    #reading-area.theme-5 {
+      background: #ffffff;
+      color: #000000;
+    }
 
     @media (max-width: 600px) {
     button { font-size: 16px; padding: 6px 10px; }
@@ -167,16 +225,30 @@
 </div>
 
 <!-- Reading area -->
-<div id="reading-area" onclick="toggleControls()">
+<div id="reading-area" class="theme-1" onclick="toggleControls()">
   <p></p>
 </div>
 
 <!-- Bottom control bar -->
 <div id="bottom-bar" class="control-bar bottom-bar">
+
+  <!-- Floating Theme Toggle Button -->
+  
+
   <div>
     <button onclick="playScroll()">Play</button>
     <button onclick="pauseScroll()">Pause</button>
     <button onclick="reset()">Reset</button>
+    <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+    <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" stroke-width="3" stroke="#000000" fill="none">
+      <path d="M34.07,50.93S53.86,44.38,45.68,26.6c0,0-4.8-11.46-19.31-13.27S8.3,20.8,8.3,20.8,1.81,33.68,13.1,35c1.62.19,5-.56,6.4,1.33s.29,4.2,0,8.8C19.34,47.69,21.27,53.87,34.07,50.93Z" 
+      stroke-linecap="round"/>
+      <circle cx="17.2" cy="24.01" r="3.59" stroke-linecap="round"/>
+      <circle cx="38.02" cy="28.02" r="2.43" stroke-linecap="round"/>
+      <circle cx="38.02" cy="39.04" r="2.43" stroke-linecap="round"/>
+      <circle cx="28.14" cy="44.38" r="2.43" stroke-linecap="round"/>
+    </svg>
+  </button>
   </div>
 
   <div class="slider-wrapper">
@@ -215,7 +287,7 @@
     </div>
   </div>
 
-  <div id="time-remaining"></div>
+  <div id="time-remaining">-</div>
   </div>
 
 <!-- Floating Play/Pause Button -->
@@ -228,6 +300,10 @@
     <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path>
   </svg>
 </button>
+
+
+
+
 
 <script>
     // === File navigation old ===
@@ -508,6 +584,26 @@
       requestWakeLock();
     }
   });
+
+
+  //Theme
+
+  const themeBtn = document.getElementById('theme-toggle');
+
+  let currentTheme = 1;
+  const totalThemes = 5;
+
+  themeBtn.addEventListener('click', () => {
+    // remove old theme class
+    readingArea.classList.remove(`theme-${currentTheme}`);
+
+    // cycle to next theme
+    currentTheme = (currentTheme % totalThemes) + 1;
+
+    // add new theme class
+    readingArea.classList.add(`theme-${currentTheme}`);
+  });
+
 </script>
 </body>
 </html>
