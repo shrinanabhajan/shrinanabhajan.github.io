@@ -110,6 +110,11 @@
       font-size: 28px;
       font-weight: 900;
       background: #fff;
+
+      /*disable selection*/
+      user-select: none;          /* Standard */
+      -webkit-user-select: none;  /* Safari/Chrome */
+      -ms-user-select: none;      /* IE/Edge (legacy) */
     }
 
     #reading-area img {
@@ -550,7 +555,6 @@
 
 
   //Theme
-
   const themeBtn = document.getElementById('theme-toggle');
 
   let currentTheme = 1;
@@ -566,6 +570,13 @@
     // add new theme class
     readingArea.classList.add(`theme-${currentTheme}`);
   }
+
+  readingArea.addEventListener("touchstart", (e) => {
+    //e.preventDefault(); // prevents accidental tap scroll
+    pauseScroll();
+  }, { passive: false });
+
+readingArea.addEventListener("touchend", playScroll);
 
 </script>
 </body>
