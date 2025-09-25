@@ -108,7 +108,13 @@
       padding: 16px;
       line-height: 1.6;
       font-size: 28px;
+      font-weight: 900;
       background: #fff;
+
+      /*disable selection*/
+      user-select: none;          /* Standard */
+      -webkit-user-select: none;  /* Safari/Chrome */
+      -ms-user-select: none;      /* IE/Edge (legacy) */
     }
 
     #reading-area img {
@@ -127,8 +133,8 @@
       position: fixed;
       bottom: 20px;
       right: 20px;
-      width: 50px;
-      height: 50px;
+      width: 60px;
+      height: 60px;
       border-radius: 50%;
       background: #f99c4f;
       color: white;
@@ -149,6 +155,35 @@
       padding: 0;
     }
 
+    /* Default */
+    /* Grey text on light yellow */
+    #reading-area.theme-1 {
+      background: #ffffe0; /* light yellow */
+      color: #3f3f3f;
+    }
+
+    /* Grey text on black */
+    #reading-area.theme-2 {
+      background: #111111; 
+      color: #C9C9C9;
+    }
+
+    /* White text on black */
+    #reading-area.theme-3 {
+      background: #000000;
+      color: #ffffff;
+    }
+
+    /* Light green on black */
+    #reading-area.theme-4 {
+      background: #000000;
+      color: #90ee90; /* light green */
+    }
+
+    #reading-area.theme-5 {
+      background: #ffffff;
+      color: #000000;
+    }
 
     @media (max-width: 600px) {
     button { font-size: 16px; padding: 6px 10px; }
@@ -167,7 +202,7 @@
 </div>
 
 <!-- Reading area -->
-<div id="reading-area" onclick="toggleControls()">
+<div id="reading-area" class="theme-1" onclick="toggleControls()">
   <p></p>
 </div>
 
@@ -177,6 +212,7 @@
     <button onclick="playScroll()">Play</button>
     <button onclick="pauseScroll()">Pause</button>
     <button onclick="reset()">Reset</button>
+    <button onclick="themeToggle()">Color</button>
   </div>
 
   <div class="slider-wrapper">
@@ -215,7 +251,7 @@
       </div>
   </div>
 
-  <div id="time-remaining"></div>
+  <div id="time-remaining">-</div>
 </div>
 
 <!-- Floating Play/Pause Button -->
@@ -230,29 +266,6 @@
 </button>
 
 <script>
-    // === File navigation old ===
-    /*
-    const files = [{path: "Adhyay-01.html", name: "अध्याय १"}, {path: "Adhyay-02.html", name: "अध्याय २"}, {path: "Adhyay-03.html", name: "अध्याय १"}]; // replace with your file list
-    let currentFile = 0;
-
-    function loadFile(idx) {
-    if (idx < 0 || idx >= files.length) return;
-    currentFile = idx;
-    document.getElementById("file-name").textContent = files[currentFile].name;
-    fetch(files[currentFile].path)
-        .then(res => res.text())
-        .then(html => {
-        document.getElementById("reading-area").innerHTML = html;
-        })
-        .catch(err => {
-        document.getElementById("reading-area").innerHTML =
-            `<p style="color:red">Error loading file: ${files[currentFile]}</p>`;
-        });
-    }
-
-    function prevFile() { loadFile(currentFile - 1); }
-    function nextFile() { loadFile(currentFile + 1); }
-    */
 
     // === File navigation New ===
     let files = [];
@@ -508,6 +521,32 @@
       requestWakeLock();
     }
   });
+
+
+  //Theme
+  const themeBtn = document.getElementById('theme-toggle');
+
+  let currentTheme = 1;
+  const totalThemes = 5;
+
+  function themeToggle()  {
+    // remove old theme class
+    readingArea.classList.remove(`theme-${currentTheme}`);
+
+    // cycle to next theme
+    currentTheme = (currentTheme % totalThemes) + 1;
+
+    // add new theme class
+    readingArea.classList.add(`theme-${currentTheme}`);
+  }
+
+  readingArea.addEventListener("touchstart", (e) => {
+    //e.preventDefault(); // prevents accidental tap scroll
+    pauseScroll();
+  }, { passive: false });
+
+readingArea.addEventListener("touchend", playScroll);
+
 </script>
 </body>
 </html>
