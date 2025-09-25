@@ -544,7 +544,16 @@
     pauseScroll();
   }, { passive: false });
 
-readingArea.addEventListener("touchend", playScroll);
+  readingArea.addEventListener("touchend", playScroll);
+
+  // Pause when app goes into background, resume when it comes back
+  document.addEventListener("visibilitychange", () => {
+    if (document.hidden) {
+      pauseScroll();   // tab/app not visible
+    } else {
+      resumeScroll();  // tab/app visible again
+    }
+  });
 
 </script>
 </body>
