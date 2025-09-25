@@ -32,7 +32,7 @@
     }
     .top-bar { 
         top: 0; 
-        display: none;
+        display: none; /* hiding top bar */
     }
     .bottom-bar { 
       bottom: 0; 
@@ -59,24 +59,42 @@
     }
     .slider {
       width: 90%;
-      margin: 8px auto;
+      margin: 10px auto;
+    }
+
+    .slider-wrapper {
+      width: 90%;
+      margin: 2px auto;
     }
 
     .slider-container {
       display: flex;
       align-items: center;
-      gap: 4px;
+      gap: 6px; /* spacing to avoid overlap */
     }
+
+    .slider-container input[type=range] {
+      margin: 0 12px; /* give breathing room */
+    }
+
     .slider-container button {
-      width: 24px;
-      height: 24px;
-      font-size: 14px;
+      flex-shrink: 0;
+      width: 32px;
+      height: 32px;
       border: 1px solid #aaa;
-      background: #f0f0f0;
+      background: #f99c4f;
       cursor: pointer;
       border-radius: 4px;
-      line-height: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       padding: 0;
+    }
+
+    .slider-container button svg {
+      width: 16px;
+      height: 16px;
+      pointer-events: none; /* 👈 ensures clicks register only on the button */
     }
 
     /* Reading area fills everything */
@@ -161,40 +179,41 @@
     <button onclick="reset()">Reset</button>
   </div>
 
-  <label>
-    Reading Speed: <span id="speed-value">5</span>
+  <div class="slider-wrapper">
+    <label for="speed-slider">Reading Speed: </label>
+    <span id="speed-value">5</span>
       <div class="slider-container">
-        <button class="down" aria-label="Decrease">
+      <button class="down" aria-label="Decrease-speed">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="6 9 12 15 18 9"></polyline>
           </svg>
         </button>
-        <input id="speed-slider" class="slider" type="range" min="1" max="20" value="5">
-          <button class="up" aria-label="Increase">
+      <input id="speed-slider" class="slider" type="range" min="1" max="30" value="5">
+      <button class="up" aria-label="Increase-speed">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
               <polyline points="18 15 12 9 6 15"></polyline>
             </svg>
           </button>
+    </div>
       </div>
     
-  </label>
-
-  <label>
-    Text size: <span id="font-value">28</span> 
+  <div class="slider-wrapper">
+    <label for="font-slider">Text size: </label>
+    <span id="font-value">28</span> 
       <div class="slider-container">
-        <button class="down" aria-label="Decrease">
+      <button class="down" aria-label="Decrease-font-size">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
             <polyline points="6 9 12 15 18 9"></polyline>
           </svg>
         </button>
-        <input id="font-slider" class="slider" type="range" min="14" max="72" value="28">
-          <button class="up" aria-label="Increase">
+      <input id="font-slider" class="slider" type="range" min="8" max="72" value="28">
+      <button class="up" aria-label="Increase-font-size">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
               <polyline points="18 15 12 9 6 15"></polyline>
             </svg>
           </button>
       </div>
-  </label>
+  </div>
 
   <div id="time-remaining"></div>
 </div>
@@ -373,16 +392,19 @@
       const btnUp = container.querySelector(".up");
       const btnDown = container.querySelector(".down");
 
-      btnUp.addEventListener("click", () => {
+      btnUp.addEventListener("click", e => {
+        if (e.currentTarget !== btnUp) return; // safety
         slider.value = Math.min(slider.max, Number(slider.value) + Number(slider.step || 1));
-        slider.dispatchEvent(new Event("input")); // trigger any listeners
+        slider.dispatchEvent(new Event("input"));
       });
 
-      btnDown.addEventListener("click", () => {
+      btnDown.addEventListener("click", e => {
+        if (e.currentTarget !== btnDown) return; // safety
         slider.value = Math.max(slider.min, Number(slider.value) - Number(slider.step || 1));
         slider.dispatchEvent(new Event("input"));
       });
     });
+
 
     // ---- Time Remaining Logic ----
 
@@ -459,6 +481,8 @@
 
   // Initial load
   loadFile(currentFile);
+    
+  let wakeLock = null;
 
   // Function to request the wake lock
   async function requestWakeLock() {
