@@ -1263,6 +1263,14 @@ var b1 = [
         id: "158",
         bk: "",
         pg: ""
+    },
+    {
+        eng: "maha santa sadguru samartha nana",
+        hin: "महा संत सद्गुरू समर्थ नाना",
+        dir: "b1",
+        id: "159",
+        bk: "",
+        pg: ""
     }
 ];
 
