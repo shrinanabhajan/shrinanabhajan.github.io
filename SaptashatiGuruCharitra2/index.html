@@ -284,7 +284,9 @@
       .then(data => {
         files = data;
         if (files.length > 0) {
-          loadFile(0);
+          // Restore last chapter
+          const savedFile = parseInt(localStorage.getItem('app_currentFile')) || 0;
+          loadFile(savedFile, true);
         } else {
           document.getElementById("reading-area").innerHTML =
             "<p style='color:red'>No files found in files.json</p>";
@@ -295,9 +297,15 @@
           "<p style='color:red'>Error loading files.json</p>";
       });
 
-    function loadFile(idx) {
+    function loadFile(idx, restoreScroll = false) {
       if (idx < 0 || idx >= files.length) return;
+
+      if (!restoreScroll) {
+        localStorage.setItem('app_scrollPos', 0);
+      }
+
       currentFile = idx;
+      localStorage.setItem('app_currentFile', currentFile);
 
       const { path, name } = files[currentFile];
       document.getElementById("file-name").textContent = name;
@@ -308,6 +316,13 @@
           const readingArea = document.getElementById("reading-area");
           reset();
           readingArea.innerHTML = html;
+
+          if (restoreScroll) {
+            const savedPos = parseInt(localStorage.getItem('app_scrollPos')) || 0;
+            setTimeout(() => {
+              readingArea.scrollTop = savedPos;
+            }, 100);
+          }
 
         })
         .catch(err => {
@@ -324,6 +339,7 @@
     let scrollAnim = null;
     let lastTimestamp = null;
     let isScrolling = false;
+    let wasScrollingBeforeInterruption = false;
 
     function playScroll() {
         isScrolling = true;
@@ -365,6 +381,8 @@
         playIcon.style.display = "block";
         pauseIcon.style.display = "none";
         if (scrollAnim) cancelAnimationFrame(scrollAnim);
+        const readingArea = document.getElementById("reading-area");
+        localStorage.setItem('app_scrollPos', readingArea.scrollTop);
     }
 
     function stopScroll() {
@@ -392,6 +410,7 @@
     const speedValue = document.getElementById("speed-value");
     speedSlider.addEventListener("input", (e) => {
         speedValue.textContent = e.target.value;
+        localStorage.setItem('app_readingSpeed', e.target.value);
     });
 
     // Font size live update
@@ -401,6 +420,7 @@
         const val = e.target.value;
         document.getElementById("reading-area").style.fontSize = val + "px";
         fontValue.textContent = val;
+        localStorage.setItem('app_fontSize', val);
     });
 
     // ---- Slider Buttons Logic ----
@@ -428,7 +448,16 @@
     const readingArea = document.getElementById("reading-area");
     const timeRemainingDiv = document.getElementById("time-remaining");
 
+    let scrollSaveTimeout = null;
     readingArea.addEventListener("scroll", () => {
+      
+      if (!scrollSaveTimeout) {
+        scrollSaveTimeout = setTimeout(() => {
+          localStorage.setItem('app_scrollPos', readingArea.scrollTop);
+          scrollSaveTimeout = null;
+        }, 50);
+      }
+
       updateTimeRemaining();
     });
 
@@ -496,8 +525,21 @@
   //document.addEventListener("mousemove", showControls);
   //document.addEventListener("touchstart", showControls);
 
-  // Initial load
-  loadFile(currentFile);
+  // Restore Settings
+  const savedSpeed = localStorage.getItem('app_readingSpeed');
+  if (savedSpeed) {
+      speedSlider.value = savedSpeed;
+      speedValue.textContent = savedSpeed;
+  }
+
+  const savedFont = localStorage.getItem('app_fontSize');
+  if (savedFont) {
+      fontSlider.value = savedFont;
+      fontValue.textContent = savedFont;
+      readingArea.style.fontSize = savedFont + "px";
+  }
+
+  // Initial loadFile call removed as it is handled in fetch callback
     
   let wakeLock = null;
 
@@ -530,7 +572,13 @@
   //Theme
   const themeBtn = document.getElementById('theme-toggle');
 
-  let currentTheme = 1;
+  let currentTheme = parseInt(localStorage.getItem('app_theme')) || 1;
+  // Apply saved theme
+  if (currentTheme !== 1) {
+      readingArea.classList.remove('theme-1');
+      readingArea.classList.add(`theme-${currentTheme}`);
+  }
+
   const totalThemes = 5;
 
   function themeToggle()  {
@@ -542,10 +590,10 @@
 
     // add new theme class
     readingArea.classList.add(`theme-${currentTheme}`);
+    localStorage.setItem('app_theme', currentTheme);
   }
 
   readingArea.addEventListener("touchstart", (e) => {
-    //e.preventDefault(); // prevents accidental tap scroll
     pauseScroll();
   }, { passive: false });
 
@@ -554,9 +602,13 @@
   // Pause when app goes into background, resume when it comes back
   document.addEventListener("visibilitychange", () => {
     if (document.hidden) {
+      localStorage.setItem('app_scrollPos', readingArea.scrollTop);
+      wasScrollingBeforeInterruption = isScrolling;
       pauseScroll();   // tab/app not visible
     } else {
-      resumeScroll();  // tab/app visible again
+      if (wasScrollingBeforeInterruption) {
+        playScroll();  // tab/app visible again
+      }
     }
   });
 
