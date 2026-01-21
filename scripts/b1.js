@@ -1279,6 +1279,14 @@ var b1 = [
         id: "160",
         bk: "",
         pg: ""
+    },
+    {
+        eng: "mai to datta digambara dhyau.n",
+        hin: "मै तो दत्त दिगंबर ध्याऊँ",
+        dir: "b1",
+        id: "161",
+        bk: "",
+        pg: ""
     }
 ];
 
