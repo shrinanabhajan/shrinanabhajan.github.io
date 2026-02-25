@@ -1281,8 +1281,8 @@ var b1 = [
         pg: ""
     },
     {
-        eng: "mai to datta digambara dhyau.n",
-        hin: "मै तो दत्त दिगंबर ध्याऊँ",
+        eng: "man mohan murat teri nana",
+        hin: "मन मोहन मूरत तेरी नाना ",
         dir: "b1",
         id: "161",
         bk: "",
