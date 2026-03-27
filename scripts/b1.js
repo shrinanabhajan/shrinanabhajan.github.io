@@ -1335,6 +1335,14 @@ var b1 = [
         id: "167",
         bk: "",
         pg: ""
+    },
+    {
+        eng: "ubha kasa rahila vitevari",
+        hin: "उभा कसा राहिला विटेवरी",
+        dir: "b1",
+        id: "168",
+        bk: "",
+        pg: ""
     }
 ];
 
