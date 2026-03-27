@@ -13,6 +13,18 @@ target_sender = "paragthedev@gmail.com"
 target_subject = "add bhajan"
 folder_path = "temp"
 
+def get_email_body(msg):
+    """Extracts the plain text body from an email message."""
+    if msg.is_multipart():
+        for part in msg.walk():
+            content_type = part.get_content_type()
+            content_disposition = str(part.get("Content-Disposition"))
+            if content_type == "text/plain" and "attachment" not in content_disposition:
+                return part.get_payload(decode=True).decode()
+    else:
+        return msg.get_payload(decode=True).decode()
+    return ""
+
 def get_file_count():
     """Fetch the number of files in the folder via GitHub API."""
     url = f"https://api.github.com/repos/{repo}/contents/{folder_path}"
