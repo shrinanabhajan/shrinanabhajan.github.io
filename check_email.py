@@ -85,6 +85,8 @@ def send_reply(original_msg, bhajan_number):
 
         with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
             smtp.login(username, password)
+            print("Waiting 120 seconds before sending replying to email...")
+            time.sleep(120)
             smtp.send_message(reply)
         print(f"Reply sent to {original_msg['From']}")
     except Exception as e:
