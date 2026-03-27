@@ -9,7 +9,7 @@ username = os.getenv('GMAIL_USER')
 password = os.getenv('GMAIL_PASS')
 github_token = os.getenv('GH_TOKEN')
 repo = os.getenv('GITHUB_REPOSITORY')
-target_sender = "paragthedev@gmail.com"
+target_senders = ["paragthedev@gmail.com", "paragbhand@gmail.com"]
 target_subject = "add bhajan"
 folder_path = "temp"
 
@@ -96,7 +96,12 @@ def main():
         mail.select("inbox")
         
         # Search for UNSEEN emails
-        search_query = f'(UNSEEN FROM "{target_sender}" SUBJECT "{target_subject}")'
+        # This creates a nested OR string dynamically
+        senders_query = f'FROM "{target_senders[-1]}"'
+        for sender in reversed(target_senders[:-1]):
+            senders_query = f'OR FROM "{sender}" ({senders_query})'
+        
+        search_query = f'(UNSEEN ({senders_query}) SUBJECT "{target_subject}")'
         status, messages = mail.search(None, search_query)
         
         if status != 'OK':
