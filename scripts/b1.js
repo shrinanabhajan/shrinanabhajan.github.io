@@ -1329,8 +1329,8 @@ var b1 = [
         pg: ""
     },
     {
-        eng: "samba sadashiva shiva",
-        hin: "सांब सदाशिव शिव",
+        eng: "dattasi gain pahin",
+        hin: "दत्तासी गाईन दत्तासी पाहीन",
         dir: "b1",
         id: "167",
         bk: "",
