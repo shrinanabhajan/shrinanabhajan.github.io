@@ -33,7 +33,7 @@ def get_file_count():
         print(f"Request to GitHub API failed: {e}")
         return 0
 
-def create_github_file(filename):
+def create_github_file(filename, file_content):
     """Create a new file directly in the repo using the API."""
     url = f"https://api.github.com/repos/{repo}/contents/{folder_path}/{filename}"
     headers = {
@@ -41,10 +41,12 @@ def create_github_file(filename):
         "Accept": "application/vnd.github.v3+json"
     }
     
-    content = base64.b64encode(b"Email trigger processed and marked as read.").decode("utf-8")
+    # Encode the extracted email body to base64
+    encoded_content = base64.b64encode(file_content.encode("utf-8")).decode("utf-8")
+    
     data = {
         "message": f"Automated log: {filename}",
-        "content": content,
+        "content": encoded_content,
         "branch": "main"
     }
     
@@ -105,13 +107,20 @@ def main():
                     print("This is a reply or forward. Skipping file creation.")
                     mail.store(e_id, '+FLAGS', '\\Seen') # Mark as read so we don't check it again
                     continue
-                  
+
+                # Extract the actual email body
+                email_body = get_email_body(msg)
+                
+                if not email_body.strip():
+                    print(f"Email {e_id.decode()} is empty. Skipping.")
+                    continue
+                
                 # 1. Get current file count
                 current_count = get_file_count()
                 new_filename = f"{current_count + 1}.txt"
                 
                 # 2. Create the file in GitHub
-                success = create_github_file(new_filename)
+                success = create_github_file(new_filename, email_body)
                 
                 if success:
                     print(f"Created {new_filename}. Now marking email {e_id.decode()} as read...")
