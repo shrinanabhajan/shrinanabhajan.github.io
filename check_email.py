@@ -14,7 +14,7 @@ github_token = os.getenv('GH_TOKEN')
 repo = os.getenv('GITHUB_REPOSITORY')
 target_senders = ["paragthedev@gmail.com", "paragbhand@gmail.com"]
 target_subject = "add bhajan"
-folder_path = "temp"
+folder_path = "bhajans/b1"
 
 def get_email_body(msg):
     """Extracts the plain text body from an email message."""
