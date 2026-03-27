@@ -3,6 +3,9 @@ import os
 import base64
 import requests
 import sys
+import smtplib
+import email
+from email.message import EmailMessage
 
 # Configuration from environment variables
 username = os.getenv('GMAIL_USER')
