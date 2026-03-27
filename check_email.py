@@ -11,7 +11,7 @@ github_token = os.getenv('GH_TOKEN')
 repo = os.getenv('GITHUB_REPOSITORY')
 target_sender = "paragthedev@gmail.com"
 target_subject = "add bhajan"
-folder_path = "records"
+folder_path = "temp"
 
 def get_file_count():
     """Fetch the number of files in the folder via GitHub API."""
