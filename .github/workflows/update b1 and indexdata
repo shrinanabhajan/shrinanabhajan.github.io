@@ -1,0 +1,60 @@
+name: Update Index B1 and Index Data
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "bhajans/b1/*.txt"
+
+jobs:
+  update-everything:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # 1. Setup Python & Run Python Script
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install Python dependencies
+        run: pip install indic-transliteration json5
+
+      - name: Run update script
+        run: python update_b1.py
+
+      # 2. Setup Node & Run JS Script (Same workspace!)
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # Updated to a modern version
+
+      - name: Install Node dependencies
+        run: npm install
+        working-directory: ./scripts
+
+      - name: Update index-data file
+        run: node ./scripts/indexgenerator.js
+
+      # 3. Commit all changes at once
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Add both potential file changes
+          git add scripts/b1.js ./scripts/indexdata.js
+          
+          # Only commit if there are actually changes
+          if ! git diff --cached --quiet; then
+            git commit -m "Update b1.js and indexdata.js"
+            git push
+          else
+            echo "No changes to commit"
+          fi
