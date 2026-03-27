@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - "bhajans/b1/*.txt"
+      - "removed/bhajans/b1/*.txt" 
 
 jobs:
   update-index:
