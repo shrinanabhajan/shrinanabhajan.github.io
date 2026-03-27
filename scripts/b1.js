@@ -1287,6 +1287,14 @@ var b1 = [
         id: "161",
         bk: "",
         pg: ""
+    },
+    {
+        eng: "datta daya ghana re...",
+        hin: "दत्त दया घन रे...",
+        dir: "b1",
+        id: "162",
+        bk: "",
+        pg: ""
     }
 ];
 
