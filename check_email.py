@@ -72,7 +72,7 @@ def create_github_file(filename, file_content):
         print(f"Error during GitHub file creation: {e}")
         return False
 
-def send_reply(original_msg):
+def send_reply(original_msg, bhajan_number):
     """Sends a thumbs-up reply to the sender."""
     try:
         reply = EmailMessage()
@@ -81,7 +81,7 @@ def send_reply(original_msg):
         reply['From'] = username
         reply['In-Reply-To'] = original_msg['Message-ID']
         reply['References'] = original_msg['Message-ID']
-        reply.set_content("👍 The file has been successfully created in the repository.")
+        reply.set_content(f"👍 The bhajan has been successfully added to the repository.\nCheck out https://shrinanabhajan.github.io/bhajan.html?b=b1-{bhajan_number}")
 
         with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
             smtp.login(username, password)
@@ -146,7 +146,7 @@ def main():
                     print(f"Created {new_filename}. Now marking email {e_id.decode()} as read...")
                     # 3. Mark as read only if file creation was successful
                     mail.store(e_id, '+FLAGS', '\\Seen')
-                    send_reply(msg)
+                    send_reply(msg, current_count + 1)
                 else:
                     print(f"Skipping mark-as-read for email {e_id.decode()} due to GitHub error.")
         else:
