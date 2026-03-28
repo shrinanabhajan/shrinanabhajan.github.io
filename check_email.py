@@ -49,7 +49,7 @@ def get_file_count():
         print(f"Request to GitHub API failed: {e}")
         return 0
 
-def create_github_file(filename, file_content):
+def create_github_file(filename, file_content, sender_email ):
     """Create a new file directly in the repo using the API."""
     url = f"https://api.github.com/repos/{repo}/contents/{folder_path}/{filename}"
     headers = {
@@ -61,7 +61,7 @@ def create_github_file(filename, file_content):
     encoded_content = base64.b64encode(file_content.encode("utf-8")).decode("utf-8")
     
     data = {
-        "message": f"Automated log: {filename}",
+        "message": f"Add {filename} - requested by {sender_email}",
         "content": encoded_content,
         "branch": "main"
     }
