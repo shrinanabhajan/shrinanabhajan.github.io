@@ -13,7 +13,7 @@ username = os.getenv('GMAIL_USER')
 password = os.getenv('GMAIL_PASS')
 github_token = os.getenv('GH_TOKEN')
 repo = os.getenv('GITHUB_REPOSITORY')
-target_senders = ["paragthedev@gmail.com", "paragbhand@gmail.com", "nanamaharajtaranekar@gmail.com", "ishtaranekar@rediffmail.com", "manasi.smiles@gmail.com"]
+target_senders = ["nanadaas@gmail.com", "nanamaharajtaranekar@gmail.com", "shrinanabhajan@gmail.com"]
 target_subject = "add bhajan"
 folder_path = "bhajans/b1"
 
