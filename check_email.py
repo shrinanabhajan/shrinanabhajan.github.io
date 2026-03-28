@@ -124,6 +124,10 @@ def main():
                 _, msg_data = mail.fetch(e_id, '(RFC822)')
                 import email
                 msg = email.message_from_bytes(msg_data[0][1])
+
+                # Extract sender's email address
+                sender_email = msg.get("From")
+                
                 subject = msg['Subject']
 
                 if subject.startswith("Re:") or subject.startswith("Fwd:"):
@@ -143,7 +147,7 @@ def main():
                 new_filename = f"{current_count + 1}.txt"
                 
                 # 2. Create the file in GitHub
-                success = create_github_file(new_filename, email_body)
+                success = create_github_file(new_filename, email_body, sender_email)
                 
                 if success:
                     print(f"Created {new_filename}. Now marking email {e_id.decode()} as read...")
