@@ -1375,6 +1375,14 @@ var b1 = [
         id: "172",
         bk: "",
         pg: ""
+    },
+    {
+        eng: "kya shana hai tulaja bhavani ki",
+        hin: "क्या शान है तुलजा भवानी की",
+        dir: "b1",
+        id: "173",
+        bk: "",
+        pg: ""
     }
 ];
 
