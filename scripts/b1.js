@@ -1383,6 +1383,14 @@ var b1 = [
         id: "173",
         bk: "",
         pg: ""
+    },
+    {
+        eng: "he duhkha bhanjana, maruti nandana",
+        hin: "हे दुःख भन्जन, मारुती नंदन",
+        dir: "b1",
+        id: "174",
+        bk: "",
+        pg: ""
     }
 ];
 
