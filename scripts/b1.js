@@ -1399,6 +1399,14 @@ var b1 = [
         id: "175",
         bk: "",
         pg: ""
+    },
+    {
+        eng: "shri ramachandra stotram",
+        hin: "श्री रामचंद्र स्तोत्रम्",
+        dir: "b1",
+        id: "176",
+        bk: "",
+        pg: ""
     }
 ];
 
