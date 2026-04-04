@@ -1407,6 +1407,14 @@ var b1 = [
         id: "176",
         bk: "",
         pg: ""
+    },
+    {
+        eng: "shri hanumana chalisa",
+        hin: "श्री हनुमान चालीसा",
+        dir: "b1",
+        id: "177",
+        bk: "",
+        pg: ""
     }
 ];
 
