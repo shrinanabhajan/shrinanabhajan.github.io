@@ -1423,6 +1423,14 @@ var b1 = [
         id: "178",
         bk: "",
         pg: ""
+    },
+    {
+        eng: "saptashloki purushottama stotra",
+        hin: "सप्तश्लोकी पुरुषोत्तम स्तोत्र",
+        dir: "b1",
+        id: "179",
+        bk: "",
+        pg: ""
     }
 ];
 
