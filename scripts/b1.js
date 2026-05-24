@@ -1431,6 +1431,14 @@ var b1 = [
         id: "179",
         bk: "",
         pg: ""
+    },
+    {
+        eng: "nana hama sabake dattaguru",
+        hin: "नाना हम सबके दत्तगुरु",
+        dir: "b1",
+        id: "180",
+        bk: "",
+        pg: ""
     }
 ];
 
