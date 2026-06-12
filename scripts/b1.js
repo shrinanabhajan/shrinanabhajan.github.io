@@ -1455,6 +1455,14 @@ var b1 = [
         id: "182",
         bk: "",
         pg: ""
+    },
+    {
+        eng: "doha - dekho dekho ye garibi,",
+        hin: "दोहा - देखो देखो ये गरीबी,",
+        dir: "b1",
+        id: "183",
+        bk: "",
+        pg: ""
     }
 ];
 
