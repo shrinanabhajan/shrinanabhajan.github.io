@@ -1495,6 +1495,14 @@ var b1 = [
         id: "187",
         bk: "",
         pg: ""
+    },
+    {
+        eng: "darshana de re dere bhagavanta",
+        hin: "दर्शन दे रे देरे भगवंता",
+        dir: "b1",
+        id: "188",
+        bk: "",
+        pg: ""
     }
 ];
 
