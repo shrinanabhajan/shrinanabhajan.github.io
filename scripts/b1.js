@@ -1463,6 +1463,14 @@ var b1 = [
         id: "183",
         bk: "",
         pg: ""
+    },
+    {
+        eng: "gurunamachi odha dattanamachi odha",
+        hin: "गुरुनामाची ओढ दत्तनामाची ओढ",
+        dir: "b1",
+        id: "184",
+        bk: "",
+        pg: ""
     }
 ];
 
