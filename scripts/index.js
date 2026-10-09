@@ -14,6 +14,12 @@
     allBhajans = allBhajans.concat(mv);
     console.info(`Total bhajans: ${allBhajans.length}`);
     var filteredBhajans = allBhajans;
+
+    if (window.bhajanDb && typeof window.bhajanDb.loadDatabase === 'function') {
+        window.bhajanDb.loadDatabase().catch(function (error) {
+            console.warn('SQLite database warm-up failed; continuing with bundled bhajan files.', error);
+        });
+    }
     //var filteredBhajans = [];
     var timeout;
     var evtdata;
@@ -238,8 +244,12 @@
     var onDeviceReady = () => {
         searchBox = document.getElementById('searchBox');
         listElement = document.getElementById('BhajanList');
-        searchBox.addEventListener('input', delayedSearch, false);
-        updateList();
+        if (searchBox) {
+            searchBox.addEventListener('input', delayedSearch, false);
+        }
+        if (typeof updateList === 'function') {
+            updateList();
+        }
     };
 
     window.addEventListener('load', onDeviceReady, false);

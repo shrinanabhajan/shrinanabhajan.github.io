@@ -81,6 +81,7 @@
 </head>
 <body>
     
+    <div id="offlineBanner" style="display:none; background:#f4d35e; color:#222; font-size:12px; padding:6px 10px; text-align:center; font-weight:bold; border-bottom:1px solid #d7b84d;">Offline mode active</div>
     <div class="watermarked-div">
         <div id="embeddedContent" >
         </div>
@@ -94,29 +95,80 @@
         </svg>
     </div>
 
+    <script src="lib/sql-wasm.js"></script>
+    <script src="scripts/sqlite-db.js"></script>
     <script>
+        function showOfflineBanner() {
+            const banner = document.getElementById('offlineBanner');
+            if (banner) {
+                banner.style.display = 'block';
+            }
+        }
+
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('./sw.js').catch(function (error) {
+                    console.warn('Service worker registration failed:', error);
+                });
+            });
+        }
+
+        window.addEventListener('online', function () {
+            const banner = document.getElementById('offlineBanner');
+            if (banner) banner.style.display = 'none';
+        });
+
+        window.addEventListener('offline', function () {
+            showOfflineBanner();
+        });
+
+        if (!navigator.onLine) {
+            showOfflineBanner();
+        }
+
         // Get the filename from the query parameters
         const urlParams = new URLSearchParams(window.location.search);
-        const filename = "./bhajans/" + urlParams.get('b').split("-")[0] + "/" + urlParams.get('b').split("-")[1] + ".txt";
+        const fileId = urlParams.get('b');
+        const filename = fileId ? "./bhajans/" + fileId.split("-")[0] + "/" + fileId.split("-")[1] + ".txt" : "";
         var title = "";
 
-        // Function to fetch and embed HTML content
-        function embedHTML(filename) {
-            fetch(filename)
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Network response was not ok');
+        async function fetchBhajanText(url) {
+            try {
+                const response = await fetch(url);
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return await response.text();
+            } catch (error) {
+                if ('caches' in window) {
+                    const cachedResponse = await caches.match(url);
+                    if (cachedResponse) {
+                        return await cachedResponse.text();
                     }
-                    return response.text();
-                })
-                .then(html => {
-                    updateTitle(html);
-                    document.getElementById('embeddedContent').innerHTML = formatText(html);
-                })
-                .catch(error => {
-                    console.error('Error fetching HTML:', error);
-                    document.getElementById('embeddedContent').innerHTML = "Comming soon...";
-                });
+                }
+                throw error;
+            }
+        }
+
+        async function embedHTML(filename) {
+            const bhajan = fileId && window.bhajanDb && typeof window.bhajanDb.getBhajanByFileId === 'function'
+                ? await window.bhajanDb.getBhajanByFileId(fileId)
+                : null;
+
+            if (bhajan && bhajan.content) {
+                updateTitle(bhajan.content);
+                document.getElementById('embeddedContent').innerHTML = formatText(bhajan.content);
+                return;
+            }
+
+            try {
+                const html = await fetchBhajanText(filename);
+                updateTitle(html);
+                document.getElementById('embeddedContent').innerHTML = formatText(html);
+            } catch (error) {
+                console.error('Error fetching HTML:', error);
+                document.getElementById('embeddedContent').innerHTML = "Comming soon...";
+            }
         }
 
         function updateTitle(text) {
@@ -150,7 +202,7 @@
         }
 
         // Call the function with the specified filename
-        if (filename) {
+        if (fileId) {
             embedHTML(filename);
         } else {
             console.error('Filename not specified in query parameters.');
