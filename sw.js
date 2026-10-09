@@ -1,4 +1,4 @@
-const CACHE_NAME = 'bhajan-app-v1';
+const CACHE_NAME = 'bhajan-app-v2';
 const APP_SHELL = [
   './',
   './index.html',
@@ -23,6 +23,21 @@ const APP_SHELL = [
   './images/favicons/apple-touch-icon.png',
   './images/wm-4.png'
 ];
+
+function shouldUseNetworkFirst(url) {
+  const pathname = url.pathname.toLowerCase();
+  return pathname.endsWith('/index.html') ||
+    pathname.endsWith('/bhajan.html') ||
+    pathname.endsWith('/db/bhajans.sqlite') ||
+    pathname.endsWith('/scripts/indexdata.js') ||
+    pathname.endsWith('/scripts/b1.js') ||
+    pathname.endsWith('/scripts/b2.js') ||
+    pathname.endsWith('/scripts/dt.js') ||
+    pathname.endsWith('/scripts/mv.js') ||
+    pathname.endsWith('/scripts/ntn.js') ||
+    pathname.endsWith('/scripts/index.js') ||
+    pathname.endsWith('/scripts/sqlite-db.js');
+}
 
 self.addEventListener('install', function (event) {
   event.waitUntil(
@@ -85,6 +100,30 @@ self.addEventListener('fetch', function (event) {
 
               return caches.match('./index.html');
             });
+        })
+    );
+    return;
+  }
+
+  if (shouldUseNetworkFirst(url)) {
+    event.respondWith(
+      fetch(request)
+        .then(function (response) {
+          if (response && response.ok) {
+            const copy = response.clone();
+            caches.open(CACHE_NAME).then(function (cache) {
+              cache.put(request, copy);
+            });
+          }
+          return response;
+        })
+        .catch(function () {
+          return caches.match(request).then(function (cached) {
+            if (cached) {
+              return cached;
+            }
+            return caches.match('./index.html');
+          });
         })
     );
     return;
