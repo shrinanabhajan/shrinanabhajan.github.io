@@ -1,4 +1,4 @@
-const CACHE_NAME = 'bhajan-app-v2';
+const CACHE_NAME = 'bhajan-app-v3';
 const APP_SHELL = [
   './',
   './index.html',
@@ -63,6 +63,12 @@ self.addEventListener('activate', function (event) {
       return self.clients.claim();
     })
   );
+});
+
+self.addEventListener('message', function (event) {
+  if (event.data && event.data.type === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
 });
 
 self.addEventListener('fetch', function (event) {
