@@ -1487,6 +1487,14 @@ var b1 = [
         id: "186",
         bk: "",
         pg: ""
+    },
+    {
+        eng: "pandharichya loka kiti maru hangka",
+        hin: "पंढरीच्या लोका किती मारु हांका",
+        dir: "b1",
+        id: "187",
+        bk: "",
+        pg: ""
     }
 ];
 
