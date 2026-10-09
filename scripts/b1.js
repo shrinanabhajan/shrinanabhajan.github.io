@@ -1479,6 +1479,14 @@ var b1 = [
         id: "185",
         bk: "",
         pg: ""
+    },
+    {
+        eng: "bala bhakta lagi tuchi asara",
+        hin: "बाल भक्ता लागी तूची आसरा",
+        dir: "b1",
+        id: "186",
+        bk: "",
+        pg: ""
     }
 ];
 
