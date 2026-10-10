@@ -1527,6 +1527,14 @@ var b1 = [
         id: "191",
         bk: "",
         pg: ""
+    },
+    {
+        eng: "navaratra devi arati",
+        hin: "नवरात्र देवी आरती",
+        dir: "b1",
+        id: "192",
+        bk: "",
+        pg: ""
     }
 ];
 
