@@ -42,15 +42,20 @@ jobs:
       - name: Rebuild SQLite database
         run: npm run build-db
 
+      - name: Bump deployment version
+        run: |
+          VERSION=$(date -u +"%Y%m%d%H%M%S")
+          printf '{\n  "version": "%s"\n}\n' "$VERSION" > version.json
+
       - name: Commit and Push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add scripts/b1.js scripts/indexdata.js db/bhajans.sqlite
+          git add scripts/b1.js scripts/indexdata.js db/bhajans.sqlite version.json
 
           if ! git diff --cached --quiet; then
-            git commit -m "Update b1.js, indexdata.js, and SQLite DB"
+            git commit -m "Update b1.js, indexdata.js, SQLite DB, and deployment version"
             git push
           else
             echo "No changes to commit"

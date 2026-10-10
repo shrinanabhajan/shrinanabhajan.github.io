@@ -1,13 +1,20 @@
 (function () {
   "use strict";
 
-  const DB_PATH = './db/bhajans.sqlite';
   const LIB_PATH = './lib';
   const state = {
     sql: null,
     database: null,
     ready: null
   };
+
+  function getDbPath() {
+    const version = window.BHAJAN_APP_VERSION ? String(window.BHAJAN_APP_VERSION) : '';
+    if (!version) {
+      return './db/bhajans.sqlite';
+    }
+    return `./db/bhajans.sqlite?v=${encodeURIComponent(version)}`;
+  }
 
   function mapRows(rows) {
     if (!rows || !rows.length) {
@@ -25,8 +32,10 @@
   }
 
   async function readDatabaseBuffer() {
+    const dbPath = getDbPath();
+
     try {
-      const response = await fetch(DB_PATH, { cache: 'no-store' });
+      const response = await fetch(dbPath, { cache: 'no-store' });
       if (response && response.ok) {
         return await response.arrayBuffer();
       }
@@ -35,13 +44,13 @@
     }
 
     if ('caches' in window) {
-      const cachedResponse = await caches.match(DB_PATH);
+      const cachedResponse = await caches.match(dbPath);
       if (cachedResponse && typeof cachedResponse.arrayBuffer === 'function') {
         return await cachedResponse.arrayBuffer();
       }
     }
 
-    throw new Error(`Unable to load SQLite database from ${DB_PATH}`);
+    throw new Error(`Unable to load SQLite database from ${dbPath}`);
   }
 
   async function loadDatabase() {

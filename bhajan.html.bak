@@ -95,7 +95,6 @@
         </svg>
     </div>
 
-    <script src="scripts/app-version.js"></script>
     <script src="lib/sql-wasm.js"></script>
     <script src="scripts/sqlite-db.js"></script>
     <script>
@@ -134,24 +133,17 @@
         var title = "";
 
         async function fetchBhajanText(url) {
-            const versionSuffix = window.BHAJAN_APP_VERSION ? `?v=${encodeURIComponent(window.BHAJAN_APP_VERSION)}` : '';
-            const resolvedUrl = url.includes('?') ? `${url}&v=${encodeURIComponent(window.BHAJAN_APP_VERSION || '')}` : `${url}${versionSuffix}`;
-
             try {
-                const response = await fetch(resolvedUrl, { cache: 'no-store' });
+                const response = await fetch(url);
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }
                 return await response.text();
             } catch (error) {
                 if ('caches' in window) {
-                    const cachedResponse = await caches.match(resolvedUrl);
+                    const cachedResponse = await caches.match(url);
                     if (cachedResponse) {
                         return await cachedResponse.text();
-                    }
-                    const fallbackCached = await caches.match(url);
-                    if (fallbackCached) {
-                        return await fallbackCached.text();
                     }
                 }
                 throw error;
