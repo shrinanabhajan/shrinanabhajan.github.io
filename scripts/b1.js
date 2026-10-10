@@ -1503,6 +1503,14 @@ var b1 = [
         id: "188",
         bk: "",
         pg: ""
+    },
+    {
+        eng: "dehachi tijori bhaktichacha theva",
+        hin: "देहाची तिजोरी भक्तीचाच ठेवा",
+        dir: "b1",
+        id: "189",
+        bk: "",
+        pg: ""
     }
 ];
 
