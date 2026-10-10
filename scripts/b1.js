@@ -1511,6 +1511,14 @@ var b1 = [
         id: "189",
         bk: "",
         pg: ""
+    },
+    {
+        eng: "adishaktiche kautuka mothe",
+        hin: "आदीशक्तीचे कौतुक मोठे",
+        dir: "b1",
+        id: "190",
+        bk: "",
+        pg: ""
     }
 ];
 
