@@ -1519,6 +1519,14 @@ var b1 = [
         id: "190",
         bk: "",
         pg: ""
+    },
+    {
+        eng: "shridatta bhavasudharasastotram",
+        hin: "श्रीदत्त भावसुधारसस्तोत्रम्",
+        dir: "b1",
+        id: "191",
+        bk: "",
+        pg: ""
     }
 ];
 
