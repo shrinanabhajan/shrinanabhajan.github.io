@@ -1535,6 +1535,14 @@ var b1 = [
         id: "192",
         bk: "",
         pg: ""
+    },
+    {
+        eng: "|| mahishasura mardini stotram ||",
+        hin: "॥ महिषासुर मर्दिनि स्तोत्रम् ॥",
+        dir: "b1",
+        id: "193",
+        bk: "",
+        pg: ""
     }
 ];
 
